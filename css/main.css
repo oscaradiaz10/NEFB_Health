@@ -1,0 +1,68 @@
+:root {
+    --color-1: rgba(4, 53, 101, 1); /*primary*/
+    --color-2: rgba(146, 220, 229, 1);
+    --color-3: rgba(246, 243, 244, 1);
+    --color-4: rgba(74, 112, 72, 1);
+    --color-5: rgba(43, 18, 20, 1);
+    --bs-nav-link-font-size: 18px;
+}
+
+/*
+$yale-blue: rgba(4, 53, 101, 1);
+$non-photo-blue: rgba(146, 220, 229, 1);
+$white-smoke: rgba(246, 243, 244, 1);
+$fern-green: rgba(74, 112, 72, 1);
+$black-bean: rgba(43, 18, 20, 1);
+*/
+
+body {background-image: url("../media/texture.webp")
+
+}
+
+
+.nav-link {font-size: var(--bs-nav-link-font-size);
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.navbar-stacked {
+    flex-direction: column;
+}
+
+.secondary-nav { font-size: 15px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    list-style-type: none;
+    padding-bottom: 15px;
+    margin-left: auto !important;
+}
+
+.secondary-nav a {text-decoration: none;
+    color: var(--color-4)}
+
+.secondary-nav li {margin-right: 22px;}
+
+.secondary-nav li:nth-child(5) {margin-right: 0;}
+
+@media (max-width: 992px) { /* Bootstrap's breakpoint for large screens is 992px */
+    .navbar-collapse {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+    .navbar-nav {
+      flex-direction: row;
+    }
+    .navbar-nav .nav-item {
+      margin-left: 10px;
+    }
+
+    .secondary-nav {
+        margin-top: 25px;
+        flex-direction: column;
+    }
+
+    .secondary-nav li {margin: 0 0 10px -22px;}
+  }
