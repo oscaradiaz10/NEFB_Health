@@ -11,11 +11,72 @@
 
 <body>
 
-<nav class="navbar navbar-expand-xl bg-body-tertiary" aria-label="Main Menu">
-    
-    <?php include 'includes/main-menu.php'; ?>
+<?php include 'includes/main-menu.php'; ?>
 
-</nav>
+<main class="container">
+    <div class="row gx-5">
+        <div class="col-lg-8 col-12">
+            <h1>Individual & Family Plans</h1>
+            <p>Are you under 65 years of age and want an alternative to the Insurance Marketplace for your health coverage needs? Nebraska Farm Bureau Health Plans has a broad range of coverage plans to suit just about everyone's particular health care needs for level of coverage, deductibles, co-pays, out-of-pocket payments, preventative health benefits and more.</p>
+            <p>Whether you are the head of a family interested in well-child benefits, a graduating student looking for health care coverage for the first time, self-employed or a small business owner, or a working couple planning to retire in a few years - our health plans offer a wealth of choices that will help you get the coverage that's just right for you. From individual medical plans to supplement plans, we have you covered.</p>
+            <p>Here you will find overviews of many of our health care coverage plans. Each plan has different terms depending on whether you choose to use in-network or out-of-network health care providers.</p>
+            <h1>Traditional Plans</h1>
+            <p>Our Traditional Plans are a great health coverage option for both individuals and families. Traditional Plans do not meet the minimum requirements for the Affordable Care Act and require medical underwriting that may affect eligibility and rates.</p>
+            <p><strong>Nebraska Farm Bureau membership is required.</strong></p>
+        </div>  
+
+        <div class="col-lg-4 col-sm-12 side-column">
+            <?php include 'includes/side-column.php' ?>
+        </div>
+    </div>
+</main>
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-4 col-md-6 col-sm-12">
+            <h4><a class="h-link" href="#">Advanced Choice <i class="bi bi-arrow-bar-right"></i></a></h4>
+            <p>The Advanced Choice plan for families or individuals is a health plan that offers peace of mind coverage and includes dental and vision benefits. With this plan you get a choice of two different deductible amounts and an office visit co-pay.</p>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+            <h4><a class="h-link" href="#">Classic Choice <i class="bi bi-arrow-bar-right"></i></a></h4>
+            <p>The Classic Choice plan is ideal for those who are looking for a health plan with preventative health, dental and vision benefits with higher deductible options and an office visit co-pay. Get the trifecta - health, dental and vision under one health plan. Available for individuals only.</p>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+            <h4><a class="h-link" href="#">Major Medical Health Coverage <i class="bi bi-arrow-bar-right"></i></a></h4>
+            <p>The Major Medical plan is ideal for those who want catastrophic protection with the advantage of a lower cost. This plan provides benefits for physician services, hospitalization, prescription drugs and more. Available for individuals or families.</p>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+            <h4><a class="h-link" href="#">High Deductible Health Plan (HSA-Qualified) <i class="bi bi-arrow-bar-right"></i></a></h4>
+            <p>Nebraska Farm Bureau Health Plans offers a range of High Deductible Health Plans (HDHP) which meet all federal requirements necessary to open a Health Savings Account (HSA). HSA funds can be used to cover many out-of-pocket health care expenses.</p>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+            <h4><a class="h-link" href="#">Dental and Vision Plans <i class="bi bi-arrow-bar-right"></i></a></h4>
+            <p>Nebraska Farm Bureau Health Plans has bundled dental and vision coverage, exclusively for Farm Bureau members, in one affordable, convenient plan for individuals or families.</p>
+        </div>
+    </div>
+</div>
+
+<div class="jumbotron">
+    <div class="container">
+        <div class="row featurette align-items-center">
+            <div class="col-md-5 order-md-2">
+                <p class="lead my-4">Next Step</p>
+                <h4>Ready to Enroll?</h4>
+                <p>If you already know what coverage you need, and you're ready to sign-up for affordable and quality coverage, we're ready to help.</p>
+                <button type="button" class="btn btn-primary">
+                    <a href="#">Learn More</a>
+                </button>
+            </div>
+            <div class="col-md-7 order-md-1">
+                <div style="background-color: #cacaca; height: 400px" class="align-self-center">
+                    <p class="lead">7-col x 350px</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<?php include 'includes/footer.php'; ?>
 
 </body>
 </html>

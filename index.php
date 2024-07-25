@@ -11,9 +11,7 @@
 
 <body>
 
-    
-    <?php include 'includes/main-menu.php'; ?>
-
+<?php include 'includes/main-menu.php'; ?>
 
 <!--  GALLERY -->
 <div class="jumbotron p-4 p-md-5 mb-4 text-white bg-dark">

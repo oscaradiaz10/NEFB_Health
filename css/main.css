@@ -2,9 +2,9 @@
     --color-1: rgba(4, 53, 101, 1); /*primary*/
     --color-2: rgba(146, 220, 229, 1);
     --color-3: rgba(246, 243, 244, 1);
-    --color-4: rgba(74, 112, 72, 1);
-    --color-5: rgba(43, 18, 20, 1);
-    --bs-nav-link-font-size: 18px;
+    --color-4: rgb(175, 60, 7);
+    --color-5: rgb(110, 4, 13);
+    --bs-nav-link-font-size: 21px;
 }
 
 /*
@@ -15,17 +15,55 @@ $fern-green: rgba(74, 112, 72, 1);
 $black-bean: rgba(43, 18, 20, 1);
 */
 
-body {background-image: url("../media/texture.webp")
+body {background-image: url("../media/texture.webp")}
 
+p, ul, ol, table {font-size: 18px;
+    line-height: 150%;
 }
 
+main {margin: 100px 0;}
+
+.jumbotron {margin: 50px 0;
+    background-color: var(--color-3);
+}
+
+h1, h2, h3, h4, h5 {font-family: 'Roboto Slab', serif;
+    padding: 30px 0 10px;
+}
+
+/* -------- BUTTONS -------- */
+.btn-primary {background-color: var(--color-4) !important;
+    margin: 20px 0 30px;
+    padding: 12px 16px !important;
+    border: none !important;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px !important;
+    font-weight: 700 !important;
+    font-style: normal;
+    letter-spacing: .5px;
+    border-radius: 25px !important;
+}
+
+.btn-primary:hover {background-color: var(--color-5) !important}
+
+.btn-primary a {text-decoration: none;
+    color: var(--color-3);
+}
+
+
+.h-link {text-decoration: none;
+  color: var(--color-4);
+}
 
 .nav-link {font-size: var(--bs-nav-link-font-size);
     font-family: "Roboto Slab", serif;
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
+    color: var(--color-5)
 }
+
+.nav-link:active {color: var(--color-4);}
 
 .navbar-stacked {
     flex-direction: column;
@@ -46,6 +84,26 @@ body {background-image: url("../media/texture.webp")
 .secondary-nav li {margin-right: 22px;}
 
 .secondary-nav li:nth-child(5) {margin-right: 0;}
+
+.side-column {min-height: 480px;
+    border: solid 1px var(--color-1);
+    border-radius: 18px;
+    background-color: var(--color-3);
+}
+
+.side-column-list li {margin-bottom: 12px;
+    margin-left: -25px;
+    list-style-type: none !important;
+}
+
+.side-column-list a {text-decoration: none;
+    color: var(--color-4);
+    font-weight: 500;
+}
+
+.side-column-list a:hover {color: var(--color-5)}
+
+.footer-nav {padding: 25px 0;}
 
 @media (max-width: 992px) { /* Bootstrap's breakpoint for large screens is 992px */
     .navbar-collapse {

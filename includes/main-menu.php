@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-xl navbar-light bg-light">
     <div class="container">
         <a class="navbar-brand" href="../index.php">
-            <img src="../media/Logos/NEFBHP_Horizontal_Color.svg" width="250" alt="Logo">
+            <img src="../media/Logos/NEFBHP_Horizontal_Color.svg" width="290" alt="Logo">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -44,13 +44,13 @@
                 <li class="nav-item">
                     <a class="nav-link" href="/wellness.php">Wellness</a>
                 </li>
-                <li class="nav-item">
-                    <!-- Search form -->
+                <!--<li class="nav-item">
+                    -- Search form --
                     <form class="d-flex ms-auto">
                         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" style="width: 140px;">
                         <button class="btn btn-primary" type="submit">Search</button>
                     </form>
-                </li>
+                </li>-->
             </ul>
         </div>
     </div>
