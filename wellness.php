@@ -11,11 +11,11 @@
 
 <body>
 
-<nav class="navbar navbar-expand-xl bg-body-tertiary" aria-label="Main Menu">
-    
-    <?php include 'includes/main-menu.php'; ?>
+<?php include 'includes/main-menu.php'; ?>
 
-</nav>
+<?php include 'includes/components/call-to-action-jumbotron.php'; ?>
+
+<?php include 'includes/footer.php'; ?>
 
 </body>
 </html>

@@ -80,6 +80,7 @@ h1, h2, h3, h4, h5 {font-family: 'Roboto Slab', serif;
 
 .btn-primary a:hover {color: var(--color-3) !important;}
 
+/* -------- NAVIGATION -------- */
 .nav-link {font-size: var(--bs-nav-link-font-size);
     font-family: "Roboto Slab", serif;
     font-optical-sizing: auto;
@@ -110,6 +111,7 @@ h1, h2, h3, h4, h5 {font-family: 'Roboto Slab', serif;
 
 .secondary-nav li:nth-child(5) {margin-right: 0;}
 
+/* -------- SIDE COLUMN -------- */
 .side-column {height: 580px;
     border: solid 1px var(--color-1);
     border-radius: 18px;
@@ -128,6 +130,36 @@ h1, h2, h3, h4, h5 {font-family: 'Roboto Slab', serif;
 
 .side-column-list a:hover {color: var(--color-5)}
 
+/* -------- HOME CAROUSEL -------- */
+.home-carousel:after {
+    content: "";
+    animation: 12s swap infinite;
+    animation-timing-function: linear;
+    font-weight: 600;
+    color: var(--color-1);
+    border-bottom: 5px solid var(--color-1);
+}
+
+@keyframes swap {
+    0% {
+        content: "Affordable Healthcare";
+    }
+
+    33% {
+        content: "Nationwide Coverage";
+    }
+
+    66% {
+        content: "Friendly Service";
+    }
+
+    100% {
+        content: "Affordable Healthcare";
+    }
+}
+
+/*Nationwide coverage. Friendly service.*/
+
 /* -------- PLANS -------- */
 .h-link {text-decoration: underline;
     color: var(--color-1);
@@ -139,10 +171,12 @@ h1, h2, h3, h4, h5 {font-family: 'Roboto Slab', serif;
 }
 .plans {background-color: rgba(255, 255, 255, .3);
     border-radius: 10px;
+    border: solid 1px var(--color-2);
 }
 
 .plans:hover {background-color: rgba(255, 255, 255, 1);
     transition: 250ms ease-in;
+    border: solid 1px var(--color-1);
 }
 
 /* -------- AGENT CALL TO ACTION -------- */

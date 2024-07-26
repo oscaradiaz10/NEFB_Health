@@ -47,14 +47,35 @@
                 <li class="nav-item">
                     <a class="nav-link" href="/wellness.php">Wellness</a>
                 </li>
-                <!--<li class="nav-item">
-                    -- Search form --
+                <!-- <li class="nav-item">
+                    Search form 
                     <form class="d-flex ms-auto">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" style="width: 140px;">
-                        <button class="btn btn-primary" type="submit">Search</button>
+                        <input type="text" class="form-control me-2" id="search" placeholder="Search..." aria-label="Search" style="width: 140px;">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                        <div id="result" class="mt-3"></div>
                     </form>
                 </li>-->
             </ul>
         </div>
     </div>
 </nav>
+
+<script>
+        $(document).ready(function(){
+            $('#search').on('input', function(){
+                var query = $(this).val();
+                if (query.length > 0) {
+                    $.ajax({
+                        url: 'search.php',
+                        method: 'POST',
+                        data: { query: query },
+                        success: function(data) {
+                            $('#result').html(data);
+                        }
+                    });
+                } else {
+                    $('#result').html('');
+                }
+            });
+        });
+    </script>
