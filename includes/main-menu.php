@@ -11,10 +11,10 @@
             <!-- First list of links -->
             <ul class="secondary-nav d-flex">
                 <li class="nav-item">
-                    <a class="sec-nav-link" href="#">Forms</a>
+                    <a class="sec-nav-link" href="../forms.php">Forms</a>
                 </li>
                 <li class="nav-item">
-                    <a class="sec-nav-link" href="#">Looking for a Provider</a>
+                    <a class="sec-nav-link" href="../find-a-provider.php">Find a Provider</a>
                 </li>
                 <li class="nav-item">
                     <a class="sec-nav-link" href="#">Pay Your Premium</a>
@@ -24,6 +24,9 @@
                 </li>
                 <li class="nav-item">
                     <a class="sec-nav-link" href="#">Contact</a>
+                </li>
+                <li>
+                    <a class="nav-item" href="#"><i class="bi bi-facebook"></i></a>
                 </li>
             </ul>
           

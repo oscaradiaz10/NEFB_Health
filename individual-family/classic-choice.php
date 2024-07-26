@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NEFB Health Plans - Advanced Choice</title>
+    <title>NEFB Health Plans - Classic Choice</title>
 
     <?php include '../includes/links.php'; ?>
  
@@ -16,10 +16,10 @@
 <main class="container">
     <div class="row gx-5">
         <div class="col-lg-8 col-12">
-            <h1>Advanced Choice</h1>
+            <h1>Classic Choice</h1>
             <h2>About the Plan</h2>
-            <p>The Advanced Choice plan for families or individuals is one that offers peace of mind coverage and includes dental and vision benefits. With this plan you get a choice of two different deductible amounts.</p>
-            <p>Farm Bureau Health Plans uses UnitedHealthcare Choice Plus Network. Please keep in mind that in-network payments are based on negotiated fees. If an out-of-network provider is used, the member's liability will increase significantly.</p>
+            <p>Classic Choice is a comprehensive health coverage plan that includes hospitalization, medical and prescription benefits.</p>
+            <p>Farm Bureau Health Plans uses <a href="https://www.umr.com/oss/cms/UMR/Choice_Plus_no-nav.html" target="_blank">UnitedHealthcare Choice Plus Network</a>. Please keep in mind that in-network payments are based on negotiated fees. If an out-of-network provider is used, the member's liability will increase significantly.</p>
             <h2>Resources</h2> 
             <button type="button" class="btn btn-primary">
                 <a href="https://www.umr.com/oss/cms/UMR/Choice_Plus_no-nav.html" target="_blank">Provider Network</a>
@@ -42,7 +42,7 @@
             <div class="accordion accordion-flush" id="accordionFlushExample">
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="flush-headingOne">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">Advanced Choice: Overview</button>
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">Classic Choice: Overview</button>
                     </h2>
                     <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
                         <div class="accordion-body">
@@ -61,9 +61,9 @@
                                             <p>Unless otherwise indicated, all benefits are subject to CYD.</p>
                                         </td>
                                         <td colspan="2">
-                                            <p>Option 1: $1,500</p>
+                                            <p>Option 1: $3,000</p>
 
-                                            <p>Option 2: $3,000</p>
+                                            <p>Option 2: $6,000</p>
                                         </td>
                                     </tr>
                                     <tr>
@@ -72,8 +72,8 @@
                                             <p>Once the OOP maximum is met, benefits are provided at 100% for a member for the remainder of the calendar year. This applies to in-network provider services only. Copayments do not apply to OOP and must still be paid after OOP is met.</p>
                                         </td>
                                         <td>
-                                            <p>Option 1<br>$5,000 for individual coverage;<br>$10,000 for family coverage</p>
-                                            <p>Option 2<br>$10,000 for individual coverage;<br>$20,000 for family coverage</p>
+                                            <p>Option 1<br>$10,000</p>
+                                            <p>Option 2<br>$20,000</p>
                                         </td>
                                         <td>
                                             <p>Unlimited</p>
@@ -95,7 +95,7 @@
 
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="flush-headingTwo">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">Advanced Choice: Services</button>
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">Classic Choice: Services</button>
                     </h2>
                     <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
                         <div class="accordion-body">
@@ -114,11 +114,8 @@
                                             <p><strong>OFFICE VISIT</strong></p>
                                             <p>Not subject to CYD or OOP</p>
                                         </td>
-                                        <td colspan="2">
-                                            <p>Option 1: $25 copayment* per visit</p>
-
-                                            <p>Option 2: $35 copayment* per visit</p>
-                                        </td>
+                                        <td>$40 copayment per visit</td>
+                                        <td>CYD/Coinsurance</td>
                                     </tr>
                                     <tr>
                                         <td><strong>TELADOC</strong></td>
@@ -193,13 +190,13 @@
                                     <tr>
                                         <th colspan="3">
                                             <p><strong>PRESCRIPTION DRUG COVERAGE</strong></p>
-                                            <p>$7,500 Calendar Year Maximum Per Member</p>
+                                            <p><strong>Unlimited Calendar Year Maximum Per Member</strong></p>
                                         </th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td>Generic 30 day supply</td>
+                                        <td>Generic 30 day supply.<br>In-network benefits not subject to CYD.</td>
                                         <td>
                                             <p>Plan pays all but copayment</p>
                                             <p>Your responsibility: $4 copayment<sup>5</sup></p>
@@ -222,27 +219,31 @@
                                     </tr>                                   
                                 </tbody> 
                             </table>
-                            <h4><strong>DENTAL - Six month waiting period for all members.</strong></h4>
-                            <p>Routine dental services, including two exams, cleanings, x-rays and fillings per calendar year</p>
-                            <ul>
-                                <li>There is a copayment per visit and a $500 calendar year maximum per member per calendar year.</li>
-                            </ul>
-                            <h4>Vision</h4>
+                            <h4><strong>DENTAL - No waiting periods</strong></h4>
                             <p><em>Pediatric (Under Age 19)</em></p>
-                            <p>Routine vision benefits including eye exams, eyeglasses and contact lenses.</p>
                             <ul>
-                                <li>No waiting period.</li>
-                                <li>Eye exams are covered at 100% once every calendar year, no dollar limit.</li>
-                                <li>yeglass frames, eyeglass lenses or contact lenses are covered once every Calendar Year at 100% up to a maximum of $100 per Member, not subject to Deductible and Coinsurance.</li>
+                                <li>Preventative services as outlined by the United States Preventative Task Force (USPTF) and the Health Resources and Services Administration (HRSA)</li>
+                                <li>Other eligible dental services subject to CYD and coinsurance</li>
+                                <li>Limited orthodontic care</li>
                             </ul>
                             <p><em>Age 19 and Over</em></p>
-                            <p>Routine vision benefits including eye exams, eyeglasses and contact lenses.</p>
                             <ul>
-                                <li>Subject to a six month waiting period.</li>
-                                <li>Eye exams are covered once every calendar year with a $40 limit per member.</li>
-                                <li>Eyeglass frames, eyeglass lenses or contact lenses are covered once every Calendar Year at 100% up to a maximum of $100 per Member, not subject to Deductible and Coinsurance.</li>
+                                <li>$40 copay for preventative and restorative services</li>
+                                <li>Maximum benefit per calendar year is $500</li>
                             </ul>
                             <hr/>
+                            <h4><strong>VISION - No waiting periods</strong></h4>
+                            <p><em>Pediatric (Under Age 19)</em></p>
+                            <ul>
+                                <li>Eye exams are covered at 100% once every calendar year</li>
+                                <li>Eyeglass frames, eyeglass lenses or contact lenses are covered once every Calendar Year at 100% up to a maximum of $100 per Member, not subject to Deductible and Coinsurance</li>
+                            </ul>
+                            <p><em>Age 19 and Over</em></p>
+                            <ul>
+                                <li>Eye exams are covered once every calendar year with a limit of $40</li>
+                                <li>Eyeglass frames, eyeglass lenses or contact lenses are covered once every Calendar Year at 100% up to a maximum of $100 per Member, not subject to Deductible and Coinsurance</li>
+                            </ul>
+                            <hr>
                             <p><strong>FOOTNOTES</strong></p>
                             <p><sup>1</sup> Preventative health exam for adults and children and related services as outlined below and performed by the physician during the preventative health exam or referred by the physician as appropriate, including:</p>
                             <ul>
@@ -271,35 +272,34 @@
 
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="flush-headingThree">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">Advanced Choice: Pre-existing Condition Waiting Period</button>
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">Classic Choice: Pre-existing Condition Waiting Period</button>
                     </h2>
                     <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
                         <div class="accordion-body">
-                            <p>Benefits will not be provided for any pre-existing condition until a member has completed a waiting period of at least 6 months. In rare circumstances, the pre-existing condition waiting period may be longer. A pre-existing condition is defined in the contract as “An illness, injury, pregnancy or any other medical condition which existed at any time preceding the effective date of coverage under this contract for which: Medical advice or treatment was recommended by, or received from, a provider of health care services; or symptoms existed which would cause an ordinarily prudent person to seek diagnosis, care or treatment.” The pre-existing condition waiting period will not apply to members under the age of 19 enrolled as dependents on a family plan.</p>
-                            <p><strong>Additional waiting periods may apply as indicated in the contract.</strong></p>
+                            <p>Benefits will not be provided for any pre-existing condition until a member has completed a waiting period of at least 6 months. A pre-existing condition is defined in the contract as “An illness, injury, pregnancy or any other medical condition which existed at any time preceding the effective date of coverage under this contract for which: Medical advice or treatment was recommended by, or received from, a provider of health care services; or symptoms existed which would cause an ordinarily prudent person to seek diagnosis, care or treatment.”</p>
                         </div>
                     </div>
                 </div>
 
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="flush-headingFour">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">Advanced Choice: Office Copayment Guidelines</button>
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">Classic Choice: Office Copayment Guidelines</button>
                     </h2>
                     <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
                         <div class="accordion-body">
-                            <p>A copayment will be applied to each office visit for the covered services performed in the office and provided and billed by a physician who is an in-network provider. The remaining charges for covered services rendered during the office visit will be paid at 100% of the maximum allowable charge. If a physician who is an out-of-network provider is utilized for covered services, benefits will be determined on the basis of the out-of-network coinsurance percentage after deductible is met. Copayments will not be applied toward deductibles or out-of-pocket maximums.</p>
-                            <p>Copayments do not apply to the following services: advanced radiological imaging, allergy testing and injections, biopsy interpretation, bone density testing, cardiac diagnostic testing, chemotherapy services, chiropractic services, complex diagnostic services, dental services except preventative and restorative for all members, diagnostic services sent out, durable medical equipment, growth hormone injections, IV therapy, Lupron injections, mammography, maternity services, nerve conduction studies, neuropsychological or neurological tests, nuclear cardiology, nuclear medicine, orthotics, preventative services as indicated in the contract, prosthetics, provider administered specialty pharmacy products, sleep studies, surgery performed in a physician's office and related surgical supplies, Synagis injections, therapeutic/rehabilitative services, ultrasounds and vision services. These services are subject to the terms and conditions of the contract. Deductibles and coinsurance will apply except where otherwise indicated.</p>
+                            <p>A copayment will be applied to each office visit for the covered services performed in the office and provided and billed by a physician who is an in-network provider. The remaining charges for covered services rendered during the office visit will be paid at 100% of the maximum allowable charge. If a physician who is an out-of-network provider is utilized for covered services, benefits will be determined on the basis of the out-of-network coinsurance percentage after deductible is met.</p>
+                            <p>Copayments do not apply to the following services: advanced radiological imaging, allergy testing and injections, biopsy interpretation, bone density testing, cardiac diagnostic testing, chemotherapy services, chiropractic services, complex diagnostic services, dental services except preventative and restorative for all Members age nineteen (19) and over, diagnostic services sent out, durable medical equipment, growth hormone injections, IV therapy, Lupron injections, mammography, maternity services, nerve conduction studies, neuropsychological or neurological tests, nuclear cardiology, nuclear medicine, orthotics, preventative services as indicated in the contract, prosthetics, provider administered specialty pharmacy products, sleep studies, surgery performed in a physician's office and related surgical supplies, Synagis injections, therapeutic/ rehabilitative/ habilitative services, ultrasounds and vision services. These services are subject to the terms and conditions of the contract. Deductibles and coinsurance will apply except where otherwise indicated. Copayments will not be applied toward deductibles or out-of-pocket maximums.</p>
                         </div>
                     </div>
                 </div>
 
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="flush-headingFive">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">Advanced Choice: Maternity Benefits</button>
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">Classic Choice: Maternity Benefits</button>
                     </h2>
                     <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
                         <div class="accordion-body">
-                            <p>Maternity Benefits will be provided after an individual's coverage on a family contract has been in effect for nine consecutive months. Individual coverage has NO maternity benefits except for complications of pregnancy.</p>
+                            <p>Maternity benefits will be eligible as long as the pregnancy is not considered a pre-existing condition.</p>
                         </div>
                     </div>
                 </div>

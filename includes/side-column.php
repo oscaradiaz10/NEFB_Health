@@ -1,10 +1,10 @@
 <h3>Individual & Family</h3>
 <ul class="side-column-list">
     <li><a href="../individual-family/advanced-choice.php"><i class="bi bi-arrow-bar-right"></i> Advanced Choice</a></li>
-    <li><a href="#"><i class="bi bi-arrow-bar-right"></i> Classic Choice</a></li>
-    <li><a href="#"><i class="bi bi-arrow-bar-right"></i> Major Medical</a></li>
-    <li><a href="#"><i class="bi bi-arrow-bar-right"></i> High Deductible Health Plan (HSA-Qualified)</a></li>
-    <li><a href="#"><i class="bi bi-arrow-bar-right"></i> DentalVision</a></li>
+    <li><a href="../individual-family/classic-choice.php"><i class="bi bi-arrow-bar-right"></i> Classic Choice</a></li>
+    <li><a href="../individual-family/major-medical.php"><i class="bi bi-arrow-bar-right"></i> Major Medical</a></li>
+    <li><a href="../individual-family/high-deductible-health-plan-hsa-qualified.php"><i class="bi bi-arrow-bar-right"></i> High Deductible Health Plan (HSA-Qualified)</a></li>
+    <li><a href="../individual-family/dentalvision.php"><i class="bi bi-arrow-bar-right"></i> DentalVision</a></li>
 </ul>
 <hr>
 <h3>Find an Agent</h3>

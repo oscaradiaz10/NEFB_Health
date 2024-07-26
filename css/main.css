@@ -1,30 +1,58 @@
 :root {
     --color-1: rgba(4, 53, 101, 1); /*primary*/
-    --color-2: rgba(146, 220, 229, 1);
-    --color-3: rgba(246, 243, 244, 1);
+    --color-2: rgb(228, 237, 238);
+    --color-3: rgb(255, 255, 255);
     --color-4: rgb(175, 60, 7);
     --color-5: rgb(110, 4, 13);
+    --color-6: rgb(230, 230, 230);
     --bs-nav-link-font-size: 21px;
 }
 
-/*
-$yale-blue: rgba(4, 53, 101, 1);
-$non-photo-blue: rgba(146, 220, 229, 1);
-$white-smoke: rgba(246, 243, 244, 1);
-$fern-green: rgba(74, 112, 72, 1);
-$black-bean: rgba(43, 18, 20, 1);
-*/
+/* -------- ANIMATIONS -------- */
+@keyframes pulse {
+    from {
+      transform: scale3d(1, 1, 1);
+    }
+  
+    50% {
+      transform: scale3d(1.05, 1.05, 1.05);
+    }
+  
+    to {
+      transform: scale3d(1, 1, 1);
+    }
+  }
+  
+  .pulse {
+    animation-name: pulse;
+    animation-timing-function: ease-in-out;
+  }
 
+/* -------- BASIC -------- */
 body {background-image: url("../media/texture.webp")}
+
+p a, table a {color: var(--color-4);
+    text-decoration: none;
+    font-weight: 700;
+}
 
 p, ul, ol, table {font-size: 18px;
     line-height: 150%;
 }
 
+img {margin-bottom: 20px;}
+
 main {margin: 100px 0;}
 
 .jumbotron {margin: 50px 0;
-    background-color: var(--color-3);
+    background-color: var(--color-2);
+}
+
+.jumbotron2 {height: 40vh;
+    margin: 0;
+    background-image: url('../media/why-us.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 h1, h2, h3, h4, h5 {font-family: 'Roboto Slab', serif;
@@ -44,16 +72,13 @@ h1, h2, h3, h4, h5 {font-family: 'Roboto Slab', serif;
     border-radius: 25px !important;
 }
 
-.btn-primary:hover {background-color: var(--color-5) !important}
+.btn-primary:hover {background-color: var(--color-5) !important;}
 
 .btn-primary a {text-decoration: none;
-    color: var(--color-3);
+    color: var(--color-6);
 }
 
-
-.h-link {text-decoration: none;
-  color: var(--color-4);
-}
+.btn-primary a:hover {color: var(--color-3) !important;}
 
 .nav-link {font-size: var(--bs-nav-link-font-size);
     font-family: "Roboto Slab", serif;
@@ -85,7 +110,7 @@ h1, h2, h3, h4, h5 {font-family: 'Roboto Slab', serif;
 
 .secondary-nav li:nth-child(5) {margin-right: 0;}
 
-.side-column {min-height: 480px;
+.side-column {height: 580px;
     border: solid 1px var(--color-1);
     border-radius: 18px;
     background-color: var(--color-3);
@@ -103,8 +128,33 @@ h1, h2, h3, h4, h5 {font-family: 'Roboto Slab', serif;
 
 .side-column-list a:hover {color: var(--color-5)}
 
+/* -------- PLANS -------- */
+.h-link {text-decoration: underline;
+    color: var(--color-1);
+}
+
+.h-link:hover {
+    animation-name: pulse;
+    animation-timing-function: ease-in-out;
+}
+.plans {background-color: rgba(255, 255, 255, .3);
+    border-radius: 10px;
+}
+
+.plans:hover {background-color: rgba(255, 255, 255, 1);
+    transition: 250ms ease-in;
+}
+
+/* -------- AGENT CALL TO ACTION -------- */
+.agent-cto {height: 285px;
+    border: solid 1px var(--color-1);
+    border-radius: 18px;
+    background-color: var(--color-3);
+}
+
 .footer-nav {padding: 25px 0;}
 
+/* -------- RESPONSIVE -------- */
 @media (max-width: 992px) { /* Bootstrap's breakpoint for large screens is 992px */
     .navbar-collapse {
       flex-direction: row;
@@ -123,4 +173,8 @@ h1, h2, h3, h4, h5 {font-family: 'Roboto Slab', serif;
     }
 
     .secondary-nav li {margin: 0 0 10px -22px;}
-  }
+}
+
+@media (max-width: 576px) {
+    main {margin: 30px 0;}    
+}

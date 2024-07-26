@@ -31,50 +31,47 @@
     </div>
 </main>
 
-<div class="container">
-    <div class="row">
-        <div class="col-lg-4 col-md-6 col-sm-12">
-            <h4><a class="h-link" href="#">Advanced Choice <i class="bi bi-arrow-bar-right"></i></a></h4>
-            <p>The Advanced Choice plan for families or individuals is a health plan that offers peace of mind coverage and includes dental and vision benefits. With this plan you get a choice of two different deductible amounts and an office visit co-pay.</p>
+<div class="container overflow-hidden">
+    <div class="row gy-4">
+        <div class="col-lg-6 col-sm-12">
+            <div class="p-3 plans">
+                <h4 class="h-link">Advanced Choice</h4>
+                <p>The Advanced Choice plan for families or individuals is a health plan that offers peace of mind coverage and includes dental and vision benefits. With this plan you get a choice of two different deductible amounts and an office visit co-pay.</p>
+                <p><a href="individual-family/advanced-choice.php">Learn More <i class="bi bi-arrow-right"></i></a></p>
+            </div>
         </div>
-        <div class="col-lg-4 col-md-6 col-sm-12">
-            <h4><a class="h-link" href="#">Classic Choice <i class="bi bi-arrow-bar-right"></i></a></h4>
-            <p>The Classic Choice plan is ideal for those who are looking for a health plan with preventative health, dental and vision benefits with higher deductible options and an office visit co-pay. Get the trifecta - health, dental and vision under one health plan. Available for individuals only.</p>
+        <div class="col-lg-6 col-sm-12">
+            <div class="p-3 plans">
+                <h4 class="h-link">Classic Choice</h4>
+                <p>The Classic Choice plan is ideal for those who are looking for a health plan with preventative health, dental and vision benefits with higher deductible options and an office visit co-pay. Get the trifecta - health, dental and vision under one health plan. Available for individuals only.</p>
+                <p><a href="individual-family/classic-choice.php">Learn More <i class="bi bi-arrow-right"></i></a></p>
+            </div>
         </div>
-        <div class="col-lg-4 col-md-6 col-sm-12">
-            <h4><a class="h-link" href="#">Major Medical Health Coverage <i class="bi bi-arrow-bar-right"></i></a></h4>
-            <p>The Major Medical plan is ideal for those who want catastrophic protection with the advantage of a lower cost. This plan provides benefits for physician services, hospitalization, prescription drugs and more. Available for individuals or families.</p>
+        <div class="col-lg-6 col-sm-12">
+            <div class="p-3 plans">
+                <h4 class="h-link">Major Medical Health Coverage</h4>
+                <p>The Major Medical plan is ideal for those who want catastrophic protection with the advantage of a lower cost. This plan provides benefits for physician services, hospitalization, prescription drugs and more. Available for individuals or families.</p>
+                <p><a href="individual-family/major-medical.php">Learn More <i class="bi bi-arrow-right"></i></a></p>
+            </div>
         </div>
-        <div class="col-lg-4 col-md-6 col-sm-12">
-            <h4><a class="h-link" href="#">High Deductible Health Plan (HSA-Qualified) <i class="bi bi-arrow-bar-right"></i></a></h4>
-            <p>Nebraska Farm Bureau Health Plans offers a range of High Deductible Health Plans (HDHP) which meet all federal requirements necessary to open a Health Savings Account (HSA). HSA funds can be used to cover many out-of-pocket health care expenses.</p>
+        <div class="col-lg-6 col-sm-12">
+            <div class="p-3 plans">
+                <h4 class="h-link">High Deductible Health Plan (HSA-Qualified)</h4>
+                <p>Nebraska Farm Bureau Health Plans offers a range of High Deductible Health Plans (HDHP) which meet all federal requirements necessary to open a Health Savings Account (HSA). HSA funds can be used to cover many out-of-pocket health care expenses.</p>
+                <p><a href="individual-family/high-deductible-health-plan-hsa-qualified.php">Learn More <i class="bi bi-arrow-right"></i></a></p>
+            </div>
         </div>
-        <div class="col-lg-4 col-md-6 col-sm-12">
-            <h4><a class="h-link" href="#">Dental and Vision Plans <i class="bi bi-arrow-bar-right"></i></a></h4>
-            <p>Nebraska Farm Bureau Health Plans has bundled dental and vision coverage, exclusively for Farm Bureau members, in one affordable, convenient plan for individuals or families.</p>
+        <div class="col-lg-6 col-sm-12">
+            <div class="p-3 plans">
+                <h4 class="h-link"d>Dental and Vision Plans</h4>
+                <p>Nebraska Farm Bureau Health Plans has bundled dental and vision coverage, exclusively for Farm Bureau members, in one affordable, convenient plan for individuals or families.</p>
+                <p><a href="individual-family/dentalvision.php">Learn More <i class="bi bi-arrow-right"></i></a></p>
+            </div>
         </div>
     </div>
 </div>
 
-<div class="jumbotron">
-    <div class="container">
-        <div class="row featurette align-items-center">
-            <div class="col-md-5 order-md-2">
-                <p class="lead my-4">Next Step</p>
-                <h4>Ready to Enroll?</h4>
-                <p>If you already know what coverage you need, and you're ready to sign-up for affordable and quality coverage, we're ready to help.</p>
-                <button type="button" class="btn btn-primary">
-                    <a href="#">Learn More</a>
-                </button>
-            </div>
-            <div class="col-md-7 order-md-1">
-                <div style="background-color: #cacaca; height: 400px" class="align-self-center">
-                    <p class="lead">7-col x 350px</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+<?php include 'includes/components/call-to-action-jumbotron.php'; ?>
 
 <?php include 'includes/footer.php'; ?>
 
