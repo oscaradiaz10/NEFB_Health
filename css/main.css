@@ -5,6 +5,8 @@
     --color-4: rgb(175, 60, 7);
     --color-5: rgb(110, 4, 13);
     --color-6: rgb(230, 230, 230);
+    --color-7: rgba(85, 85, 85, .6);
+    --color-8: rgba(35, 35, 35, .9);
     --bs-nav-link-font-size: 21px;
 }
 
@@ -40,20 +42,18 @@ p, ul, ol, table {font-size: 18px;
     line-height: 150%;
 }
 
-img {margin-bottom: 20px;}
-
 main {margin: 100px 0;}
 
 .jumbotron {margin: 50px 0;
     background-color: var(--color-2);
 }
 
-.jumbotron2 {height: 40vh;
-    margin: 0;
-    background-image: url('../media/why-us.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
+.hero {height: 60vh !important; 
+    background: linear-gradient(90deg, rgba(4, 53, 101, 1), rgba(228, 237, 238, 1) 100%);
+    mix-blend-mode: multiply;
 }
+
+.headline {color: var(--color-1);}
 
 h1, h2, h3, h4, h5 {font-family: 'Roboto Slab', serif;
     padding: 30px 0 10px;
@@ -81,15 +81,13 @@ h1, h2, h3, h4, h5 {font-family: 'Roboto Slab', serif;
 .btn-primary a:hover {color: var(--color-3) !important;}
 
 /* -------- NAVIGATION -------- */
-.nav-link {font-size: var(--bs-nav-link-font-size);
-    font-family: "Roboto Slab", serif;
-    font-optical-sizing: auto;
-    font-weight: 700;
-    font-style: normal;
-    color: var(--color-5)
+.navbar-nav a {color: var(--color-7);
+    font-family: 'Roboto Slab', serif;
+    font-weight: 600;
+    font-size: var(--bs-nav-link-font-size);
 }
 
-.nav-link:active {color: var(--color-4);}
+.navbar-nav a:active {color:red;}
 
 .navbar-stacked {
     flex-direction: column;
@@ -109,7 +107,7 @@ h1, h2, h3, h4, h5 {font-family: 'Roboto Slab', serif;
 
 .secondary-nav li {margin-right: 22px;}
 
-.secondary-nav li:nth-child(5) {margin-right: 0;}
+.secondary-nav li:nth-child(6) {margin-right: 0;}
 
 /* -------- SIDE COLUMN -------- */
 .side-column {height: 580px;
@@ -209,6 +207,16 @@ h1, h2, h3, h4, h5 {font-family: 'Roboto Slab', serif;
     .secondary-nav li {margin: 0 0 10px -22px;}
 }
 
+@media (max-width: 992px) {
+    .hero {height: 36vh !important;}
+}
+
+@media (max-width: 768px) {
+    .hero {height: 33vh !important;}
+}
+
 @media (max-width: 576px) {
-    main {margin: 30px 0;}    
+    main {margin: 30px 0;}
+
+    .hero {height: 30vh !important;}
 }

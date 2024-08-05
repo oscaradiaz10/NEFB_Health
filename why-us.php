@@ -13,14 +13,13 @@
 
 <?php include 'includes/main-menu.php'; ?>
 
-<div class="jumbotron2">
-    
+<div class="bg-image d-flex justify-content-center align-items-center hero" style="background-image: url('media/why-us.jpg'); width:100%; background-size: cover;">
+    <h1 class="headline">Why Us?</h1>
 </div>
 
 <main class="container">
     <div class="row gx-5">
         <div class="col-lg-8">
-            <h1>Why Us?</h1>
             <h2>We Have the Experience</h2>
             <p>Since 1917, Nebraska Farm Bureau has been trusted for its dedication to enhancing the quality of life throughout the state. Nebraska Farm Bureau Health Plans are an extension of that trust, service and membership value.</p>
             <button type="button" class="btn btn-primary">

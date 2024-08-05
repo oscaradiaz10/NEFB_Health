@@ -20,13 +20,13 @@
                     <a class="sec-nav-link" href="#">Pay Your Premium</a>
                 </li>
                 <li class="nav-item">
-                    <a class="sec-nav-link" href="#">Online Portal</a>
+                    <a class="sec-nav-link" href="../online-portal.php">Online Portal</a>
                 </li>
                 <li class="nav-item">
                     <a class="sec-nav-link" href="#">Contact</a>
                 </li>
-                <li>
-                    <a class="nav-item" href="#"><i class="bi bi-facebook"></i></a>
+                <li class="nav-item">
+                    <a class="sec-nav-link" href="#"><i class="bi bi-facebook"></i></a>
                 </li>
             </ul>
           

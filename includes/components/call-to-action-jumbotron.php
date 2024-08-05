@@ -10,8 +10,8 @@
                 </button>
             </div>
             <div class="col-md-7 order-md-1">
-                <div style="background-color: #cacaca; height: 450px" class="align-self-center">
-                    <p class="lead">7-col x 350px</p>
+                <div class="align-self-center">
+                    <img class="img-fluid" src="../../media/AdobeStock_900399905_Preview.jpeg" alt="couple">
                 </div>
             </div>
         </div>
