@@ -11,7 +11,9 @@
 
 <body>
 
-<?php include 'includes/main-menu.php'; ?>
+<?php 
+    include 'includes/main-menu.php';
+?>
 
 <main class="container">
     <div class="row gx-5">

@@ -6,8 +6,9 @@
     --color-5: rgb(110, 4, 13);
     --color-6: rgb(230, 230, 230);
     --color-7: rgba(85, 85, 85, .6);
-    --color-8: rgba(35, 35, 35, .9);
     --bs-nav-link-font-size: 21px;
+    --navbar-active-color: rgba(35, 35, 35, .9);
+    --bs-navbar-active-color: rgba(var(--navbar-active-color), 1);
 }
 
 /* -------- ANIMATIONS -------- */
@@ -81,13 +82,11 @@ h1, h2, h3, h4, h5 {font-family: 'Roboto Slab', serif;
 .btn-primary a:hover {color: var(--color-3) !important;}
 
 /* -------- NAVIGATION -------- */
-.navbar-nav a {color: var(--color-7);
+.navbar-nav li a {color: var(--color-7);
     font-family: 'Roboto Slab', serif;
     font-weight: 600;
     font-size: var(--bs-nav-link-font-size);
 }
-
-.navbar-nav a:active {color:red;}
 
 .navbar-stacked {
     flex-direction: column;
