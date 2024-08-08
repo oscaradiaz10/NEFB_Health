@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NEFB Health Plans - Why Us?</title>
 
-    <?php include 'includes/links.php'; ?>
+    <?php include 'sub/links.php'; ?>
  
 </head>
 
 <body>
 
-<?php include 'includes/main-menu.php'; ?>
+<?php include 'sub/main-menu.php'; ?>
 
 <div class="bg-image d-flex justify-content-center align-items-center hero" style="background-image: url('media/why-us.jpg'); width:100%; background-size: cover;">
     <h1 class="headline">Why Us?</h1>
@@ -57,9 +57,9 @@
     </div>
 </div>
 
-<?php include 'includes/components/call-to-action-jumbotron.php'; ?>
+<?php include 'sub/components/call-to-action-jumbotron.php'; ?>
 
-<?php include 'includes/footer.php'; ?>
+<?php include 'sub/footer.php'; ?>
 
 </body>
 </html>

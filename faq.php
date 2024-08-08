@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NEFB Health Plans - FAQ</title>
 
-    <?php include 'includes/links.php'; ?>
+    <?php include 'sub/links.php'; ?>
  
 </head>
 
 <body>
 
-<?php include 'includes/main-menu.php'; ?>
+<?php include 'sub/main-menu.php'; ?>
 
 <main class="container">
     <div class="row gx-5">
@@ -30,7 +30,7 @@
             <p>No. Anyone can apply for these plans. Individuals who are self-employed or own a small business could benefit from these plans. In addition, members who may be uninsured because they do not qualify for ACA subsidies should consider these plans. Even those with employer coverage for themselves should compare the cost of covering their dependents on these plans vs. their employer health plan.</p>
             <hr>
             <h4>Who do I contact to apply and enroll in NEFB Health Plans?</h4>
-            <p>Farm Bureau Financial Services agents in Nebraska will be exclusively allowed to sell these plans to NEFB members. NEFB has also created a full-time position to be the liaison for this project. We hired Kelsey Scheer as the Assistant Director of NEFB Health Plans. Her contact information is <a href="mailto:kelseys@nefb.org">kelseys@nefb.org</a>, and her mobile number is <a href="tel:308-750-5322">(308) 750-5322</a>. She can help you with any questions you have and point you to an agent to help you enroll. Applicants can also visit <a href="/quote-apply.php">www.nefbhp.com</a> or call toll-free <a href="tel:866-544-2232">866-544-2232</a> to apply on <strong>October 1, 2024</strong>, when sales and enrollment begin.</p>
+            <p>Farm Bureau Financial Services agents in Nebraska will be exclusively allowed to sell these plans to NEFB members. NEFB has also created a full-time position to be the liaison for this project. We hired Kelsey Scheer as the Assistant Director of NEFB Health Plans. Her contact information is <a href="mailto:kelseys@nefb.org">kelseys@nefb.org</a>, and her mobile number is <a href="tel:308-750-5322">(308) 750-5322</a>. She can help you with any questions you have and point you to an agent to help you enroll. Applicants can also visit <a href="/quote-apply.php">www.nefbhp.com</a> or call toll-free <a href="tel:866-544-2232">(866) 544-2232</a> to apply on <strong>October 1, 2024</strong>, when sales and enrollment begin.</p>
             <hr>
             <h4>Do I need to be a resident of Nebraska to enroll in NEFB Health Plans?</h4>
             <p>Yes. Your place of residence needs to be in the state of Nebraska. However, if you move out of Nebraska after you have enrolled in a plan, you can maintain your coverage, as long as you maintain your NEFB membership and pay your monthly premiums.</p>
@@ -50,9 +50,9 @@
     </div>
 </main>
 
-<?php include 'includes/components/call-to-action-jumbotron.php'; ?>
+<?php include 'sub/components/call-to-action-jumbotron.php'; ?>
 
-<?php include 'includes/footer.php'; ?>
+<?php include 'sub/footer.php'; ?>
 
 </body>
 </html>

@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NEFB Health Plans - Forms</title>
 
-    <?php include 'includes/links.php'; ?>
+    <?php include 'sub/links.php'; ?>
  
 </head>
 
 <body>
 
-<?php include 'includes/main-menu.php'; ?>
+<?php include 'sub/main-menu.php'; ?>
 
 <main class="container">
     <div class="row gx-5">
@@ -33,7 +33,7 @@
         <h2>Coverage Information</h2>
         <div class="col-lg-6 col-sm-12">
             <hr>
-            <h4>Outline of Medicare Supplement Coverage</h4>
+            <h4>Outline of Medicare Supplement Coverage</h4> <!-- Do we need this -->
             <p>These charts show the benefits included in each of the standard Medicare Supplement Insurance plans. Every company must make available Plan A. Some of the other plans may not be available from every company.</p>
             <button type="button" class="btn btn-primary">
                 <a href="#" target="_blank">Download</a>
@@ -45,10 +45,10 @@
         <h2>Forms Used With A New Application</h2>
         <div class="col-lg-6 col-sm-12">
             <hr>
-            <h4>Medical request form (Age 0-2 months)</h4>
+            <h4>Medical Request Form (Age 0-2 months)</h4>
             <p>This is a request form for any type of medical records that need to be requested for newborns through two months of age.</p>
             <button type="button" class="btn btn-primary">
-                <a href="#" target="_blank">Download</a>
+                <a href="media/forms/NEFBHP_0-2_months-with-Auth-Form.pdf" target="_blank">Download</a>
             </button>
         </div>
         <div class="col-lg-6 col-sm-12">
@@ -56,15 +56,15 @@
             <h4>Medical Request Form (Age 3-25 months)</h4>
             <p>This is a request form for any type of medical records that need to be requested for children 3-25 months old.</p>
             <button type="button" class="btn btn-primary">
-                <a href="#" target="_blank">Download</a>
+                <a href="media/forms/NEFBHP_3-25_months-with-Auth-Form.pdf" target="_blank">Download</a>
             </button>
         </div>
         <div class="col-lg-6 col-sm-12">
             <hr>
-            <h4>Medical request form (Age 40 and older)</h4>
+            <h4>Medical Request Form (Age 40 and older)</h4>
             <p>This is a request form for any type of medical records that need to be requested for adults aged 40 or older.</p>
             <button type="button" class="btn btn-primary">
-                <a href="#" target="_blank">Download</a>
+                <a href="media/forms/NEFBHP_40-older_with-Auth-Form.pdf" target="_blank">Download</a>
             </button>
         </div>
         <div class="col-lg-6 col-sm-12">
@@ -128,7 +128,7 @@
             <h4>Bank Draft Authorization Form (Under 65)</h4>
             <p>If you need to change your bank information for your monthly premium payment and you are under the age of 65, complete this form, attach a voided check and mail both to Farm Bureau Health Plans.</p>
             <button type="button" class="btn btn-primary">
-                <a href="#" target="_blank">Download</a>
+                <a href="media/forms/MH-NE-BL-FM24-199_NEFBHP-Bank-Draft-Authorization-Form.pdf" target="_blank">Download</a>
             </button>
         </div>
         <div class="col-lg-6 col-sm-12">
@@ -141,7 +141,7 @@
         </div>
         <div class="col-lg-6 col-sm-12">
             <hr>
-            <h4>Medicare Supplement Plan Selection Form</h4>
+            <h4>Medicare Supplement Plan Selection Form</h4> <!-- Do we need this? -->
             <p>This form is for a current Kansas Farm Bureau Health Plans subscriber who is requesting to transition into a KFBHP Medicare Supplement Plan.</p>
             <button type="button" class="btn btn-primary">
                 <a href="#" target="_blank">Download</a>
@@ -149,7 +149,7 @@
         </div>
         <div class="col-lg-6 col-sm-12">
             <hr>
-            <h4>Medicare Supplement Change Form</h4>
+            <h4>Medicare Supplement Change Form</h4> <!-- Do we need this? -->
             <p>This form is for any type of plan change for an existing Farm Bureau Health Plans Medicare Supplement in regards to plan drops or upgrades.</p>
             <button type="button" class="btn btn-primary">
                 <a href="#" target="_blank">Download</a>
@@ -168,7 +168,7 @@
             <h4>Under 65 Change Form</h4>
             <p>This form allows you to make changes to your current coverage if you are under 65. The form has the functionality for a digital signature, but it must be opened in Acrobat (not the web browser) for it to work correctly.</p>
             <button type="button" class="btn btn-primary">
-                <a href="#" target="_blank">Download</a>
+                <a href="media/forms/NEFBHP_U65-Alternative-Plan-Selection-Transfer-Change Form.pdf" target="_blank">Download</a>
             </button>
         </div>
         <div class="col-lg-6 col-sm-12">
@@ -176,7 +176,7 @@
             <h4>Cancellation Form for Members Under 65</h4>
             <p>Please complete this form if cancelling your coverage with Farm Bureau Health Plans and you are under 65.</p>
             <button type="button" class="btn btn-primary">
-                <a href="#" target="_blank">Download</a>
+                <a href="/media/forms/MH-NE-BL-FM24-198 - NEFBHP-Cancellation-Form.pdf" target="_blank">Download</a>
             </button>
         </div>
         <div class="col-lg-6 col-sm-12">
@@ -184,7 +184,7 @@
             <h4>Payor Revoking Authorization Form</h4>
             <p>This form allows an employer to let KFB Health Plans know an employee/client of KFB Health Plans no longer works for them and the client will take over the health plan payment.</p>
             <button type="button" class="btn btn-primary">
-                <a href="#" target="_blank">Download</a>
+                <a href="media/forms/MH-NE-BL-FM24-200_NEFBHP-Authorization-Revoked.pdf" target="_blank">Download</a>
             </button>
         </div>
         <div class="col-lg-6 col-sm-12">
@@ -209,7 +209,7 @@
             <h4>Request for Reconsideration of Benefit Exclusion Rider</h4>
             <p>This form is for you to complete when submitting a request for reconsideration of a benefit exclusion rider that has been placed on you or any dependents. Please use one form per rider being reviewed.</p>
             <button type="button" class="btn btn-primary">
-                <a href="#" target="_blank">Download</a>
+                <a href="media/forms/NEFBHP_Req_Recon-of-Rider.pdf" target="_blank">Download</a>
             </button>
         </div>
         <div class="col-lg-6 col-sm-12">
@@ -217,7 +217,7 @@
             <h4>Request for Reconsideration of Declined Coverage</h4>
             <p>This form is for you to complete when submitting a request for reconsideration of declined coverage for you or any dependents.</p>
             <button type="button" class="btn btn-primary">
-                <a href="#" target="_blank">Download</a>
+                <a href="media/forms/NEFBHP_Req_Recon-of-Decline.pdf" target="_blank">Download</a>
             </button>
         </div>
         <div class="col-lg-6 col-sm-12">
@@ -225,7 +225,7 @@
             <h4>Request for Reconsideration of Rate</h4>
             <p>This form is for you to complete when submitting a request for reconsideration of your rate for coverage.</p>
             <button type="button" class="btn btn-primary">
-                <a href="#" target="_blank">Download</a>
+                <a href="media/forms/NEFBHP_Req_Recon-of-Rate.pdf" target="_blank">Download</a>
             </button>
         </div>
         <div class="col-lg-6 col-sm-12">
@@ -233,15 +233,15 @@
             <h4>Request for Reconsideration of Tobacco Rate</h4>
             <p>This form is for you to complete when submitting a request for reconsideration of tobacco rate for coverage.</p>
             <button type="button" class="btn btn-primary">
-                <a href="#" target="_blank">Download</a>
+                <a href="media/forms/MH-NE-BL-FM24-201_NEFBHP-Reconsideration-of-Tobacco-Rate.pdf" target="_blank">Download</a>
             </button>
         </div>
     </div>
 </main>
 
-<?php include 'includes/components/call-to-action-jumbotron.php'; ?>
+<?php include 'sub/components/call-to-action-jumbotron.php'; ?>
 
-<?php include 'includes/footer.php'; ?>
+<?php include 'sub/footer.php'; ?>
 
 </body>
 </html>

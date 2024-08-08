@@ -41,7 +41,7 @@ $conn->close();
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NEFB Health Plans - Search Results</title>
 
-    <?php include 'includes/links.php'; ?>
+    <?php include 'sub/links.php'; ?>
 
 </head>
 
@@ -66,7 +66,7 @@ $conn->close();
     </div>
 </main>
 
-<?php include 'includes/footer.php'; ?>
+<?php include 'sub/footer.php'; ?>
 
 </body>
 </html>

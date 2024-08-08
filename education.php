@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NEFB Health Plans - Education</title>
 
-    <?php include 'includes/links.php'; ?>
+    <?php include 'sub/links.php'; ?>
  
 </head>
 
@@ -13,7 +13,7 @@
 
 <nav class="navbar navbar-expand-xl bg-body-tertiary" aria-label="Main Menu">
     
-    <?php include 'includes/main-menu.php'; ?>
+    <?php include 'sub/main-menu.php'; ?>
 
 </nav>
 

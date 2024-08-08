@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NEFB Health Plans - Find a Provider</title>
 
-    <?php include 'includes/links.php'; ?>
+    <?php include 'sub/links.php'; ?>
  
 </head>
 
 <body>
 
-<?php include 'includes/main-menu.php'; ?>
+<?php include 'sub/main-menu.php'; ?>
 
 <main class="container">
     <div class="row gx-5">
@@ -58,7 +58,7 @@
     <div class="row justify-content-center">
         <div class="bg-light p-4 rounded mt-5">
             <p>Farm Bureau Health Plans Claims - Member toll-free number:</p> <!-- SAME NUMBER AS KANSAS-->
-            <a class="btn btn-primary" href="tel:833-282-5560" role="button">833-282-5560</a>
+            <a class="btn btn-primary" href="tel:833-282-5560" role="button">Call (833) 282-5560</a>
         </div>
 
         <div class="col-12">
@@ -67,14 +67,14 @@
             <h3>Under 65 Coverage</h3>
             <p>For more information, please visit <a href="http://www.uhc.com/provider" target="_blank">www.uhc.com/provider</a>. If you are a provider currently not in United's Choice Plus network you can <a href="https://www.uhcprovider.com/en/resource-library/Join-Our-Network.html" target="_blank">join here</a>.</p>
             <h3>Medicare Supplement Plans</h3>
-            <p>Nebraska Farm Bureau Health Plans Provider toll-free number <a href="tel:833-282-5551">833-282-5551</a>.</p> <!-- SAME NUMBER AS KANSAS-->
+            <p>Nebraska Farm Bureau Health Plans Provider toll-free number <a href="tel:833-282-5551">(833) 282-5551</a>.</p> <!-- SAME NUMBER AS KANSAS-->
         </div>
     </div>
 </main>
 
-<?php include 'includes/components/call-to-action-jumbotron.php'; ?>
+<?php include 'sub/components/call-to-action-jumbotron.php'; ?>
 
-<?php include 'includes/footer.php'; ?>
+<?php include 'sub/footer.php'; ?>
 
 </body>
 </html>

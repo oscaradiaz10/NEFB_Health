@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nebraska Farm Bureau Health Plans</title>
 
-    <?php include 'includes/links.php'; ?>
+    <?php include 'sub/links.php'; ?>
  
 </head>
 
 <body>
 
-<?php include 'includes/main-menu.php'; ?>
+<?php include 'sub/main-menu.php'; ?>
 
 <!--  GALLERY -->
 <div class="jumbotron p-4 p-md-5 mb-4 text-white bg-dark">
@@ -69,7 +69,7 @@
     </div>
 </div>
 
-<?php include 'includes/footer.php'; ?>
+<?php include 'sub/footer.php'; ?>
 
 </body>
 </html>

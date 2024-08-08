@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NEFB Health Plans - DentalVision</title>
 
-    <?php include '../includes/links.php'; ?>
+    <?php include '../sub/links.php'; ?>
  
 </head>
 
 <body>
 
-<?php include '../includes/main-menu.php'; ?>
+<?php include '../sub/main-menu.php'; ?>
 
 <main class="container">
     <div class="row gx-5">
@@ -69,14 +69,14 @@
         </div>  
 
         <div class="col-lg-4 col-sm-12 side-column">
-            <?php include '../includes/side-column.php' ?>
+            <?php include '../sub/side-column.php' ?>
         </div>
     </div>
 </main>
 
-<?php include '../includes/components/call-to-action-jumbotron.php'; ?>
+<?php include '../sub/components/call-to-action-jumbotron.php'; ?>
 
-<?php include '../includes/footer.php'; ?>
+<?php include '../sub/footer.php'; ?>
 
 </body>
 </html>
