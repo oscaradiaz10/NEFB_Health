@@ -39,15 +39,15 @@
     <div class="row">
         <div class="col-12">
             <!-- ACORDION -->
-            <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion" id="accordionExample">
                 <div class="accordion-item">
-                    <h2 class="accordion-header" id="flush-headingOne">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">Classic Choice: Overview</button>
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">Classic Choice: Overview</button>
                     </h2>
-                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
                             <table class="table table-striped table-hover">
-                                <thead>
+                                <thead class="table-dark">
                                     <tr>
                                         <th style="width: 65%;"> </th>
                                         <th>In-Network</th>
@@ -75,9 +75,7 @@
                                             <p>Option 1<br>$10,000</p>
                                             <p>Option 2<br>$20,000</p>
                                         </td>
-                                        <td>
-                                            <p>Unlimited</p>
-                                        </td>
+                                        <td>Unlimited</td>
                                     </tr>
                                     <tr>
                                         <td>
@@ -94,14 +92,14 @@
                 </div>
 
                 <div class="accordion-item">
-                    <h2 class="accordion-header" id="flush-headingTwo">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">Classic Choice: Services</button>
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Classic Choice: Services</button>
                     </h2>
-                    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
                             <!-- First Table -->
                             <table class="table table-striped table-hover">
-                                <thead>
+                                <thead class="table-dark">
                                     <tr>
                                         <th style="width: 65%;"> </th>
                                         <th>In-Network</th>
@@ -114,7 +112,7 @@
                                             <p><strong>OFFICE VISIT</strong></p>
                                             <p>Not subject to CYD or OOP</p>
                                         </td>
-                                        <td>$40 copayment per visit</td>
+                                        <td>$45 copayment per visit</td>
                                         <td>CYD/Coinsurance</td>
                                     </tr>
                                     <tr>
@@ -141,15 +139,15 @@
 
                             <!-- Second table -->
                             <table class="table table-striped table-hover">
-                                <thead>
+                                <thead class="table-dark">
                                     <tr>
-                                        <th style="width: 65%;"><p><strong>PREVENTATIVE CARE BENEFITS</strong></p></th>
+                                        <th style="width: 65%;">PREVENTATIVE CARE BENEFITS</th>
                                         <th>In-Network</th>
                                         <th>Out-of-Network</th>
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    <tr>
+                                    <!--<tr>
                                         <td><p><strong>NO WAITING PERIOD.<br>In-network benefits not subject to CYD</strong></p></td>
                                         <td>Plan pays 100%</td>
                                         <td>Plan pays 60%</td>
@@ -158,7 +156,7 @@
                                         <td>Preventative Health Exam<sup>1</sup></td>
                                         <td>0%</td>
                                         <td>40%</td>
-                                    </tr>
+                                    </tr>-->
                                     <tr>
                                         <td>Annual Well Woman Exam<sup>2</sup></td>
                                         <td>0%</td>
@@ -177,7 +175,7 @@
                                     <tr>
                                         <td><strong>EMERGENCY ROOM</strong><br>Not resulting in admission</td>
                                         <td colspan="2">
-                                            <p>$75 deductible per visit</p>
+                                            <p>$300 deductible per visit</p>
                                             <p>(in addition to CYD and Coinsurance)</p>
                                         </td>
                                     </tr>                                     
@@ -186,11 +184,11 @@
 
                             <!-- Third table -->
                             <table class="table table-striped table-hover">
-                                <thead>
+                                <thead class="table-dark">
                                     <tr>
                                         <th colspan="3">
-                                            <p><strong>PRESCRIPTION DRUG COVERAGE</strong></p>
-                                            <p><strong>Unlimited Calendar Year Maximum Per Member</strong></p>
+                                            <p>PRESCRIPTION DRUG COVERAGE</p>
+                                            <p>Unlimited Calendar Year Maximum Per Member</p>
                                         </th>
                                     </tr>
                                 </thead>
@@ -271,10 +269,10 @@
                 </div>
 
                 <div class="accordion-item">
-                    <h2 class="accordion-header" id="flush-headingThree">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">Classic Choice: Pre-existing Condition Waiting Period</button>
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Classic Choice: Pre-existing Condition Waiting Period</button>
                     </h2>
-                    <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
                             <p>Benefits will not be provided for any pre-existing condition until a member has completed a waiting period of at least 6 months. A pre-existing condition is defined in the contract as “An illness, injury, pregnancy or any other medical condition which existed at any time preceding the effective date of coverage under this contract for which: Medical advice or treatment was recommended by, or received from, a provider of health care services; or symptoms existed which would cause an ordinarily prudent person to seek diagnosis, care or treatment.”</p>
                         </div>
@@ -282,10 +280,10 @@
                 </div>
 
                 <div class="accordion-item">
-                    <h2 class="accordion-header" id="flush-headingFour">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">Classic Choice: Office Copayment Guidelines</button>
+                    <h2 class="accordion-header" id="headingFour">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">Classic Choice: Office Copayment Guidelines</button>
                     </h2>
-                    <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
                             <p>A copayment will be applied to each office visit for the covered services performed in the office and provided and billed by a physician who is an in-network provider. The remaining charges for covered services rendered during the office visit will be paid at 100% of the maximum allowable charge. If a physician who is an out-of-network provider is utilized for covered services, benefits will be determined on the basis of the out-of-network coinsurance percentage after deductible is met.</p>
                             <p>Copayments do not apply to the following services: advanced radiological imaging, allergy testing and injections, biopsy interpretation, bone density testing, cardiac diagnostic testing, chemotherapy services, chiropractic services, complex diagnostic services, dental services except preventative and restorative for all Members age nineteen (19) and over, diagnostic services sent out, durable medical equipment, growth hormone injections, IV therapy, Lupron injections, mammography, maternity services, nerve conduction studies, neuropsychological or neurological tests, nuclear cardiology, nuclear medicine, orthotics, preventative services as indicated in the contract, prosthetics, provider administered specialty pharmacy products, sleep studies, surgery performed in a physician's office and related surgical supplies, Synagis injections, therapeutic/ rehabilitative/ habilitative services, ultrasounds and vision services. These services are subject to the terms and conditions of the contract. Deductibles and coinsurance will apply except where otherwise indicated. Copayments will not be applied toward deductibles or out-of-pocket maximums.</p>
@@ -294,10 +292,10 @@
                 </div>
 
                 <div class="accordion-item">
-                    <h2 class="accordion-header" id="flush-headingFive">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">Classic Choice: Maternity Benefits</button>
+                    <h2 class="accordion-header" id="headingFive">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">Classic Choice: Maternity Benefits</button>
                     </h2>
-                    <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
+                    <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
                             <p>Maternity benefits will be eligible as long as the pregnancy is not considered a pre-existing condition.</p>
                         </div>

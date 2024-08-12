@@ -17,13 +17,13 @@
                     <a class="sec-nav-link" href="../find-a-provider.php">Find a Provider</a>
                 </li>
                 <li class="nav-item">
-                    <a class="sec-nav-link" href="#">Pay Your Premium</a>
+                    <a class="sec-nav-link" href="#">Pay Your Premium</a> <!--  Link will be provided  -->
                 </li>
                 <li class="nav-item">
                     <a class="sec-nav-link" href="../online-portal.php">Online Portal</a>
                 </li>
                 <li class="nav-item">
-                    <a class="sec-nav-link" href="#">Contact</a>
+                    <a class="sec-nav-link" href="../contact.php">Contact</a>
                 </li>
                 <li class="nav-item">
                     <a class="sec-nav-link" href="#"><i class="bi bi-facebook"></i></a>

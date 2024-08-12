@@ -19,7 +19,7 @@
             <h1>Advanced Choice</h1>
             <h2>About the Plan</h2>
             <p>The Advanced Choice plan for families or individuals is one that offers peace of mind coverage and includes dental and vision benefits. With this plan you get a choice of two different deductible amounts.</p>
-            <p>Farm Bureau Health Plans uses UnitedHealthcare Choice Plus Network. Please keep in mind that in-network payments are based on negotiated fees. If an out-of-network provider is used, the member's liability will increase significantly.</p>
+            <p>Farm Bureau Health Plans uses <a href="https://www.umr.com/oss/cms/UMR/Choice_Plus_no-nav.html" target="_blank">UnitedHealthcare Choice Plus Network</a>. Please keep in mind that in-network payments are based on negotiated fees. If an out-of-network provider is used, the member's liability will increase significantly.</p>
             <h2>Resources</h2> 
             <button type="button" class="btn btn-primary">
                 <a href="https://www.umr.com/oss/cms/UMR/Choice_Plus_no-nav.html" target="_blank">Provider Network</a>
@@ -39,15 +39,15 @@
     <div class="row">
         <div class="col-12">
             <!-- ACORDION -->
-            <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion" id="accordionExample">
                 <div class="accordion-item">
-                    <h2 class="accordion-header" id="flush-headingOne">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">Advanced Choice: Overview</button>
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">Advanced Choice: Overview</button>
                     </h2>
-                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
                             <table class="table table-striped table-hover">
-                                <thead>
+                                <thead class="table-dark">
                                     <tr>
                                         <th style="width: 65%;"> </th>
                                         <th>In-Network</th>
@@ -57,7 +57,7 @@
                                 <tbody>
                                     <tr>
                                         <td>
-                                            <p><strong>CALENDAR YEAR DEDUCTIBLE (CYD)</strong></p>
+                                            <p>CALENDAR YEAR DEDUCTIBLE (CYD)</p>
                                             <p>Unless otherwise indicated, all benefits are subject to CYD.</p>
                                         </td>
                                         <td colspan="2">
@@ -68,7 +68,7 @@
                                     </tr>
                                     <tr>
                                         <td>
-                                            <p><strong>OUT-OF-POCKET MAXIMUM (OOP)</strong></p>
+                                            <p>OUT-OF-POCKET MAXIMUM (OOP)</p>
                                             <p>Once the OOP maximum is met, benefits are provided at 100% for a member for the remainder of the calendar year. This applies to in-network provider services only. Copayments do not apply to OOP and must still be paid after OOP is met.</p>
                                         </td>
                                         <td>
@@ -94,14 +94,14 @@
                 </div>
 
                 <div class="accordion-item">
-                    <h2 class="accordion-header" id="flush-headingTwo">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">Advanced Choice: Services</button>
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Advanced Choice: Services</button>
                     </h2>
-                    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
                             <!-- First Table -->
                             <table class="table table-striped table-hover">
-                                <thead>
+                                <thead class="table-dark">
                                     <tr>
                                         <th style="width: 65%;"> </th>
                                         <th>In-Network</th>
@@ -111,14 +111,15 @@
                                 <tbody>
                                     <tr>
                                         <td>
-                                            <p><strong>OFFICE VISIT</strong></p>
+                                            <p>OFFICE VISIT</p>
                                             <p>Not subject to CYD or OOP</p>
                                         </td>
-                                        <td colspan="2">
-                                            <p>Option 1: $25 copayment* per visit</p>
+                                        <td>
+                                            <p>Option 1: $30 copayment* per visit</p>
 
-                                            <p>Option 2: $35 copayment* per visit</p>
+                                            <p>Option 2: $40 copayment* per visit</p>
                                         </td>
+                                        <td>CYD/Coinsurance</td>
                                     </tr>
                                     <tr>
                                         <td><strong>TELADOC</strong></td>
@@ -144,9 +145,9 @@
 
                             <!-- Second table -->
                             <table class="table table-striped table-hover">
-                                <thead>
+                                <thead class="table-dark">
                                     <tr>
-                                        <th style="width: 65%;"><p><strong>PREVENTATIVE CARE BENEFITS</strong></p></th>
+                                        <th style="width: 65%;"><p>PREVENTATIVE CARE BENEFITS</p></th>
                                         <th>In-Network</th>
                                         <th>Out-of-Network</th>
                                     </tr>
@@ -180,7 +181,7 @@
                                     <tr>
                                         <td><strong>EMERGENCY ROOM</strong><br>Not resulting in admission</td>
                                         <td colspan="2">
-                                            <p>$75 deductible per visit</p>
+                                            <p>$300 deductible per visit</p>
                                             <p>(in addition to CYD and Coinsurance)</p>
                                         </td>
                                     </tr>                                     
@@ -189,17 +190,17 @@
 
                             <!-- Third table -->
                             <table class="table table-striped table-hover">
-                                <thead>
+                                <thead class="table-dark">
                                     <tr>
                                         <th colspan="3">
-                                            <p><strong>PRESCRIPTION DRUG COVERAGE</strong></p>
+                                            <p>PRESCRIPTION DRUG COVERAGE</p>
                                             <p>$7,500 Calendar Year Maximum Per Member</p>
                                         </th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <td>Generic 30 day supply</td>
+                                        <td>Generic<br>30 day supply</td>
                                         <td>
                                             <p>Plan pays all but copayment</p>
                                             <p>Your responsibility: $4 copayment<sup>5</sup></p>
@@ -270,36 +271,36 @@
                 </div>
 
                 <div class="accordion-item">
-                    <h2 class="accordion-header" id="flush-headingThree">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">Advanced Choice: Pre-existing Condition Waiting Period</button>
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Advanced Choice: Pre-existing Condition Waiting Period</button>
                     </h2>
-                    <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                            <p>Benefits will not be provided for any pre-existing condition until a member has completed a waiting period of at least 6 months. In rare circumstances, the pre-existing condition waiting period may be longer. A pre-existing condition is defined in the contract as “An illness, injury, pregnancy or any other medical condition which existed at any time preceding the effective date of coverage under this contract for which: Medical advice or treatment was recommended by, or received from, a provider of health care services; or symptoms existed which would cause an ordinarily prudent person to seek diagnosis, care or treatment.” The pre-existing condition waiting period will not apply to members under the age of 19 enrolled as dependents on a family plan.</p>
+                            <p>Benefits will not be provided for any pre-existing condition until a member has completed a waiting period of at least 6 months. In rare circumstances, the pre-existing condition waiting period may be longer. A pre-existing condition is defined in the contract as “An illness, injury, pregnancy or any other medical condition which existed at any time preceding the effective date of coverage under this contract for which: Medical advice or treatment was recommended by, or received from, a provider of health care services; or symptoms existed which would cause an ordinarily prudent person to seek diagnosis, care or treatment.”</p>
                             <p><strong>Additional waiting periods may apply as indicated in the contract.</strong></p>
                         </div>
                     </div>
                 </div>
 
                 <div class="accordion-item">
-                    <h2 class="accordion-header" id="flush-headingFour">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">Advanced Choice: Office Copayment Guidelines</button>
+                    <h2 class="accordion-header" id="headingFour">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">Advanced Choice: Office Copayment Guidelines</button>
                     </h2>
-                    <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
                             <p>A copayment will be applied to each office visit for the covered services performed in the office and provided and billed by a physician who is an in-network provider. The remaining charges for covered services rendered during the office visit will be paid at 100% of the maximum allowable charge. If a physician who is an out-of-network provider is utilized for covered services, benefits will be determined on the basis of the out-of-network coinsurance percentage after deductible is met. Copayments will not be applied toward deductibles or out-of-pocket maximums.</p>
-                            <p>Copayments do not apply to the following services: advanced radiological imaging, allergy testing and injections, biopsy interpretation, bone density testing, cardiac diagnostic testing, chemotherapy services, chiropractic services, complex diagnostic services, dental services except preventative and restorative for all members, diagnostic services sent out, durable medical equipment, growth hormone injections, IV therapy, Lupron injections, mammography, maternity services, nerve conduction studies, neuropsychological or neurological tests, nuclear cardiology, nuclear medicine, orthotics, preventative services as indicated in the contract, prosthetics, provider administered specialty pharmacy products, sleep studies, surgery performed in a physician's office and related surgical supplies, Synagis injections, therapeutic/rehabilitative services, ultrasounds and vision services. These services are subject to the terms and conditions of the contract. Deductibles and coinsurance will apply except where otherwise indicated.</p>
+                            <p>Copayments do not apply to the following services: advanced radiological imaging, allergy testing and injections, biopsy interpretation, bone density testing, cardiac diagnostic testing, chemotherapy services, chiropractic services, complex diagnostic services, dental services except preventative and restorative for all members, diagnostic services sent out, durable medical equipment, growth hormone injections, IV therapy, Lupron injections, mammography, maternity services, nerve conduction studies, neuropsychological or neurological tests, nuclear cardiology, nuclear medicine, orthotics, preventative services as indicated in the contract, prosthetics, provider administered specialty pharmacy products, sleep studies, surgery performed in a physician’s office and related surgical supplies, Synagis injections, therapeutic/rehabilitative services, ultrasounds and vision services. These services are subject to the terms and conditions of the contract. Deductibles and coinsurance will apply except where otherwise indicated.</p>
                         </div>
                     </div>
                 </div>
 
                 <div class="accordion-item">
-                    <h2 class="accordion-header" id="flush-headingFive">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">Advanced Choice: Maternity Benefits</button>
+                    <h2 class="accordion-header" id="headingFive">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">Advanced Choice: Maternity Benefits</button>
                     </h2>
-                    <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
+                    <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                            <p>Maternity Benefits will be provided after an individual's coverage on a family contract has been in effect for nine consecutive months. Individual coverage has NO maternity benefits except for complications of pregnancy.</p>
+                            <p>Maternity Benefits will be provided after an individual’s coverage on a family contract has been in effect for nine consecutive months. Individual coverage has NO maternity benefits except for complications of pregnancy.</p>
                         </div>
                     </div>
                 </div>

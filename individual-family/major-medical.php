@@ -39,15 +39,15 @@
     <div class="row">
         <div class="col-12">
             <!-- ACORDION -->
-            <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion" id="accordionExample">
                 <div class="accordion-item">
-                    <h2 class="accordion-header" id="flush-headingOne">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">Major Medical: Overview</button>
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">Major Medical: Overview</button>
                     </h2>
-                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
                             <table class="table table-striped table-hover">
-                                <thead>
+                                <thead class="table-dark">
                                     <tr>
                                         <th style="width: 65%;"> </th>
                                         <th>In-Network</th>
@@ -93,14 +93,14 @@
                 </div>
 
                 <div class="accordion-item">
-                    <h2 class="accordion-header" id="flush-headingTwo">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">Major Medical: Services</button>
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Major Medical: Services</button>
                     </h2>
-                    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
                             <!-- First Table -->
                             <table class="table table-striped table-hover">
-                                <thead>
+                                <thead class="table-dark">
                                     <tr>
                                         <th style="width: 65%;"> </th>
                                         <th>In-Network</th>
@@ -125,7 +125,7 @@
                                     <tr>
                                         <td><strong>TELADOC</strong></td>
                                         <td>No charge to member</td>
-                                        <td>No coverage</td>
+                                        <td>Not covered</td>
                                     </tr>
                                     <tr>
                                         <td colspan="3"><strong>PREVENTATIVE CARE BENEFITS</strong></td>
@@ -136,7 +136,7 @@
                                             <p>Plan pays: 80%</p>
                                             <p>Your responsibility: 20%</p>
                                         </td>
-                                        <td>No coverage</td>
+                                        <td>Not covered</td>
                                     </tr>
                                     <tr>
                                         <td>Routine Colonoscopy<sup>4</sup></td>
@@ -166,7 +166,7 @@
                                             <p>Plan pays: 80%</p>
                                             <p>Your responsibility: 20%</p>
                                         </td>
-                                        <td>No coverage</td>
+                                        <td>Not covered</td>
                                     </tr>
                                     <tr>
                                         <td>Annual Routine Pap Smear<sup>7</sup></td>
@@ -195,10 +195,10 @@
 
                             <!-- Second table -->
                             <table class="table table-striped table-hover">
-                                <thead>
+                                <thead class="table-dark">
                                     <tr>
                                         <th colspan="3" style="width: 65%;">
-                                            <p><strong>PRESCRIPTION DRUG COVERAGE</strong><br>Unlimited Calendar Year Maximum Per Member</p>
+                                            <p>PRESCRIPTION DRUG COVERAGE<br>Unlimited Calendar Year Maximum Per Member</p>
                                         </th>
                                     </tr>
                                 </thead>
@@ -264,21 +264,21 @@
                 </div>
 
                 <div class="accordion-item">
-                    <h2 class="accordion-header" id="flush-headingThree">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">Major Medical: Pre-existing Condition Waiting Period</button>
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Major Medical: Pre-existing Condition Waiting Period</button>
                     </h2>
-                    <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionhExample">
                         <div class="accordion-body">
-                            <p>Benefits will not be provided for any pre-existing condition until a member has completed a waiting period of at least 12 months. A pre-existing condition is defined in the contract as “An illness, injury, pregnancy or any other medical condition which existed at any time preceding the effective date of coverage under this contract for which: Medical advice or treatment was recommended by, or received from, a provider of health care services; or symptoms existed which would cause an ordinarily prudent person to seek diagnosis, care or treatment.” The pre-existing condition waiting period does not apply to members under the age of 19 enrolled as dependents on a family plan.</p>
+                            <p>Benefits will not be provided for any pre-existing condition until a member has completed a waiting period of at least 12 months. A pre-existing condition is defined in the contract as “An illness, injury, pregnancy or any other medical condition which existed at any time preceding the effective date of coverage under this contract for which: Medical advice or treatment was recommended by, or received from, a provider of health care services; or symptoms existed which would cause an ordinarily prudent person to seek diagnosis, care or treatment.”</p>
                         </div>
                     </div>
                 </div>
 
                 <div class="accordion-item">
-                    <h2 class="accordion-header" id="flush-headingFour">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">Major Medical: Maternity Benefits</button>
+                    <h2 class="accordion-header" id="headingFour">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">Major Medical: Maternity Benefits</button>
                     </h2>
-                    <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
                             <p>Maternity Benefits will be available after a member's coverage on a family contract has been in effect for nine consecutive months. Individual coverage has NO maternity benefits.</p>
                         </div>

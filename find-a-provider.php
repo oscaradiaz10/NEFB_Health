@@ -33,19 +33,18 @@
                     <tr>
                         <td>DentalVision</td>
                         <td>
-                            <p><a href="https://www.deltadental.com/DentistSearch/DentistSearchController.ccl?DView=SubscriberDentistSearch" target="_blank">Delta Dental</a></p>
+                            <p><a href="https://www.deltadental.com/us/en/member/find-a-dentist.html" target="_blank">Delta Dental</a></p>
                             <p><a href="https://www.vsp.com/" target="_blank">VSP</a></p>
                         </td>
                     </tr>
                     <tr>
                         <td>Pharmacy Network**	</td>
-                        <td><a href="https://www.optumrx.com/pdpclientpharmacy/pharmacylocatorclient.asp" target="_blank">OptumRx</a></td>
+                        <td><a href="https://welcome.optumrx.com/rxexternal/external-pharmacy-locator?type=PDPClientPharmacy" target="_blank">OptumRx</a></td>
                     </tr>
                 </tbody>
             </table>
             <p>*Advanced and Classic Choice Plans use <strong>UMR Managed Dental plans</strong>. To see a list of dental providers, visit <a href="https://fhs.umr.com/oss/cms/FHS.UMR.com/content/common/FindProvider/Dental/" target="_blank">this link</a> and click on "UMR Managed Dental."</p>
-            <p>**This link provides general pharmacy information and may not include all pharmacy network results. For a complete and accurate list after enrollment in your KFBHP coverage plan, please visit <a href="https://www2.optumrx.com/" target="_blank">www.optumrx.com</a> to create your member account.</p>
-            <p>Medicare Supplement Plans do not use a provider network.</p>
+            <p>**This link provides general pharmacy information and may not include all pharmacy network results. For a complete and accurate list after enrollment in your KFBHP coverage plan, please visit <a href="https://www2.optumrx.com/" target="_blank">Optum Rx</a> to create your member account.</p>
         </div>
         <div class="col-lg-4 col-sm-12 agent-cto">
             <h3>Find an Agent</h3>
@@ -57,17 +56,15 @@
     </div>
     <div class="row justify-content-center">
         <div class="bg-light p-4 rounded mt-5">
-            <p>Farm Bureau Health Plans Claims - Member toll-free number:</p> <!-- SAME NUMBER AS KANSAS-->
-            <a class="btn btn-primary" href="tel:833-282-5560" role="button">Call (833) 282-5560</a>
+            <h4>Farm Bureau Health Plans Claims</h4> <!-- SAME NUMBER AS KANSAS-->
+            <p>Member toll-free number: <a class="btn btn-primary" href="tel:833-282-5560" role="button">Call (833) 282-5560</a></p>
         </div>
 
         <div class="col-12">
             <h2>I'm a Provider</h2>
             <p>Nebraska Farm Bureau Health Plans uses UnitedHealthcare to administer claims for the majority of our plans. Medicare Supplement plans will be processed by Members Health Insurance Company.</p>
             <h3>Under 65 Coverage</h3>
-            <p>For more information, please visit <a href="http://www.uhc.com/provider" target="_blank">www.uhc.com/provider</a>. If you are a provider currently not in United's Choice Plus network you can <a href="https://www.uhcprovider.com/en/resource-library/Join-Our-Network.html" target="_blank">join here</a>.</p>
-            <h3>Medicare Supplement Plans</h3>
-            <p>Nebraska Farm Bureau Health Plans Provider toll-free number <a href="tel:833-282-5551">(833) 282-5551</a>.</p> <!-- SAME NUMBER AS KANSAS-->
+            <p>For more information, please visit <a href="https://www.uhc.com/?cid=vanity-provider" target="_blank">www.uhc.com/provider</a>. If you are a provider currently not in United's Choice Plus network you can <a href="https://www.uhcprovider.com/en/resource-library/Join-Our-Network.html" target="_blank">join here</a>.</p>
         </div>
     </div>
 </main>

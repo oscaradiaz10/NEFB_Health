@@ -16,10 +16,46 @@
 <main class="container">
     <div class="row gx-5">
         <div class="col-lg-8">
-            <h2>Online Portals</h2>
-            <p>Since 1917, Nebraska Farm Bureau has been trusted for its dedication to enhancing the quality of life throughout the state. Nebraska Farm Bureau Health Plans are an extension of that trust, service and membership value.</p>
+            <h1>Online Portals</h1>
+            <p>These online portals allow our existing members access to their claims information and more. See below for your portal access.</p>
+            <h2>Individual & Family Plan Members</h2>
+            <h4>UMR</h4>
             <button type="button" class="btn btn-primary">
-                <a href="individual-family-plans.php">Get Started</a>
+                <a href="https://www.umr.com/" target="_blank">UMR</a>
+            </button>
+            <button type="button" class="btn btn-primary">
+                <a href="https://www.umr.com/" target="_blank">Instructions - Create an Account</a>
+            </button>
+            <hr>
+            <h4>Teladoc</h4>
+            <button type="button" class="btn btn-primary">
+                <a href="https://www.teladochealth.com/" target="_blank">Teladoc</a>
+            </button>
+            <button type="button" class="btn btn-primary">
+                <a href="https://www.umr.com/" target="_blank">Instructions - Create an Account</a>
+            </button>
+            <hr>
+            <h4>Live Well</h4>
+            <button type="button" class="btn btn-primary">
+                <a href="https://care-enroll.vivifyhealth.com/" target="_blank">Live Well</a>
+            </button>
+            <hr>
+            <h4>The Maternity CARE Program</h4>
+            <button type="button" class="btn btn-primary">
+                <a href="https://care-enroll.vivifyhealth.com/" target="_blank">Live Well</a>
+            </button>
+            <hr>
+            <h4>TalkSpace</h4>
+            <button type="button" class="btn btn-primary">
+                <a href="https://www.talkspace.com/connect" target="_blank">TalkSpace</a>
+            </button>
+            <hr>
+            <h4>DentalVision</h4>
+            <button type="button" class="btn btn-primary">
+                <a href="https://www.deltadental.com/" target="_blank">Delta Dental</a>
+            </button>
+            <button type="button" class="btn btn-primary">
+                <a href="https://www.vsp.com/" target="_blank">VSP</a>
             </button>
         </div>
         <div class="col-lg-4 col-sm-12 agent-cto">

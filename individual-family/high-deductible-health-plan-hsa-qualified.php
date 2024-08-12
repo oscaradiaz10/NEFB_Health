@@ -17,12 +17,11 @@
     <div class="row gx-5">
         <div class="col-lg-8 col-12">
             <h1>High Deductible Health Plan (HSA-Qualified)</h1>
-            <img src="../media/HealthEquity.jpg" alt="HE Logo" width="250">
-            <p>Click <a href="https://learn.healthequity.com/fbindividual/hsa/" target="_blank">HERE</a> to get a better understanding of HSAs from Health Equity and how they can complement your KFBHP health plan.</p>
+            <!--<img src="../media/HealthEquity.jpg" alt="HE Logo" width="250">
+            <p>Click <a href="https://learn.healthequity.com/fbindividual/hsa/" target="_blank">HERE</a> to get a better understanding of HSAs from Health Equity and how they can complement your KFBHP health plan.</p>-->
             <h2>About the Plan</h2>
-            <p>Looking for Health Savings Account (HSA) qualified plan? Nebraska Farm Bureau Health Plans offers a range of High Deductible Health Plans (HDHP) which meet all federal requirements necessary to open a HSA.</p>
+            <p>Looking for Health Savings Account (HSA) qualified plan? Nebraska Farm Bureau Health Plans offers a range of High Deductible Health Plans (HDHP) which meet all federal requirements necessary to open an HSA.</p>
             <p>Nebraska Farm Bureau Health Plans uses <a href="https://www.umr.com/oss/cms/UMR/Choice_Plus_no-nav.html" target="_blank">UnitedHealthcare Choice Plus Network</a>. Please keep in mind that in-network payments are based on negotiated fees. If an out-of-network provider is used, the member's liability will increase significantly.</p>
-            <p>Not everyone is eligible for an HSA. For more information about HSA's contact Health Equity at <a href="tel:866-346-5800">866-346-5800</a>.</p>
             <h2>Resources</h2> 
             <button type="button" class="btn btn-primary">
                 <a href="https://www.umr.com/oss/cms/UMR/Choice_Plus_no-nav.html" target="_blank">Provider Network</a>
@@ -42,15 +41,15 @@
     <div class="row">
         <div class="col-12">
             <!-- ACORDION -->
-            <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion" id="accordionExample">
                 <div class="accordion-item">
-                    <h2 class="accordion-header" id="flush-headingOne">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">High Deductible Health Plan: Overview</button>
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">High Deductible Health Plan: Overview</button>
                     </h2>
-                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
                             <table class="table table-striped table-hover">
-                                <thead>
+                                <thead class="table-dark">
                                     <tr>
                                         <th style="width: 65%;"> </th>
                                         <th>In-Network</th>
@@ -103,14 +102,14 @@
                 </div>
 
                 <div class="accordion-item">
-                    <h2 class="accordion-header" id="flush-headingTwo">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">High Deductible Health Plan: Services</button>
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">High Deductible Health Plan: Services</button>
                     </h2>
-                    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
                             <!-- First Table -->
                             <table class="table table-striped table-hover">
-                                <thead>
+                                <thead class="table-dark">
                                     <tr>
                                         <th style="width: 40%;"> </th>
                                         <th>In-Network</th>
@@ -142,12 +141,12 @@
                                     <tr>
                                         <td>Well Child Services<sup>3</sup></td>
                                         <td>20%</td>
-                                        <td>No coverage</td>
+                                        <td>Not Covered</td>
                                     </tr>
                                     <tr>
                                         <td>Annual OB/GYN Exam<sup>4</sup></td>
                                         <td>20%</td>
-                                        <td>No coverage</td>
+                                        <td>Not Covered</td>
                                     </tr>
                                     <tr>
                                         <td>Routine Colonoscopy<sup>5</sup></td>
@@ -174,7 +173,7 @@
 
                             <!-- Second table -->
                             <table class="table table-striped table-hover">
-                                <thead>
+                                <thead class="table-dark">
                                     <tr>
                                         <th colspan="3">PRESCRIPTION DRUG COVERAGE</th>
                                     </tr>
@@ -236,21 +235,21 @@
                 </div>
 
                 <div class="accordion-item">
-                    <h2 class="accordion-header" id="flush-headingThree">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">High Deductible Health Plan: Pre-existing Condition Waiting Period</button>
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">High Deductible Health Plan: Pre-existing Condition Waiting Period</button>
                     </h2>
-                    <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                            <p>Benefits will not be provided for any pre-existing condition until a member has completed a waiting period of at least 12 months. A pre-existing condition is defined in the contract as “An illness, injury, pregnancy or any other medical condition which existed at any time preceding the effective date of coverage under this contract for which: Medical advice or treatment was recommended by, or received from, a provider of health care services; or symptoms existed which would cause an ordinarily prudent person to seek diagnosis, care or treatment.” The pre-existing condition waiting period does not apply to members under the age of 19 enrolled as dependents on a family plan.</p>
+                            <p>Benefits will not be provided for any pre-existing condition until a member has completed a waiting period of at least 12 months. A pre-existing condition is defined in the contract as “An illness, injury, pregnancy or any other medical condition which existed at any time preceding the effective date of coverage under this contract for which: Medical advice or treatment was recommended by, or received from, a provider of health care services; or symptoms existed which would cause an ordinarily prudent person to seek diagnosis, care or treatment.”</p>
                         </div>
                     </div>
                 </div>
 
                 <div class="accordion-item">
-                    <h2 class="accordion-header" id="flush-headingFour">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">High Deductible Health Plan: Maternity Benefits</button>
+                    <h2 class="accordion-header" id="headingFour">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">High Deductible Health Plan: Maternity Benefits</button>
                     </h2>
-                    <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
                             <p>Maternity Benefits will be available after a member's coverage on a 2-person, 3-person or family contract has been in effect for nine consecutive months. Individual coverage has NO maternity benefits.</p>
                         </div>

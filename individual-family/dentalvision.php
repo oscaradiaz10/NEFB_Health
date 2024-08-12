@@ -25,9 +25,9 @@
             
             <h2>Rates</h2>
             <ul>
-                <li>Individual $49.75/month</li>
-                <li>2 Person $87.50/month</li>
-                <li>Family (3 or more people) $146/month</li>
+                <li>Individual $54/month</li>
+                <li>2 Person $101/month</li>
+                <li>Family (3 or more people) $152/month</li>
             </ul>
 
             <h2>Resources</h2>
