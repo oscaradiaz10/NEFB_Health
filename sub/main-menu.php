@@ -26,56 +26,34 @@
                     <a class="sec-nav-link" href="../contact.php">Contact</a>
                 </li>
                 <li class="nav-item">
-                    <a class="sec-nav-link" href="#"><i class="bi bi-facebook"></i></a>
+                    <a class="sec-nav-link" href="https://www.facebook.com/NEFarmBureau"><i class="bi bi-facebook"></i></a>
                 </li>
             </ul>
           
             <!-- Second list of links and search form -->
             <ul class="navbar-nav d-flex ms-auto">
                 <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="/quote-apply.php">Quote/Apply</a>
+                    <a class="nav-link" aria-current="page" href="../quote-apply.php">Quote/Apply</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/individual-family-plans.php">Individual & Family</a>
+                    <a class="nav-link" href="../individual-family-plans.php">Individual & Family</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/why-us.php">Why Us?</a>
+                    <a class="nav-link" href="../why-us.php">Why Us?</a>
                 </li>
-                <li class="nav-item">
+                <!--<li class="nav-item">
                     <a class="nav-link" href="/education.php">Education</a>
-                </li>
+                </li>-->
                 <li class="nav-item">
-                    <a class="nav-link" href="/wellness.php">Wellness</a>
+                    <a class="nav-link" href="../wellness-programs.php">Wellness</a>
                 </li>
-                <!-- <li class="nav-item">
-                    Search form 
+                <!--<li class="nav-item">
                     <form class="d-flex ms-auto">
-                        <input type="text" class="form-control me-2" id="search" placeholder="Search..." aria-label="Search" style="width: 140px;">
-                        <button class="btn btn-outline-success" type="submit">Search</button>
-                        <div id="result" class="mt-3"></div>
+                        <input type="text" class="form-control me-2" id="search" placeholder="Search" aria-label="Search" style="width: 140px;">
+                        <button class="btn btn-success" type="submit">Search</button>
                     </form>
                 </li>-->
             </ul>
         </div>
     </div>
 </nav>
-
-<script>
-    $(document).ready(function(){
-        $('#search').on('input', function(){
-            var query = $(this).val();
-            if (query.length > 0) {
-                $.ajax({
-                    url: 'search.php',
-                    method: 'POST',
-                    data: { query: query },
-                    success: function(data) {
-                        $('#result').html(data);
-                    }
-                });
-            } else {
-                $('#result').html('');
-            }
-        });
-    });
-</script>
