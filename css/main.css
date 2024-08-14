@@ -5,31 +5,17 @@
     --color-4: rgb(175, 60, 7);
     --color-5: rgb(110, 4, 13);
     --color-6: rgb(230, 230, 230);
-    --color-7: rgba(85, 85, 85, .6);
+    --color-7: rgba(85, 85, 85, .7);
     --bs-nav-link-font-size: 21px;
     --navbar-active-color: rgba(35, 35, 35, .9);
     --bs-navbar-active-color: rgba(var(--navbar-active-color), 1);
 }
 
-/* -------- ANIMATIONS -------- */
-@keyframes pulse {
-    from {
-      transform: scale3d(1, 1, 1);
-    }
-  
-    50% {
-      transform: scale3d(1.05, 1.05, 1.05);
-    }
-  
-    to {
-      transform: scale3d(1, 1, 1);
-    }
-  }
-  
-  .pulse {
-    animation-name: pulse;
-    animation-timing-function: ease-in-out;
-  }
+/* -------- TEMP ---------- */
+#accordionFlushForms i {color: red;
+    font-size: 16px;
+    margin-top:5px
+}
 
 /* -------- BASIC -------- */
 body {background-image: url("../media/texture.webp")}
@@ -49,9 +35,25 @@ main {margin: 100px 0;}
     background-color: var(--color-2);
 }
 
-.hero {height: 60vh !important; 
-    background: linear-gradient(90deg, rgba(4, 53, 101, 1), rgba(228, 237, 238, 1) 100%);
-    mix-blend-mode: multiply;
+.hero {width: 100%;
+    height: 62vh;
+    background-image: url("../media/homepage.jpg");
+    opacity: 1;
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hero-overlay {width: 100%;
+    height: 62vh;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, .1), rgba(23, 23, 23, 1));
+    opacity: .6;
+    background-blend-mode: multiply;
+}
+
+.hero-text {margin-top: -50px;
+    background-color: var(--color-3);
+    z-index: 100 !important;
 }
 
 .headline {color: var(--color-1);}

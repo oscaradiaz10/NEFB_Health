@@ -10,6 +10,12 @@
 </head>
 
 <body>
+<!--  POPOVERS -->
+<script>
+var popover = new bootstrap.Popover(document.querySelector('.popover-dismiss'), {
+  trigger: 'focus'
+})
+</script>
 
 <?php include 'sub/main-menu.php'; ?>
 

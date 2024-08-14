@@ -13,14 +13,42 @@
 
 <?php include 'sub/main-menu.php'; ?>
 
-<!--  GALLERY -->
-<div class="jumbotron p-4 p-md-5 mb-4 text-white bg-dark">
-    <div class="col-md-6 px-4">
-        <h1 class="display-4 fst-italic">Health Coverage is Complicated</h1>
-        <p class="lead my-3">Let us help you.</p>
-        <button class="btn btn-primary">Learn More</button>
+<!-- Hero -->
+<section class="hero">
+    <div class="hero-overlay">
+    <h1>Health Coverage is Complicated</h1> 
+    </div>
+</section>
+
+<div class="container hero-text">
+    <div class="row gx-5">
+        <div class="col-lg-6">
+            <h1>Health Coverage is Complicated</h1>            
+        </div>
+        <div class="col-lg-6">
+            <p class="lead">Let us help you.</p>
+            <button class="btn btn-primary">
+                <a href="/individual-family-plans.php">Learn More</a>
+            </button>
+        </div>
     </div>
 </div>
+
+<!-- Hero -->
+<!-- <div class="p-5 text-center bg-image rounded-3" style="background-image: url('media/homepage.jpg'); height: 100vh;">
+    <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
+        <div class="d-flex justify-content-center align-items-center">
+            <div class=" ">
+                <h1>Health Coverage is Complicated</h1>
+                <p class="lead">Let us help you.</p>
+                <button class="btn btn-primary">
+                    <a href="/individual-family-plans.php">Learn More</a>
+                </button>
+            </div>
+        </div>
+    </div>
+</div> -->
+<!-- Hero -->
 
 <div class="jumbotron">
     <div class="container">
