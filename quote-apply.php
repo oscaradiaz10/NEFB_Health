@@ -26,7 +26,10 @@ var popover = new bootstrap.Popover(document.querySelector('.popover-dismiss'), 
             <p>What are you shopping for today? We have a plan you need at a cost you can afford.</p>
             <h2>Individual and Family Plans</h2>
             <p>Our plans have a broad range of coverage plans to suit just about everyone's particular health care needs for level of coverage, deductibles, co-pays, out-of-pocket payments, preventative health benefits and more.</p>
-            <button type="button" class="btn btn-primary">
+            <div class="alert alert-info" role="alert">
+            <strong>NOTICE:</strong> Online forms will be available October 1, 2024
+            </div>
+            <button type="button" class="btn btn-primary" disabled>
                 <a href="#" target="_blank">Get a Quote/Apply Now</a>
             </button>
             
@@ -34,7 +37,7 @@ var popover = new bootstrap.Popover(document.querySelector('.popover-dismiss'), 
 
             <h2>Dental Vision</h2>
             <p>Nebraska Farm Bureau Health Plans has bundled dental and vision coverage, exclusively for Farm Bureau members, in one affordable, convenient plan for individuals or families.</p>
-            <button type="button" class="btn btn-primary">
+            <button type="button" class="btn btn-primary" disabled>
                 <a href="#" target="_blank">Get a Quote/Apply Now</a>
             </button>
         </div>

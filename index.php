@@ -16,46 +16,26 @@
 <!-- Hero -->
 <section class="hero">
     <div class="hero-overlay">
-    <h1>Health Coverage is Complicated</h1> 
-    </div>
-</section>
-
-<div class="container hero-text">
-    <div class="row gx-5">
-        <div class="col-lg-6">
-            <h1>Health Coverage is Complicated</h1>            
-        </div>
-        <div class="col-lg-6">
-            <p class="lead">Let us help you.</p>
-            <button class="btn btn-primary">
-                <a href="/individual-family-plans.php">Learn More</a>
-            </button>
-        </div>
-    </div>
-</div>
-
-<!-- Hero -->
-<!-- <div class="p-5 text-center bg-image rounded-3" style="background-image: url('media/homepage.jpg'); height: 100vh;">
-    <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
-        <div class="d-flex justify-content-center align-items-center">
-            <div class=" ">
-                <h1>Health Coverage is Complicated</h1>
-                <p class="lead">Let us help you.</p>
-                <button class="btn btn-primary">
-                    <a href="/individual-family-plans.php">Learn More</a>
-                </button>
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-12">
+                    <h1>Health Coverage is Complicated</h1>
+                    <p class="lead">Let Us Help <span class="lead-word">You</span>!</p>
+                    <button class="btn btn-primary">
+                        <a href="/individual-family-plans.php">Learn More</a>
+                    </button>          
+                </div>
             </div>
         </div>
     </div>
-</div> -->
-<!-- Hero -->
+</section>
 
 <div class="jumbotron">
     <div class="container">
         <div class="row featurette align-items-center">
             <div class="col-md-5 order-md-2">
                 <p class="lead">Why Us?</p>
-                <h1 class="home-carousel animate__animated animate__backInRight"></h1>
+                <h1 class="home-carousel"></h1>
                 <h4>We Have the Experience</h4>
                 <p>Since 1917, Nebraska Farm Bureau has been trusted for its dedication to enhancing the quality of life throughout the state. Nebraska Farm Bureau Health Plans are an extension of that trust, service and membership value.</p>
                 <button type="button" class="btn btn-primary">
@@ -63,8 +43,7 @@
                 </button>
             </div>
             <div class="col-md-7 order-md-1">
-                <div style="background-color: #cacaca; height: 520px" class="align-self-center">
-                    <p class="lead">7-col x 350px</p>
+                <div style="background-image: url('media/bike_riders.jpg'); background-size: cover; background-repeat: no-repeat; height: 520px;" class="align-self-center">
                 </div>
             </div>
         </div>

@@ -4,10 +4,6 @@
 <!--  MAIN CSS  -->
 <link rel="stylesheet" href="../css/main.css">
 <link rel="stylesheet" href="../css/tables.css">
-<link rel="stylesheet" href="../css/overlay.css">
-
-<!--  CSS ANIMATE  -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 
 <!-- jQuery  -->
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
