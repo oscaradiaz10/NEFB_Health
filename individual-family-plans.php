@@ -25,6 +25,9 @@
             <h1>Traditional Plans</h1>
             <p>Our Traditional Plans are a great health coverage option for both individuals and families. Traditional Plans do not meet the minimum requirements for the Affordable Care Act and require medical underwriting that may affect eligibility and rates.</p>
             <p><strong>Nebraska Farm Bureau membership is required.</strong></p>
+            <button type="button" class="btn btn-primary">
+                <a href="https://ne.fbiris.com/join" target="_blank">Join Today!</a>
+            </button>
         </div>  
 
         <div class="col-lg-4 col-sm-12 side-column">

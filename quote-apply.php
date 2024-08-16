@@ -20,7 +20,7 @@ var popover = new bootstrap.Popover(document.querySelector('.popover-dismiss'), 
 <?php include 'sub/main-menu.php'; ?>
 
 <main class="container">
-    <div class="row gx-5">
+    <div class="row gx-5 h-auto">
         <div class="col-lg-8">
             <h1>Quote / Apply</h1>
             <p>What are you shopping for today? We have a plan you need at a cost you can afford.</p>
@@ -41,12 +41,8 @@ var popover = new bootstrap.Popover(document.querySelector('.popover-dismiss'), 
                 <a href="#" target="_blank">Get a Quote/Apply Now</a>
             </button>
         </div>
-        <div class="col-lg-4 col-sm-12 agent-cto">
-            <h3>Find an Agent</h3>
-            <p>Farm Bureau Financial Services agents are equipped and ready to provide you a variety of health care coverage options.</p>
-            <button type="button" class="btn btn-primary">
-                <a href="https://www.fbfs.com/find-an-agent" target="_blank">Find an Agent</a>
-            </button>
+        <div class="col-lg-4 col-sm-12">
+            <?php include 'sub/components/call-to-action-agent.php'; ?>
         </div>
     </div>
 </main>

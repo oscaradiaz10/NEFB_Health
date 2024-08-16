@@ -46,12 +46,8 @@
             <p>*Advanced and Classic Choice Plans use <strong>UMR Managed Dental plans</strong>. To see a list of dental providers, visit <a href="https://fhs.umr.com/oss/cms/FHS.UMR.com/content/common/FindProvider/Dental/" target="_blank">this link</a> and click on "UMR Managed Dental."</p>
             <p>**This link provides general pharmacy information and may not include all pharmacy network results. For a complete and accurate list after enrollment in your KFBHP coverage plan, please visit <a href="https://www2.optumrx.com/" target="_blank">Optum Rx</a> to create your member account.</p>
         </div>
-        <div class="col-lg-4 col-sm-12 agent-cto">
-            <h3>Find an Agent</h3>
-            <p>Farm Bureau Financial Services agents are equipped and ready to provide you a variety of health care coverage options.</p>
-            <button type="button" class="btn btn-primary">
-                <a href="https://www.fbfs.com/find-an-agent" target="_blank">Find an Agent</a>
-            </button>
+        <div class="col-lg-4 col-sm-12">
+            <?php include 'sub/components/call-to-action-agent.php'; ?>
         </div>
     </div>
     <div class="row justify-content-center">

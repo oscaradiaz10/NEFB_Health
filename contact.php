@@ -26,6 +26,8 @@
         <div class="col-lg-8">
             <h1>Contact Us</h1>
             <p>P.O. Box 1424<br>Columbia, TN 38402-1424</p>
+            <p>Toll Free: <a href="tel:866-544-2232">866-544-2232</a></p>
+            <p>Email: <a href="mailto:health@nefb.org">health@nefb.org</a></p>
         </div>
         <div class="col-lg-4 col-sm-12">
             <h3>Additional Information</h3>
@@ -80,7 +82,7 @@
                 <div class="col-lg-6 col-sm-12">
                     <div class="form-floating mb-3">
                         <fieldset class="row mb-3">
-                            <legend class="col-form-label col-sm-2 pt-0">Are you a:</legend>
+                            <label for="gridRadios" class="col-form-label col-sm-2 pt-0">Are you a:</label>
                             <div class="col-sm-10">
                                 <div class="form-check form-check-inline">
                                     <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="New Client">

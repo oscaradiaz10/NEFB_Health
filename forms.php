@@ -20,12 +20,8 @@
             <p>This page is a one-stop shop to all things related to forms associated with Farm Bureau Health Plans. You can download and print prescription claims forms, change of coverage forms and more.</p>
             
         </div>
-        <div class="col-lg-4 col-sm-12 agent-cto">
-            <h3>Find an Agent</h3>
-            <p>Farm Bureau Financial Services agents are equipped and ready to provide you a variety of health care coverage options.</p>
-            <button type="button" class="btn btn-primary">
-                <a href="https://www.fbfs.com/find-an-agent" target="_blank">Find an Agent</a>
-            </button>
+        <div class="col-lg-4 col-sm-12">
+            <?php include 'sub/components/call-to-action-agent.php'; ?>
         </div>
     </div>
 </main>
