@@ -68,7 +68,7 @@
             </ul>
         </div>  
 
-        <div class="col-lg-4 col-sm-12 side-column">
+        <div class="col-lg-4 col-sm-12">
             <?php include '../sub/side-column.php' ?>
         </div>
     </div>
