@@ -53,27 +53,21 @@
 // }
 
 
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
+if (isset($_REQUEST['firstName'],$_REQUEST['emailAddress'])) {
 
     // Sanitize and validate input
-    $firstName = filter_input(INPUT_POST, 'firstName', FILTER_SANITIZE_STRING);
-    $lastName = filter_input(INPUT_POST, 'lastName', FILTER_SANITIZE_STRING);
-    $phoneNumber = filter_input(INPUT_POST, 'phoneNumber', FILTER_SANITIZE_STRING);
-    $emailAddress = filter_input(INPUT_POST, 'emailAddress', FILTER_VALIDATE_EMAIL);
-    $zipCode = filter_input(INPUT_POST, 'zipCode', FILTER_SANITIZE_STRING);
-    $gridRadios = filter_input(INPUT_POST, 'gridRadios', FILTER_SANITIZE_STRING);
-    $whatIsYourQuestion = filter_input(INPUT_POST, 'whatIsYourQuestion', FILTER_SANITIZE_STRING);
-
-    // Validate email
-    if (!$emailAddress) {
-        echo 'error';
-        exit;
-    }
+    $firstName =  $_REQUEST['firstName'];
+    $lastName =  $_REQUEST['lastName'];
+    $phoneNumber =  $_REQUEST['phoneNumber'];
+    $emailAddress =  $_REQUEST['emailAddress'];
+    $zipCode =  $_REQUEST['zipCode'];
+    $gridRadios =  $_REQUEST['gridRadios'];
+    $whatIsYourQuestion =  $_REQUEST['whatIsYourQuestion'];
 
     // Email details
     $to = "oscard@nefb.org"; // Replace with your email address
     $subject = "NEFBH Website - New Message form " . $firstName . " " . $lastName;
-    $headers = "From: " . $emailAddress . "\r\n";
+    $headers = "From: ".$firstName." <".$emailAddress."> \r\n";
     $headers .= "MIME-Version: 1.0" . "\r\n";
     $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
 

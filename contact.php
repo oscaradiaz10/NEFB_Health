@@ -15,6 +15,31 @@
     }
 </script>
 
+<script>
+$(document).ready(function() {
+    $('#contact-form').on('submit', function() {
+        $('.output_message').text('Sending...'); 
+
+        var formData = $(this); // Create a FormData object
+        $.ajax({
+            url: form.attr('sub/mail.php'), // Form action URL
+            method: form.attr('method'),
+            data: form.serialize(),
+            success: function(response) {
+                if (response == 'success') {
+                    $('.output_message').html('<div class="alert alert-success" role="alert">Thank you for your message. We will get back to you soon!</div>');
+                } else {
+                    $('.output_message').html('<div class="alert alert-warning" role="alert">There was an error with your submission. Please try again.</div>');
+                }
+            },
+            error: function(xhr, status, error) {
+                $('.output_message').html('<div class="alert alert-danger" role="alert">There was an error processing your request. Please try again later.</div>');
+            }
+        });
+    });
+});
+</script>
+
 </head>
 
 <body>
@@ -104,7 +129,7 @@
                 </div>
             </div>
             <button type="submit" value="Send" name="send" class="btn btn-primary g-recaptcha" data-sitekey="6LfXMyYqAAAAAPFPvfnnzDR3Bor8nBHD55MXMWPX" data-callback="onSubmit">Submit</button>
-            <div class="output_message"></div>
+            <span class="output_message"></span>
         </form>
     </div>
 </div>
@@ -112,34 +137,6 @@
 <?php include 'sub/components/call-to-action-jumbotron.php'; ?>
 
 <?php include 'sub/footer.php'; ?>
-
-<script>
-$(document).ready(function() {
-    $("#contact-form").on("submit", function(e) {
-        e.preventDefault(); // Prevent the default form submission
-
-        var formData = new FormData(this); // Create a FormData object
-
-        $.ajax({
-            url: $(this).attr('sub/mail.php'), // Form action URL
-            type: 'POST',
-            data: formData,
-            contentType: false,
-            processData: false,
-            success: function(response) {
-                if (response == 'success') {
-                    $('.output_message').html('<div class="alert alert-success" role="alert">Thank you for your message. We will get back to you soon!</div>');
-                } else {
-                    $('.output_message').html('<div class="alert alert-warning" role="alert">There was an error with your submission. Please try again.</div>');
-                }
-            },
-            error: function(xhr, status, error) {
-                $('.output_message').html('<div class="alert alert-danger" role="alert">There was an error processing your request. Please try again later.</div>');
-            }
-        });
-    });
-});
-</script>
 
 </body>
 </html>

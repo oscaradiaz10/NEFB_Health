@@ -14,7 +14,7 @@
 <?php include '../sub/main-menu.php'; ?>
 
 <main class="container">
-    <div class="row gx-5">
+    <div class="row">
         <div class="col-lg-8 col-12">
             <h1>High Deductible Health Plan (HSA-Qualified)</h1>
             <!--<img src="../media/HealthEquity.jpg" alt="HE Logo" width="250">

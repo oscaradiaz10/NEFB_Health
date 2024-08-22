@@ -14,7 +14,7 @@
 <?php include '../sub/main-menu.php'; ?>
 
 <main class="container">
-    <div class="row gx-5">
+    <div class="row">
         <div class="col-lg-8 col-12">
             <h1>Classic Choice</h1>
             <h2>About the Plan</h2>

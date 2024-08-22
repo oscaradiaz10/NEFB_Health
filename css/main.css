@@ -17,36 +17,6 @@
     margin-top:5px
 }
 
-#scrollspy-collapsible {padding: 30px 0;}
-
-.scrollspy-example {
-    position: relative;
-    overflow: auto;
-    background-color: rgba(255, 255, 255, .7);
-    padding: 0 30px;
-    border-radius: 15px;
-  }
-
-.scrollspy-menu a {margin-bottom: 15px !important;
-    text-decoration: none;
-    color: var(--color-4);
-    font-weight: 500;
-    font-size: 19px;
-}
-
-.scrollspy-menu li {margin-bottom: 18px;
-    padding-left: 28px;
-    display: block;
-}
-
-.scrollspy-menu li::before {content: url("../media/arrow-right-short.svg");
-    position: absolute;
-    margin-top: 2px;
-    margin-left: -30px !important;
-}
-
-.scrollspy-menu li:focus {border-bottom: red solid 2px !important;}
-
 /* -------- BASIC -------- */
 body {background-image: url("../media/texture.webp");
 }
@@ -127,7 +97,7 @@ h1, h2, h3, h4, h5 {font-family: 'Roboto Slab', serif;
     border: none !important;
     font-family: "Roboto", sans-serif;
     font-size: 19px !important;
-    font-weight: 700 !important;
+    font-weight: 600 !important;
     font-style: normal;
     letter-spacing: .5px;
     border-radius: 25px !important;
@@ -227,6 +197,7 @@ h1, h2, h3, h4, h5 {font-family: 'Roboto Slab', serif;
     border-radius: 18px;
     background-color: var(--color-3);
     padding: 0 25px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.12), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .side-column-list li {margin-bottom: 12px;
@@ -268,6 +239,8 @@ h1, h2, h3, h4, h5 {font-family: 'Roboto Slab', serif;
 }
 
 /* -------- FOOTER -------- */
+.footer {padding-top: 40px;}
+
 .footer-nav {padding: 20px 0;}
 
 .footer-nav a {text-decoration: none;
@@ -277,6 +250,37 @@ h1, h2, h3, h4, h5 {font-family: 'Roboto Slab', serif;
 }
 
 .footer-nav a:hover {color: var(--color-5);}
+
+/* -------- PRIVACY POLICY PAGE ---------- */
+#scrollspy-collapsible {padding: 30px 0;}
+
+.scrollspy-example {
+    position: relative;
+    overflow: auto;
+    background-color: rgba(255, 255, 255, .7);
+    padding: 0 30px;
+    border-radius: 15px;
+  }
+
+.scrollspy-menu a {margin-bottom: 15px !important;
+    text-decoration: none;
+    color: var(--color-4);
+    font-weight: 500;
+    font-size: 19px;
+}
+
+.scrollspy-menu li {margin-bottom: 18px;
+    padding-left: 28px;
+    display: block;
+}
+
+.scrollspy-menu li::before {content: url("../media/arrow-right-short.svg");
+    position: absolute;
+    margin-top: 2px;
+    margin-left: -30px !important;
+}
+
+.scrollspy-menu li:focus {border-bottom: red solid 2px !important;}
 
 /* -------- RESPONSIVE -------- */
 @media (max-width: 992px) { /* Bootstrap's breakpoint for large screens is 992px */
@@ -324,8 +328,11 @@ h1, h2, h3, h4, h5 {font-family: 'Roboto Slab', serif;
 }
 
 @media (max-width: 576px) {
+    main {margin: 20px 0;}
 
-    .btn-primary {font-size: 16px !important;}
+    .btn-primary {font-size: 16px !important;
+        padding: 7px 14px !important;
+    }
 
     .hero, .hero-overlay {height: 32vh !important;
         margin-bottom: 50px;
@@ -340,4 +347,9 @@ h1, h2, h3, h4, h5 {font-family: 'Roboto Slab', serif;
     }
 
     .side-column {padding: 0 20px;}
+
+    .img-cto {height: 320px !important;
+        width: 100vw;
+    }
+    
 }

@@ -16,8 +16,8 @@
 ?>
 
 <main class="container">
-    <div class="row gx-5">
-        <div class="col-lg-8 col-12">
+    <div class="row">
+        <div class="col-lg-8 col-sm-12">
             <h1>Individual & Family Plans</h1>
             <p>Are you under 65 years of age and want an alternative to the Insurance Marketplace for your health coverage needs? Nebraska Farm Bureau Health Plans has a broad range of coverage plans to suit just about everyone's particular health care needs for level of coverage, deductibles, co-pays, out-of-pocket payments, preventative health benefits and more.</p>
             <p>Whether you are the head of a family interested in well-child benefits, a graduating student looking for health care coverage for the first time, self-employed or a small business owner, or a working couple planning to retire in a few years - our health plans offer a wealth of choices that will help you get the coverage that's just right for you. From individual medical plans to supplement plans, we have you covered.</p>
