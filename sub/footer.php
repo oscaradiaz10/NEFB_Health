@@ -6,12 +6,11 @@
             </a>
             <br/>
             <ul class="nav justify-content-center footer-nav border-bottom pb-3 mb-3">
-                <li class="ms-3"><a href="../privacy-policy.php">Privacy Policy</a></li>
-                <li class="ms-3"><a href="../terms-conditions.php">Terms of Use</a></li>
-                <li class="ms-3"><a href="https://ne.fbiris.com/join" target="_blank">Farm Bureau Membership</a></li>
-                <li class="ms-3"><a href="../find-a-provider.php">Find a Provider</a></li>
-                <li class="ms-3"><a href="../faq.php">FAQ</a></li>
-                <li class="ms-3"><a href="https://www.facebook.com/NEFarmBureau" target="_blank"><i class="bi bi-facebook"></i></a></li>
+                <li class="ms-0"><a href="../privacy-policy.php">Privacy Policy</a></li>
+                <li class="ms-0"><a href="../terms-conditions.php">Terms of Use</a></li>
+                <li class="ms-0"><a href="https://ne.fbiris.com/join" target="_blank">Farm Bureau Membership</a></li>
+                <li class="ms-0"><a href="../faq.php">FAQ</a></li>
+                <li class="ms-0"><a href="https://www.facebook.com/NEFarmBureau" target="_blank"><i class="bi bi-facebook" style="font-size: 1.25rem;"></i></a></li>
             </ul>
             <p class="text-muted" style="margin: 30px 0; font-size: 15px;">&copy; 2024 Nebraska Farm Bureau Health Plans. All Rights Reserved</p>
         </div>

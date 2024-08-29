@@ -45,9 +45,9 @@
             <h2>Farm Bureau Membership</h2>
             <p>Anyone with a Nebraska address can become a member of Nebraska Farm Bureau. When you become a member, you support Nebraska agriculture, as well as your local community. Our mission is simple: advocacy, education and service. Your membership dollars support this by allowing us to provide leadership opportunities, educational programs and community events around the state.</p>
             <p>In addition to supporting agriculture, your membership means you receive more than 40 benefits including access to Kansas Farm Bureau Heath Plans. <a href="https://www.nefb.org/benefits" target="_blank">Click here</a> see all of the benefits provided by your membership.</p>
-            <p><strong>Not a members? Join today!</strong></p>
+            <p><strong>Not a member? Join today!</strong></p>
             <button type="button" class="btn btn-primary">
-                <a href="https://www.nefb.org/join" target="_blank">Join Farm Bureau</a>
+                <a href="https://www.nefb.org/join" target="_blank">Join Farm Bureau!</a>
             </button>
         </div>
     </div>

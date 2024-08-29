@@ -16,28 +16,59 @@
 </script>
 
 <script>
-$(document).ready(function() {
-    $('#contact-form').on('submit', function() {
-        $('.output_message').text('Sending...'); 
+$(function () {
 
-        var formData = $(this); // Create a FormData object
+$('#contact-form').validator();
+
+$('#contact-form').on('submit', function (e) {
+    if (!e.isDefaultPrevented()) {
+        var url = "sub/mail.php";
+
         $.ajax({
-            url: form.attr('sub/mail.php'), // Form action URL
-            method: form.attr('method'),
-            data: form.serialize(),
-            success: function(response) {
-                if (response == 'success') {
-                    $('.output_message').html('<div class="alert alert-success" role="alert">Thank you for your message. We will get back to you soon!</div>');
-                } else {
-                    $('.output_message').html('<div class="alert alert-warning" role="alert">There was an error with your submission. Please try again.</div>');
+            type: "POST",
+            url: url,
+            data: $(this).serialize(),
+            success: function (data)
+            {
+                var messageAlert = 'alert-' + data.type;
+                var messageText = data.message;
+
+                var alertBox = '<div class="alert ' + messageAlert + ' alert-dismissable"><button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>' + messageText + '</div>';
+                if (messageAlert && messageText) {
+                    $('#contact-form').find('.messages').html(alertBox);
+                    $('#contact-form')[0].reset();
+                    $('body, html').animate({scrollTop:$('#contact-form').offset().top}, 'fast');
                 }
-            },
-            error: function(xhr, status, error) {
-                $('.output_message').html('<div class="alert alert-danger" role="alert">There was an error processing your request. Please try again later.</div>');
             }
         });
-    });
+        return false;
+    }
+})
 });
+
+
+// $(document).ready(function() {
+//     $('#contact-form').on('submit', function() {
+//         $('.output_message').text('Sending...'); 
+
+//         var formData = $(this); // Create a FormData object
+//         $.ajax({
+//             url: form.attr('sub/mail.php'), // Form action URL
+//             method: form.attr('method'),
+//             data: form.serialize(),
+//             success: function(response) {
+//                 if (response == 'success') {
+//                     $('.output_message').html('<div class="alert alert-success" role="alert">Thank you for your message. We will get back to you soon!</div>');
+//                 } else {
+//                     $('.output_message').html('<div class="alert alert-warning" role="alert">There was an error with your submission. Please try again.</div>');
+//                 }
+//             },
+//             error: function(xhr, status, error) {
+//                 $('.output_message').html('<div class="alert alert-danger" role="alert">There was an error processing your request. Please try again later.</div>');
+//             }
+//         });
+//     });
+// });
 </script>
 
 </head>
@@ -47,7 +78,7 @@ $(document).ready(function() {
 <?php include 'sub/main-menu.php'; ?>
 
 <main class="container">
-    <div class="row gx-5">
+    <div class="row">
         <div class="col-lg-8">
             <h1>Contact Us</h1>
             <p>P.O. Box 1424<br>Columbia, TN 38402-1424</p>
@@ -55,17 +86,19 @@ $(document).ready(function() {
             <p>Email: <a href="mailto:health@nefb.org">health@nefb.org</a></p>
         </div>
         <div class="col-lg-4 col-sm-12">
-            <h3>Additional Information</h3>
-            <ul class="side-column-list">
-                <li><a href="faq.php"><i class="bi bi-arrow-bar-right"></i> FAQ</a></li>
-                <li><a href="https://ne.fbiris.com/Order" target="_blank"><i class="bi bi-arrow-bar-right"></i> Farm Bureau Membership</a></li>
-            </ul>
-            <hr>
-            <h3>Find an Agent</h3>
-            <p>Farm Bureau Financial Services agents are equipped and ready to provide you a variety of health care coverage options.</p>
-            <button type="button" class="btn btn-primary">
-                <a href="https://www.fbfs.com/find-an-agent" target="_blank">Find an Agent</a>
-            </button>
+            <div class="side-column">
+                <h3>Additional Information</h3>
+                <ul class="side-column-list">
+                    <li><a href="faq.php"><i class="bi bi-arrow-bar-right"></i> FAQ</a></li>
+                    <li><a href="https://ne.fbiris.com/Order" target="_blank"><i class="bi bi-arrow-bar-right"></i> Farm Bureau Membership</a></li>
+                </ul>
+                <hr>
+                <h3>Find an Agent</h3>
+                <p>Farm Bureau Financial Services agents are equipped and ready to provide you a variety of health care coverage options.</p>
+                <button type="button" class="btn btn-primary">
+                    <a href="https://www.fbfs.com/find-an-agent" target="_blank">Find an Agent</a>
+                </button>
+            </div>
         </div>
     </div>
 </main>

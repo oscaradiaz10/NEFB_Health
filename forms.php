@@ -14,11 +14,17 @@
 <?php include 'sub/main-menu.php'; ?>
 
 <main class="container">
-    <div class="row gx-5">
+    <div class="row">
         <div class="col-lg-8">
             <h1>Forms and Resources</h1>
             <p>This page is a one-stop shop to all things related to forms associated with Farm Bureau Health Plans. You can download and print prescription claims forms, change of coverage forms and more.</p>
-            
+            <h3>FAQs</h3>
+            <p>We've compiled a list of frequently asked questions and answers about our services.</p>
+            <button type="button" class="btn btn-primary">
+                <a href="faq.php" target="_blank">Learn More</a>
+            </button>
+            <h3>Questions?</h3>
+            <p>We're here to help! Call us toll-free at <a href="tel:866-544-2232">866-544-2232</a> or contact your local Farm Bureau Financial Services agent.</p>
         </div>
         <div class="col-lg-4 col-sm-12">
             <?php include 'sub/components/call-to-action-agent.php'; ?>

@@ -20,7 +20,7 @@
             <!--<img src="../media/HealthEquity.jpg" alt="HE Logo" width="250">
             <p>Click <a href="https://learn.healthequity.com/fbindividual/hsa/" target="_blank">HERE</a> to get a better understanding of HSAs from Health Equity and how they can complement your KFBHP health plan.</p>-->
             <h2>About the Plan</h2>
-            <p>Looking for Health Savings Account (HSA) qualified plan? Nebraska Farm Bureau Health Plans offers a range of High Deductible Health Plans (HDHP) which meet all federal requirements necessary to open an HSA.</p>
+            <p>Looking for a Health Savings Account (HSA) qualified plan? Nebraska Farm Bureau Health Plans offers a range of High Deductible Health Plans (HDHP) which meet all federal requirements necessary to open an HSA.</p>
             <p>Nebraska Farm Bureau Health Plans uses <a href="https://www.umr.com/oss/cms/UMR/Choice_Plus_no-nav.html" target="_blank">UnitedHealthcare Choice Plus Network</a>. Please keep in mind that in-network payments are based on negotiated fees. If an out-of-network provider is used, the member's liability will increase significantly.</p>
             <h2>Resources</h2> 
             <button type="button" class="btn btn-primary">
@@ -51,7 +51,7 @@
                             <table class="table table-striped table-hover">
                                 <thead class="table-dark">
                                     <tr>
-                                        <th style="width: 65%;"> </th>
+                                        <th style="width: 67%;"> </th>
                                         <th>In-Network</th>
                                         <th>Out-of-Network</th>
                                     </tr>
@@ -60,7 +60,7 @@
                                     <tr>
                                         <td>
                                             <p><strong>CALENDAR YEAR DEDUCTIBLE<sup>1</sup> (CYD)</strong></p>
-                                            <p>Unless otherwise indicated, all benefits are subject to CYD. Family deductible can be satisfied by one or more covered members during a calendar year. In-Network and Out-of-Network deductibles are met separately.</p>
+                                            <p>Unless otherwise indicated, all benefits are subject to CYD. Family deductible can be satisfied by one or more covered individuals during a calendar year. In-Network and Out-of-Network deductibles are met separately.</p>
                                         </td>
                                         <td colspan="2">
                                             <p>$2,250 for individual</p>
@@ -72,7 +72,7 @@
                                     <tr>
                                         <td>
                                             <p><strong>OUT-OF-POCKET MAXIMUM<sup>2</sup> (OOP)</strong></p>
-                                            <p>Once the OOP maximum is met, benefits are provided at 100% for a member for the remainder of the calendar year. Family Out of Pocket Maximum can be satisfied by one or more covered members during a calendar year. This applies to in-network provider services only.</p>
+                                            <p>Once the OOP maximum is met, eligible benefits are provided at 100% for a member for the remainder of the calendar year. Family Out of Pocket Maximum can be satisfied by one or more covered members during a calendar year. This applies to in-network provider services only.</p>
                                         </td>
                                         <td>
                                             <p>$4,500 for $2,250 deductible</p>
@@ -95,8 +95,8 @@
                                 </tbody>
                             </table>
                             <p><strong>FOOTNOTES</strong></p>
-                            <p><sup>1</sup> Deductible - the dollar amount of covered services that must be incurred and paid first by a member each calendar year before plan benefits begin.</p>
-                            <p><sup>2</sup> Once the OOP maximum is met, benefits are provided at 100% for a member(s) for the remainder of the calendar year. This applies to in-network provider services only. There is no Out of Pocket Maximum when out of network providers are used.</p>
+                            <p><sup>1</sup> Deductible - the dollar amount of covered services that must be incurred and paid first by an individual each calendar year before plan benefits begin.</p>
+                            <p><sup>2</sup> Once the OOP maximum is met, benefits are provided at 100% for an individual(s) for the remainder of the calendar year. This applies to in-network provider services only. There is no Out of Pocket Maximum when out of network providers are used.</p>
                         </div>
                     </div>
                 </div>
@@ -200,7 +200,7 @@
                             </table>
                             <hr>
                             <p><strong>FOOTNOTES</strong></p>
-                            <p><sup>3</sup> Benefits are available, subject to deductible and coinsurance, for a member under the age of seven (on plan deductibles $3,000 and $5,000) for physical examinations and appropriate immunizations/vaccinations when services are rendered by an in-network provider. Exams not used during the time periods below do not carry over to the next time period.</p>
+                            <p><sup>3</sup> Benefits are available, subject to deductible and coinsurance, for a member under the age of seven (on plan deductibles $4,500 and $7,500) for physical examinations and appropriate immunizations/vaccinations when services are rendered by an in-network provider. Exams not used during the time periods below do not carry over to the next time period.</p>
 
                             <!-- Third table -->
                             <table class="table table-striped table-hover">
@@ -224,7 +224,7 @@
                                     </tr>                                   
                                 </tbody> 
                             </table>
-                            <p><sup>4</sup> Benefits will be provided for one routine colonoscopy every four years for members age 50 and over when provided by an in-network or out-of-network provider, subject to the deductible and coinsurance.</p>
+                            <p><sup>4</sup> Benefits will be provided for one routine colonoscopy every ten years for members age 45 and older when provided by an in-network or out-of-network provider, subject to the deductible and coinsurance.</p>
                             <p><sup>5</sup> Benefits will be provided, subject to deductible and coinsurance, for one routine PSA per calendar year when services are rendered by an independent laboratory or other outpatient setting.</p>
                             <p><sup>6</sup> Benefits will be available for one routine OB/GYN exam per calendar year, subject to deductible and coinsurance. Services must be rendered by an in-network physician's office and billed by the in-network provider. Related pathology, including pap smear, which is provided as a part of the routine OB/GYN exam, will be covered when the services are rendered by an in-network physician's office and billed by the in-network provider. Related pathology that the physician sends to an independent laboratory will be subject to deductible and coinsurance. No benefit is available for routine OB/GYN exams provided by an out-of-network provider.</p>
                             <p><sup>7</sup> Benefits will be provided for the interpretation of one routine pap smear per calendar year when services are rendered by an independent laboratory or other outpatient setting, subject to deductible and coinsurance.</p>

@@ -147,7 +147,7 @@
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    <!--<tr>
+                                    <tr>
                                         <td><p><strong>NO WAITING PERIOD.<br>In-network benefits not subject to CYD</strong></p></td>
                                         <td>Plan pays 100%</td>
                                         <td>Plan pays 60%</td>
@@ -156,7 +156,7 @@
                                         <td>Preventative Health Exam<sup>1</sup></td>
                                         <td>0%</td>
                                         <td>40%</td>
-                                    </tr>-->
+                                    </tr>
                                     <tr>
                                         <td>Annual Well Woman Exam<sup>2</sup></td>
                                         <td>0%</td>
@@ -226,7 +226,7 @@
                             </ul>
                             <p><em>Age 19 and Over</em></p>
                             <ul>
-                                <li>$40 copay for preventative and restorative services</li>
+                                <li>$45 copay for preventative and restorative services</li>
                                 <li>Maximum benefit per calendar year is $500</li>
                             </ul>
                             <hr/>
@@ -261,7 +261,7 @@
                                     </ul>
                                 </li>
                             </ul>
-                            <p><sup>3</sup> Colorectal cancer screening for members age 50 and older</p>
+                            <p><sup>3</sup> One routine colonoscopy every ten years for members age 45 and older</p>
                             <p><sup>4</sup> Prostate cancer screening for men age 50 and older</p>
                             <p><sup>5</sup> Prescription copayment does not apply toward deductibles or out-of-pocket maximums</p>
                         </div>

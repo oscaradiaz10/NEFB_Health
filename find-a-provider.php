@@ -14,7 +14,7 @@
 <?php include 'sub/main-menu.php'; ?>
 
 <main class="container">
-    <div class="row gx-5">
+    <div class="row">
         <div class="col-lg-8">
             <h1>Find a Provider</h1>
             <p>Please use the following chart as a reference for your network of providers:</p>
@@ -39,7 +39,7 @@
                     </tr>
                     <tr>
                         <td>Pharmacy Network**	</td>
-                        <td><a href="https://welcome.optumrx.com/rxexternal/external-pharmacy-locator?type=PDPClientPharmacy" target="_blank">OptumRx</a></td>
+                        <td><a href="https://welcome.optumrx.com/rxexternal/external-pharmacy-locator?type=PDPClientPharmacy" target="_blank">Optum Rx</a></td>
                     </tr>
                 </tbody>
             </table>
@@ -52,8 +52,8 @@
     </div>
     <div class="row justify-content-center">
         <div class="bg-light p-4 rounded mt-5">
-            <h4>Farm Bureau Health Plans Claims</h4> <!-- SAME NUMBER AS KANSAS-->
-            <p>Member toll-free number: <a class="btn btn-primary" href="tel:833-282-5560" role="button">Call (833) 282-5560</a></p>
+            <h4>Farm Bureau Health Plans Claims</h4>
+            <p>Member toll-free number: <a class="btn btn-primary" href="tel:866-544-2232" role="button">Call (866) 544-2232</a></p>
         </div>
 
         <div class="col-12">

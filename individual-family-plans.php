@@ -68,7 +68,7 @@
         </div>
         <div class="col-lg-6 col-sm-12">
             <div class="p-3 plans">
-                <h4 class="h-link"d>Dental and Vision Plans</h4>
+                <h4 class="h-link">Dental and Vision Plans</h4>
                 <p>Nebraska Farm Bureau Health Plans has bundled dental and vision coverage, exclusively for Farm Bureau members, in one affordable, convenient plan for individuals or families.</p>
                 <p><a href="individual-family/dentalvision.php">Learn More <i class="bi bi-arrow-right"></i></a></p>
             </div>

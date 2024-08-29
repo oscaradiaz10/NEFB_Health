@@ -58,12 +58,15 @@ initMDB({ Scrollspy });
                 <section id="example-1">
                     <h3>Notice of Privacy Practices</h3>
                     <p>THIS NOTICE DESCRIBES HOW MEDICAL INFORMATION ABOUT YOU MAY BE USED AND DISCLOSED AND HOW YOU CAN GET ACCESS TO THIS INFORMATION. PLEASE REVIEW IT CAREFULLY AND KEEP ON FILE FOR REFERENCE.</p>
+                    <button type="button" class="btn btn-primary">
+                        <a href="#" target="_blank">Notice of Privacy Practices</a>
+                    </button>
                 </section>
                 <section id="example-2">
                     <h3>Website</h3>
                     <p>By using or accessing the Nebraska Farm Bureau website, you are accepting the practices described in this privacy policy. Your use of the website indicates you have read and accepted our privacy policy. Nebraska Farm Bureau reserves the right to update this policy by uploading the new policy directly to the website.</p>
-                    <p>This website is not directed to children and therefore does not attempt to collect any personal information from those under the age of 13.</p>
                     <p>Our company is located and our website is hosted in the United States of America and therefore subject to U.S. state and federal law. Our website is intended to serve those in the United States of America. Any questions about our policy or use of your data may be submitted to Nebraska Farm Bureau.</p>
+                    <p>This website is not directed to children and therefore does not attempt to collect any personal information from those under the age of 13.</p>
                 </section>
                 <section id="example-3">
                     <h3>Collection and use of personal information</h3>

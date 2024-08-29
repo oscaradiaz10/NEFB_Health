@@ -19,7 +19,7 @@
             <h1>DentalVision</h1>
             <h2>About the Plan</h2>
             <p>Nebraska Farm Bureau Health Plans has bundled dental and vision coverage, exclusively for Farm Bureau members, in one affordable, convenient plan.</p>
-            <p>Our DentalVision plan uses the <a href="http://www.deltadental.com/us/en/find-a-dentist.html" target="_blank">Delta Dental PPO Plus PremierTM network of dentists</a> giving you the ability to maximize your benefits and lower your costs.</p>
+            <p>Our DentalVision plan uses the <a href="http://www.deltadental.com/us/en/find-a-dentist.html" target="_blank">Delta Dental PPO Plus Premier<sup>TM</sup> network of dentists</a>, giving you the ability to maximize your benefits and lower your costs.</p>
             <p>By using the <a href="http://www.vsp.com/find-eye-doctors.html?id=guest&WT.ac=fad-guest" target="_blank">VSP Choice network</a>, members will have care from great eye doctors, quality eyewear at low out-of-pocket costs.</p>
             <p>Our DentalVision plan provides the dental and vision coverage you need at a low, bundled-plan rate.</p>
             
@@ -50,7 +50,7 @@
                 <li>Annual maximum benefit by month:
                     <ul>
                         <li>0-12 - $500</li>
-                        <li>3-24 - $1,000</li>
+                        <li>13-24 - $1,000</li>
                         <li>25+ - $1,500</li>
                     </ul>
                 </li>

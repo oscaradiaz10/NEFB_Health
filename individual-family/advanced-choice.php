@@ -61,15 +61,15 @@
                                             <p>Unless otherwise indicated, all benefits are subject to CYD.</p>
                                         </td>
                                         <td colspan="2">
-                                            <p>Option 1: $1,500</p>
+                                            <p>Option 1: $1,500 per member</p>
 
-                                            <p>Option 2: $3,000</p>
+                                            <p>Option 2: $3,000 per member</p>
                                         </td>
                                     </tr>
                                     <tr>
                                         <td>
                                             <p>OUT-OF-POCKET MAXIMUM (OOP)</p>
-                                            <p>Once the OOP maximum is met, benefits are provided at 100% for a member for the remainder of the calendar year. This applies to in-network provider services only. Copayments do not apply to OOP and must still be paid after OOP is met.</p>
+                                            <p>Once the OOP maximum is met, eligible benefits are provided at 100% for a member for the remainder of the calendar year. This applies to in-network provider services only. Copayments do not apply to OOP and must still be paid after OOP is met.</p>
                                         </td>
                                         <td>
                                             <p>Option 1<br>$5,000 for individual coverage;<br>$10,000 for family coverage</p>
@@ -115,9 +115,9 @@
                                             <p>Not subject to CYD or OOP</p>
                                         </td>
                                         <td>
-                                            <p>Option 1: $30 copayment* per visit</p>
+                                            <p>Option 1:<br>$30 copayment* per visit</p>
 
-                                            <p>Option 2: $40 copayment* per visit</p>
+                                            <p>Option 2:<br>$40 copayment* per visit</p>
                                         </td>
                                         <td>CYD/Coinsurance</td>
                                     </tr>
@@ -234,7 +234,7 @@
                             <ul>
                                 <li>No waiting period.</li>
                                 <li>Eye exams are covered at 100% once every calendar year, no dollar limit.</li>
-                                <li>yeglass frames, eyeglass lenses or contact lenses are covered once every Calendar Year at 100% up to a maximum of $100 per Member, not subject to Deductible and Coinsurance.</li>
+                                <li>Eyeglass frames, eyeglass lenses or contact lenses are covered once every Calendar Year at 100% up to a maximum of $100 per Member, not subject to Deductible and Coinsurance.</li>
                             </ul>
                             <p><em>Age 19 and Over</em></p>
                             <p>Routine vision benefits including eye exams, eyeglasses and contact lenses.</p>
@@ -263,7 +263,7 @@
                                     </ul>
                                 </li>
                             </ul>
-                            <p><sup>3</sup> Colorectal cancer screening for members age 50 and older</p>
+                            <p><sup>3</sup> One routine colonoscopy every ten years for members age 45 and older</p>
                             <p><sup>4</sup> Prostate cancer screening for men age 50 and older</p>
                             <p><sup>5</sup> Prescription copayment does not apply toward deductibles or out-of-pocket maximums</p>
                         </div>

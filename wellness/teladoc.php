@@ -14,10 +14,10 @@
 <?php include '../sub/main-menu.php'; ?>
 
 <main class="container">
-    <div class="row gx-5">
+    <div class="row">
         <div class="col-lg-8 col-12">
-            <h1>Teladoc</h1>
-            <img src="../media/Teladoc-Health.svg" class="float-end" alt="Teladoc Logo" width="250">
+            <!-- <h1>Teladoc</h1> -->
+            <img src="../media/Teladoc-Health.svg" alt="Teladoc Logo" width="260" style="margin-bottom: 3%;">
             <p>Teladoc is simply a new way to access qualified doctors. All Teladoc doctors:</p>
             <ul>
                 <li>Are practicing PCPs, pediatricians, and family medicine physicians</li>
@@ -26,7 +26,7 @@
                 <li>Are credentialed every three years, meeting NCQA standards</li>
             </ul>
             <button type="button" class="btn btn-primary">
-                <a href="https://www.teladochealth.com/" target="_blank">Learn More</a>
+                <a href="https://www.teladochealth.com/" target="_blank">Access a Doctor</a>
             </button>
             <h3>Get the Care You Need</h3>
             <p>Teladoc doctors can treat many medical conditions, including:</p>
@@ -52,8 +52,8 @@
                 <a href="https://www.teladochealth.com/" target="_blank">Register Here</a>
             </button>
         </div>  
-        <div class="col-lg-4 col-sm-12 side-column">
-            <?php include '../sub/side-column.php' ?>
+        <div class="col-lg-4 col-sm-12">
+            <?php include '../sub/wellness-side-column.php'; ?>
         </div>
     </div>
 </main>

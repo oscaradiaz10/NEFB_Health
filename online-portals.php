@@ -14,8 +14,8 @@
 <?php include 'sub/main-menu.php'; ?>
 
 <main class="container">
-    <div class="row gx-5">
-        <div class="col-lg-8">
+    <div class="row">
+        <div class="col-lg-8 col-sm-12">
             <h1>Online Portals</h1>
             <p>These online portals allow our existing members access to their claims information and more. See below for your portal access.</p>
             <h2>Individual & Family Plan Members</h2>
@@ -33,16 +33,6 @@
             </button>
             <button type="button" class="btn btn-primary">
                 <a href="#" target="_blank">Instructions - Create an Account</a>
-            </button>
-            <hr>
-            <h4>Live Well</h4>
-            <button type="button" class="btn btn-primary">
-                <a href="https://care-enroll.vivifyhealth.com/" target="_blank">Live Well</a>
-            </button>
-            <hr>
-            <h4>The Maternity CARE Program</h4>
-            <button type="button" class="btn btn-primary">
-                <a href="https://care-enroll.vivifyhealth.com/" target="_blank">Live Well</a>
             </button>
             <hr>
             <h4>TalkSpace</h4>

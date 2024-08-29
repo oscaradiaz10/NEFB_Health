@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-xl navbar-light bg-light">
+<nav class="navbar navbar-light bg-light navbar-expand-xl static-top">
     <div class="container">
         <a class="navbar-brand" href="../index.php">
             <img src="../media/Logos/NEFBHP_Horizontal_Color.svg" width="290" alt="Logo">
@@ -20,13 +20,16 @@
                     <a class="sec-nav-link" href="#">Pay Your Premium</a> <!--  Link will be provided  -->
                 </li>
                 <li class="nav-item">
-                    <a class="sec-nav-link" href="../online-portal.php">Online Portal</a>
+                    <a class="sec-nav-link" href="../online-portals.php">Online Portals</a>
                 </li>
                 <li class="nav-item">
                     <a class="sec-nav-link" href="../contact.php">Contact</a>
                 </li>
                 <li class="nav-item">
-                    <a class="sec-nav-link" href="https://www.facebook.com/NEFarmBureau"><i class="bi bi-facebook"></i></a>
+                    <a class="sec-nav-link" href="https://www.facebook.com/NEFarmBureau"><i class="bi bi-facebook" style="font-size: 1.25rem;"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="sec-nav-link" href="mailto:health@nefb.org"><i class="bi bi-envelope-fill" style="font-size: 1.25rem;"></i></i></a>
                 </li>
             </ul>
           

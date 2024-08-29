@@ -65,7 +65,7 @@
                                     <tr>
                                         <td>
                                             <p><strong>OUT-OF-POCKET MAXIMUM<sup>2</sup> (OOP)</strong></p>
-                                            <p>Once the OOP maximum is met, benefits are provided at 100% for a member for the remainder of the calendar year. This applies to in-network provider services only. There is no Out of Pocket Maximum when out of network providers are used.</p>
+                                            <p>Once the OOP maximum is met, eligible benefits are provided at 100% for a member for the remainder of the calendar year. This applies to in-network provider services only. There is no Out of Pocket Maximum when out of network providers are used.</p>
                                         </td>
                                         <td>
                                             <p>$15,000<br>individual</p>
@@ -86,8 +86,8 @@
                                 </tbody>
                             </table>
                             <p><strong>FOOTNOTES</strong></p>
-                            <p><sup>1</sup> Deductible - the dollar amount of covered services that must be incurred and paid first by a member each calendar year before plan benefits begin.</p>
-                            <p><sup>2</sup> Once the OOP maximum is met, benefits are provided at 100% for a member(s) for the remainder of the calendar year. This applies to in-network provider services only. There is no Out of Pocket Maximum when out of network providers are used.</p>
+                            <p><sup>1</sup> Deductible - the dollar amount of covered services that must be incurred and paid first by an individual each calendar year before plan benefits begin.</p>
+                            <p><sup>2</sup> Once the OOP maximum is met, benefits are provided at 100% for an individual(s) for the remainder of the calendar year. This applies to in-network provider services only. There is no Out of Pocket Maximum when out of network providers are used.</p>
                         </div>
                     </div>
                 </div>
@@ -128,7 +128,7 @@
                                         <td>Not covered</td>
                                     </tr>
                                     <tr>
-                                        <td colspan="3"><strong>PREVENTATIVE CARE BENEFITS</strong></td>
+                                        <td colspan="3"><strong>PREVENTATIVE CARE BENEFITS - Subject to CYD</strong></td>
                                     </tr>
                                     <tr>
                                         <td>Well Child Services<sup>3</sup></td>
@@ -198,7 +198,7 @@
                                 <thead class="table-dark">
                                     <tr>
                                         <th colspan="3" style="width: 65%;">
-                                            <p>PRESCRIPTION DRUG COVERAGE<br>Unlimited Calendar Year Maximum Per Member</p>
+                                            <p>PRESCRIPTION DRUG COVERAGE<br>Unlimited Calendar Year Maximum Per Individual</p>
                                         </th>
                                     </tr>
                                 </thead>
@@ -253,7 +253,7 @@
                                     </tr>                                   
                                 </tbody> 
                             </table>
-                            <p><sup>4</sup> Benefits will be provided for one routine colonoscopy every four years for members age 50 and over when provided by an in-network or out-of-network provider, subject to the deductible and coinsurance.</p>
+                            <p><sup>4</sup> Benefits will be provided for one routine colonoscopy every ten years for members age 45 and older when provided by an in-network or out-of-network provider, subject to the deductible and coinsurance.</p>
                             <p><sup>5</sup> Benefits will be provided, subject to deductible and coinsurance, for one routine PSA per calendar year when services are rendered by an independent laboratory or other outpatient setting.</p>
                             <p><sup>6</sup> Benefits will be available for one routine OB/GYN exam per calendar year, subject to deductible and coinsurance. Services must be rendered by an in-network physician's office and billed by the in-network provider. Related pathology, including pap smear, which is provided as a part of the routine OB/GYN exam, will be covered when the services are rendered by an in-network physician's office and billed by the in-network provider. Related pathology that the physician sends to an independent laboratory will be subject to deductible and coinsurance. No benefit is available for routine OB/GYN exams provided by an out-of-network provider.</p>
                             <p><sup>7</sup> Benefits will be provided for the interpretation of one routine pap smear per calendar year when services are rendered by an independent laboratory or other outpatient setting, subject to deductible and coinsurance.</p>
