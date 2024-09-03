@@ -19,11 +19,15 @@ var popover = new bootstrap.Popover(document.querySelector('.popover-dismiss'), 
 
 <?php include 'sub/main-menu.php'; ?>
 
+<div class="bg-image d-flex justify-content-center align-items-center single-hero" style="background-image: url('media/WebIMG1.jpg'); width:100%; background-size: cover;">
+    <h1 class="headline">Quote / Apply</h1>
+</div>
+
 <main class="container">
     <div class="row">
         <div class="col-lg-8 col-sm-12">
-            <h1>Quote / Apply</h1>
-            <p>What are you shopping for today? We have a plan you need at a cost you can afford.</p>
+            <h2>What are you shopping for today?</h2>
+            <p>We have a plan you need at a cost you can afford.</p>
             <h2>Individual and Family Plans</h2>
             <p>Our plans have a broad range of coverage plans to suit just about everyone's particular health care needs for level of coverage, deductibles, co-pays, out-of-pocket payments, preventative health benefits and more.</p>
             <div class="alert alert-info" role="alert">

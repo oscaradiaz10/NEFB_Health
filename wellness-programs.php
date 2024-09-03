@@ -13,10 +13,13 @@
 
 <?php include 'sub/main-menu.php'; ?>
 
+<div class="bg-image d-flex justify-content-center align-items-center single-hero" style="background-image: url('media/WebIMG3.jpg'); width:100%; background-size: cover;">
+    <h1 class="headline">Wellness</h1>
+</div>
+
 <main class="container">
     <div class="row">
         <div class="col-lg-8 col-md-12">
-            <h1>Wellness</h1>
             <h3>Because Your Health Matters</h3>
             <p>We provide a wide range of wellness programs and resources to members of Farm Bureau Health Plans. Sign up today to gain access to valuable health management tools, doctors on your schedule and much more.</p>
             <img src="../media/Teladoc-Health.svg" alt="Teladoc Logo" width="190" style="margin-top:5%; margin-bottom: 2%;">

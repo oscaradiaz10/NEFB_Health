@@ -24,7 +24,7 @@
                 <a href="https://www.umr.com/" target="_blank">UMR</a>
             </button>
             <button type="button" class="btn btn-primary">
-                <a href="#" target="_blank">Instructions - Create an Account</a>
+                <a href="media/UMR-instructions.pdf" target="_blank">Instructions - Create an Account</a>
             </button>
             <hr>
             <h4>Teladoc</h4>
@@ -32,7 +32,7 @@
                 <a href="https://www.teladochealth.com/" target="_blank">Teladoc</a>
             </button>
             <button type="button" class="btn btn-primary">
-                <a href="#" target="_blank">Instructions - Create an Account</a>
+                <a href="media/teladoc_instructions.pdf" target="_blank">Instructions - Create an Account</a>
             </button>
             <hr>
             <h4>TalkSpace</h4>

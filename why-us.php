@@ -13,7 +13,7 @@
 
 <?php include 'sub/main-menu.php'; ?>
 
-<div class="bg-image d-flex justify-content-center align-items-center hero" style="background-image: url('media/why-us.jpg'); width:100%; background-size: cover;">
+<div class="bg-image d-flex justify-content-center align-items-center single-hero" style="background-image: url('media/WebIMG2.jpg'); width:100%; background-size: cover;">
     <h1 class="headline">Why Us?</h1>
 </div>
 

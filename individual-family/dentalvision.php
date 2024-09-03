@@ -19,7 +19,7 @@
             <h1>DentalVision</h1>
             <h2>About the Plan</h2>
             <p>Nebraska Farm Bureau Health Plans has bundled dental and vision coverage, exclusively for Farm Bureau members, in one affordable, convenient plan.</p>
-            <p>Our DentalVision plan uses the <a href="http://www.deltadental.com/us/en/find-a-dentist.html" target="_blank">Delta Dental PPO Plus Premier<sup>TM</sup> network of dentists</a>, giving you the ability to maximize your benefits and lower your costs.</p>
+            <p>Our DentalVision plan uses the <a href="http://www.deltadental.com/us/en/find-a-dentist.html" target="_blank">Delta Dental PPO Plus Premier<sup>TM</sup></a> network of dentists, giving you the ability to maximize your benefits and lower your costs.</p>
             <p>By using the <a href="http://www.vsp.com/find-eye-doctors.html?id=guest&WT.ac=fad-guest" target="_blank">VSP Choice network</a>, members will have care from great eye doctors, quality eyewear at low out-of-pocket costs.</p>
             <p>Our DentalVision plan provides the dental and vision coverage you need at a low, bundled-plan rate.</p>
             
@@ -32,7 +32,7 @@
 
             <h2>Resources</h2>
             <button type="button" class="btn btn-primary">
-                <a href="#" target="_blank">Schedule of Benefits</a>
+                <a href="../media/NE_DentalVision.pdf" target="_blank">Schedule of Benefits</a>
             </button>
             <button type="button" class="btn btn-primary">
                 <a href="https://www.deltadental.com/us/en/find-a-dentist.html" target="_blank">Delta Dental Network</a>

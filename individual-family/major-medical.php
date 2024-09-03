@@ -25,7 +25,7 @@
                 <a href="https://www.umr.com/oss/cms/UMR/Choice_Plus_no-nav.html" target="_blank">Provider Network</a>
             </button>
             <button type="button" class="btn btn-primary">
-                <a href="#" target="_blank">Schedule of Benefits</a>
+                <a href="../media/NE_MajorMedical.pdf" target="_blank">Schedule of Benefits</a>
             </button>
         </div>  
 

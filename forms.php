@@ -85,10 +85,10 @@
                         <div class="container">
                             <div class="row gx-5">
                                 <div class="col-lg-6 col-sm-12">
-                                    <h4>Under 65 Health Coverage Claim Form <i class="bi bi-asterisk"></i></h4>
+                                    <h4>Under 65 Health Coverage Claim Form</h4>
                                     <p>Most providers will file health care claims for you. However, should you need to file a claim, please complete this form.</p>
                                     <button type="button" class="btn btn-primary">
-                                        <a href="#" target="_blank">Download</a>
+                                        <a href="media/NEFBHP-Member-Medical-Claim-Submission-Form.pdf" target="_blank">Download</a>
                                     </button>
                                 </div>
                                 <div class="col-lg-6 col-sm-12">
@@ -140,13 +140,6 @@
                                     </button>
                                 </div>
                                 <div class="col-lg-6 col-sm-12">
-                                    <h4>Bank Draft Authorization Form (Over 65) <i class="bi bi-asterisk"></i></h4>
-                                    <p>If you need to change your bank information for your monthly premium payment and you are over the age of 65, complete this form, attach a voided check and mail both to Farm Bureau Health Plans.</p>
-                                    <button type="button" class="btn btn-primary">
-                                        <a href="#" target="_blank">Download</a>
-                                    </button>
-                                </div>
-                                <div class="col-lg-6 col-sm-12">
                                     <h4>Other Insurance Form <i class="bi bi-asterisk"></i></h4>
                                     <p>You should always keep Farm Bureau Health Plans informed of other insurance that you and your dependents may have as Farm Bureau Health Plans coverage contains a coordination of benefits provision. Complete this form and mail it to Farm Bureau Health Plans when you obtain other insurance.</p>
                                     <button type="button" class="btn btn-primary">
@@ -172,20 +165,6 @@
                                     <p>This form allows an employer to let KFB Health Plans know an employee/client of KFB Health Plans no longer works for them and the client will take over the health plan payment.</p>
                                     <button type="button" class="btn btn-primary">
                                         <a href="media/forms/MH-NE-BL-FM24-200_NEFBHP-Authorization-Revoked.pdf" target="_blank">Download</a>
-                                    </button>
-                                </div>
-                                <div class="col-lg-6 col-sm-12">
-                                    <h4>Change Form for Members Over 65 <i class="bi bi-asterisk"></i></h4>
-                                    <p>This form allows you to make changes to your current coverage if you are over 65.</p>
-                                    <button type="button" class="btn btn-primary">
-                                        <a href="#" target="_blank">Download</a>
-                                    </button>
-                                </div>
-                                <div class="col-lg-6 col-sm-12">
-                                    <h4>Cancellation Form for Members Over 65 <i class="bi bi-asterisk"></i></h4>
-                                    <p>Please complete this form if cancelling your coverage with Farm Bureau Health Plans and you are over 65.</p>
-                                    <button type="button" class="btn btn-primary">
-                                        <a href="#" target="_blank">Download</a>
                                     </button>
                                 </div>
                                 <h2>Forms for Underwriting Reconsideration</h2>

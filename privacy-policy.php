@@ -59,7 +59,7 @@ initMDB({ Scrollspy });
                     <h3>Notice of Privacy Practices</h3>
                     <p>THIS NOTICE DESCRIBES HOW MEDICAL INFORMATION ABOUT YOU MAY BE USED AND DISCLOSED AND HOW YOU CAN GET ACCESS TO THIS INFORMATION. PLEASE REVIEW IT CAREFULLY AND KEEP ON FILE FOR REFERENCE.</p>
                     <button type="button" class="btn btn-primary">
-                        <a href="#" target="_blank">Notice of Privacy Practices</a>
+                        <a href="media/Notice-of-Privacy-Practices_txt.pdf" target="_blank">Notice of Privacy Practices</a>
                     </button>
                 </section>
                 <section id="example-2">
