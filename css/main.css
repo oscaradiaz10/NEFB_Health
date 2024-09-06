@@ -6,7 +6,7 @@
     --color-5: rgb(110, 4, 13);
     --color-6: rgb(230, 230, 230);
     --color-7: rgba(85, 85, 85, .85);
-    --bs-nav-link-font-size: 1.55rem;
+    --bs-nav-link-font-size: 1.65rem;
     --navbar-active-color: rgba(29, 29, 29, 0.9);
     --bs-navbar-active-color: rgba(var(--navbar-active-color), 1);
 }

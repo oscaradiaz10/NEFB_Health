@@ -24,7 +24,7 @@
                 <a href="https://www.umr.com/" target="_blank">UMR</a>
             </button>
             <button type="button" class="btn btn-primary">
-                <a href="media/UMR-instructions.pdf" target="_blank">Instructions - Create an Account</a>
+                <a href="media/UMR-i  nstructions.pdf" target="_blank">Instructions - Create an Account</a>
             </button>
             <hr>
             <h4>Teladoc</h4>

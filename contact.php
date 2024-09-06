@@ -15,62 +15,6 @@
     }
 </script>
 
-<script>
-$(function () {
-
-$('#contact-form').validator();
-
-$('#contact-form').on('submit', function (e) {
-    if (!e.isDefaultPrevented()) {
-        var url = "sub/mail.php";
-
-        $.ajax({
-            type: "POST",
-            url: url,
-            data: $(this).serialize(),
-            success: function (data)
-            {
-                var messageAlert = 'alert-' + data.type;
-                var messageText = data.message;
-
-                var alertBox = '<div class="alert ' + messageAlert + ' alert-dismissable"><button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>' + messageText + '</div>';
-                if (messageAlert && messageText) {
-                    $('#contact-form').find('.messages').html(alertBox);
-                    $('#contact-form')[0].reset();
-                    $('body, html').animate({scrollTop:$('#contact-form').offset().top}, 'fast');
-                }
-            }
-        });
-        return false;
-    }
-})
-});
-
-
-// $(document).ready(function() {
-//     $('#contact-form').on('submit', function() {
-//         $('.output_message').text('Sending...'); 
-
-//         var formData = $(this); // Create a FormData object
-//         $.ajax({
-//             url: form.attr('sub/mail.php'), // Form action URL
-//             method: form.attr('method'),
-//             data: form.serialize(),
-//             success: function(response) {
-//                 if (response == 'success') {
-//                     $('.output_message').html('<div class="alert alert-success" role="alert">Thank you for your message. We will get back to you soon!</div>');
-//                 } else {
-//                     $('.output_message').html('<div class="alert alert-warning" role="alert">There was an error with your submission. Please try again.</div>');
-//                 }
-//             },
-//             error: function(xhr, status, error) {
-//                 $('.output_message').html('<div class="alert alert-danger" role="alert">There was an error processing your request. Please try again later.</div>');
-//             }
-//         });
-//     });
-// });
-</script>
-
 </head>
 
 <body>
@@ -105,7 +49,7 @@ $('#contact-form').on('submit', function (e) {
 
 <div class="container">
     <div class="row">
-        <form id="contact-form" action="sub/mail.php" method="POST">
+        <form id="contact-form" action="sub/mail.php" method="POST" role="form" novalidate>
             <div class="row gy-5">
                 <div class="col-lg-5 col-sm-12">
                     <div class="form-floating mb-3">
@@ -161,7 +105,7 @@ $('#contact-form').on('submit', function (e) {
                     </div>
                 </div>
             </div>
-            <button type="submit" value="Send" name="send" class="btn btn-primary g-recaptcha" data-sitekey="6LfXMyYqAAAAAPFPvfnnzDR3Bor8nBHD55MXMWPX" data-callback="onSubmit">Submit</button>
+            <button type="submit" value="Send" name="send" class="btn btn-primary g-recaptcha" data-sitekey="6LfXMyYqAAAAAPFPvfnnzDR3Bor8nBHD55MXMWPX" ata-callback="onSubmit">Submit</button> <!--Add class for reCAPTCHA: g-recaptcha data-sitekey="6LfXMyYqAAAAAPFPvfnnzDR3Bor8nBHD55MXMWPX" -->
             <span class="output_message"></span>
         </form>
     </div>
@@ -170,6 +114,49 @@ $('#contact-form').on('submit', function (e) {
 <?php include 'sub/components/call-to-action-jumbotron.php'; ?>
 
 <?php include 'sub/footer.php'; ?>
+
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script>
+$(document).ready(function () {
+    $('#contact-form').on('submit', function (e) {
+        e.preventDefault(); // Prevent the default form submission
+
+        var form = $(this);
+
+        // Serialize form data
+        var formData = form.serialize();
+
+        // Get the reCAPTCHA response token
+        var recaptchaResponse = grecaptcha.getResponse();
+
+        if (recaptchaResponse.length === 0) {
+            $('.output_message').html('Please complete the reCAPTCHA.');
+            return;
+        }
+
+        // Add the reCAPTCHA response to the form data
+        formData += '&g-recaptcha-response=' + recaptchaResponse;
+
+        // Send form data via Ajax
+        $.ajax({
+            url: form.attr('action'), // Use the form's action attribute value
+            type: 'POST',
+            data: formData,
+            success: function (response) {
+                if (response.success) {
+                    $('.output_message').html('<span class="success">Your message has been sent!</span>');
+                    form[0].reset(); // Clear the form on success
+                } else {
+                    $('.output_message').html('<span class="error">Error: ' + response.message + '</span>');
+                }
+            },
+            error: function (jqXHR, textStatus, errorThrown) {
+                $('.output_message').html('<span class="error">An error occurred. Please try again later.</span>');
+            }
+        });
+    });
+});
+</script>
 
 </body>
 </html>
