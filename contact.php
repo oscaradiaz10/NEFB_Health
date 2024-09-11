@@ -7,14 +7,6 @@
 
     <?php include 'sub/links.php'; ?>
 
-<!-- Gcaptcha -->
-<script src="https://www.google.com/recaptcha/api.js" async defer></script>
-<script>
-    function onSubmit(token) {
-        document.getElementById("contact-form").submit();
-    }
-</script>
-
 </head>
 
 <body>
@@ -49,64 +41,76 @@
 
 <div class="container">
     <div class="row">
-        <form id="contact-form" action="sub/mail.php" method="POST" role="form" novalidate>
-            <div class="row gy-5">
-                <div class="col-lg-5 col-sm-12">
-                    <div class="form-floating mb-3">
-                        <input type="text" class="form-control" id="firstName" placeholder="First Name" required data-error="First name is required" name="firstName">
-                        <label for="firstName">First Name</label>
-                    </div>
+        <form class="row gy-5" id="contactForm" action="https://formsubmit.co/8372cfadbfb9604f54c7bfb407ba1c5d" method="POST" role="form">
+            <!-- Honeypot -->
+            <input type="text" name="_honey" style="display: none;">
+
+            <!-- Disable Captcha -->
+            <input type="hidden" name="_captcha" value="true">
+
+            <!-- Subject Line -->
+            <input type="hidden" name="_subject" value="New Message from NEFB Health Website!">
+
+            <!-- Auto response -->
+            <input type="hidden" name="_autoresponse" value="Thank you for sending your message. We will reply to your message as soon as we can.">
+
+            <div class="col-lg-5 col-sm-12">
+                <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="firstName" placeholder="First Name" required data-error="First name is required" name="First&nbsp;Name">
+                    <label for="firstName">First Name</label>
                 </div>
-                <div class="col-lg-5 col-sm-12">
-                    <div class="form-floating mb-3">
-                        <input type="text" class="form-control" id="lastName" placeholder="Last Name" required data-error="Last name is required" name="lastName">
-                        <label for="lastName">Last Name</label>
-                    </div>
+            </div>
+            <div class="col-lg-5 col-sm-12">
+                <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="lastName" placeholder="Last Name" required data-error="Last name is required" name="Last&nbsp;Name">
+                    <label for="lastName">Last Name</label>
                 </div>
-                <div class="col-lg-2 col-sm-12">
-                    <div class="form-floating mb-3">
-                        <input type="text" class="form-control" id="zipCode" placeholder="Zip Code" required data-error="Zip code is required" name="zipCode">
-                        <label for="zipCode">Zip Code</label>
-                    </div>
+            </div>
+            <div class="col-lg-2 col-sm-12">
+                <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="zipCode" placeholder="Zip Code" required data-error="Zip code is required" name="Zip&nbsp;Code">
+                    <label for="zipCode">Zip Code</label>
                 </div>
-                <div class="col-lg-6 col-sm-12">
-                    <div class="form-floating mb-3">
-                        <input type="text" class="form-control" id="phoneNumber" placeholder="Phone Number" required data-error="Phone number is required" name="phoneNumber">
-                        <label for="phoneNumber">Phone Number</label>
-                    </div>
+            </div>
+            <div class="col-lg-6 col-sm-12">
+                <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="phoneNumber" placeholder="Phone Number" required data-error="Phone number is required" name="Phone&nbsp;Number">
+                    <label for="phoneNumber">Phone Number</label>
                 </div>
-                <div class="col-lg-6 col-sm-12">
-                    <div class="form-floating mb-3">
-                        <input type="email" class="form-control" id="emailAddress" placeholder="Email Address" required data-error="Email address is required" name="emailAddress">
-                        <label for="emailAddress">Email Address</label>
-                    </div>
+            </div>
+            <div class="col-lg-6 col-sm-12">
+                <div class="form-floating mb-3">
+                    <input type="email" class="form-control" id="emailAddress" placeholder="Email Address" required data-error="Email address is required" name="Email&nbsp;Address">
+                    <label for="emailAddress">Email Address</label>
                 </div>
-                <div class="col-lg-6 col-sm-12">
-                    <div class="form-floating mb-3">
-                        <fieldset class="row mb-3">
-                            <label for="gridRadios" class="col-form-label col-sm-2 pt-0">Are you a:</label>
-                            <div class="col-sm-10">
-                                <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="New Client">
-                                    <label class="form-check-label" for="gridRadios1">New Client</label>
-                                </div>
-                                <div class="form-check form-check-inline">
-                                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="Existing Client">
-                                    <label class="form-check-label" for="gridRadios2">Existing Client</label>
-                                </div>
-                            </div>
-                        </fieldset>
+            </div>
+
+            <div class="col-lg-12">
+                <label for="client" class="form-label">Are you a new client?</label>
+                <div class="mb-4">
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" id="clientYes" value="Yes" name="Are you a new client?">
+                        <label class="form-check-label" for="clientYes" style="color: black;">Yes</label>
                     </div>
-                </div>
-                <div class="col-lg-12">
-                    <div class="form-floating">
-                        <textarea class="form-control" placeholder="Please answer the question" id="whatIsYourQuestion" name="whatIsYourQuestion" required style="height: 140px"></textarea>
-                        <label for="whatIsYourQuestion">How can we help you?</label>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" id="clientNo" value="No" name="Are you a new client?">
+                        <label class="form-check-label" for="clientNo" style="color: black;">No</label>
                     </div>
                 </div>
             </div>
-            <button type="submit" value="Send" name="send" class="btn btn-primary g-recaptcha" data-sitekey="6LfXMyYqAAAAAPFPvfnnzDR3Bor8nBHD55MXMWPX" ata-callback="onSubmit">Submit</button> <!--Add class for reCAPTCHA: g-recaptcha data-sitekey="6LfXMyYqAAAAAPFPvfnnzDR3Bor8nBHD55MXMWPX" -->
-            <span class="output_message"></span>
+                
+            <div class="col-lg-12">
+                <div class="form-floating">
+                    <textarea class="form-control" placeholder="Please answer the question" id="whatIsYourQuestion" name="What IsYour Question?" required style="height: 140px"></textarea>
+                    <label for="whatIsYourQuestion">How can we help you?</label>
+                </div>
+            </div>
+            <div class="col-lg-3">
+
+                <!-- <input type="hidden" name="_cc" value="health@nefb.org"> -->
+                <input type="hidden" name="_template" value="table">
+                <button type="submit" value="Send" name="send" class="btn btn-primary">Submit</button>
+            </div>
         </form>
     </div>
 </div>
@@ -115,48 +119,19 @@
 
 <?php include 'sub/footer.php'; ?>
 
-<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-<script>
-$(document).ready(function () {
-    $('#contact-form').on('submit', function (e) {
-        e.preventDefault(); // Prevent the default form submission
-
-        var form = $(this);
-
-        // Serialize form data
-        var formData = form.serialize();
-
-        // Get the reCAPTCHA response token
-        var recaptchaResponse = grecaptcha.getResponse();
-
-        if (recaptchaResponse.length === 0) {
-            $('.output_message').html('Please complete the reCAPTCHA.');
-            return;
-        }
-
-        // Add the reCAPTCHA response to the form data
-        formData += '&g-recaptcha-response=' + recaptchaResponse;
-
-        // Send form data via Ajax
-        $.ajax({
-            url: form.attr('action'), // Use the form's action attribute value
-            type: 'POST',
-            data: formData,
-            success: function (response) {
-                if (response.success) {
-                    $('.output_message').html('<span class="success">Your message has been sent!</span>');
-                    form[0].reset(); // Clear the form on success
-                } else {
-                    $('.output_message').html('<span class="error">Error: ' + response.message + '</span>');
-                }
-            },
-            error: function (jqXHR, textStatus, errorThrown) {
-                $('.output_message').html('<span class="error">An error occurred. Please try again later.</span>');
-            }
-        });
-    });
+<!-- <script>
+$.ajax({
+    method: 'POST',
+    url: 'https://formsubmit.co/ajax/8372cfadbfb9604f54c7bfb407ba1c5d',
+    dataType: 'json',
+    accepts: 'application/json',
+    data: {
+        name: "FormSubmit",
+        message: "This is a test"
+    },
+    success: (data) => console.log(data),
+    error: (err) => console.log(err)
 });
-</script>
-
+</script> -->
 </body>
 </html>

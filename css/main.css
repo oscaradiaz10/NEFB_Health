@@ -270,6 +270,11 @@ form .form-control:focus {border-color: var(--color-4)!important;
     background-repeat: no-repeat;
 }
 
+/* -------- CONTACT FORM -------- */
+#contactForm label {font-weight: 600;
+    color: var(--color-1);
+}
+
 /* -------- FOOTER -------- */
 .footer {padding-top: 40px;}
 
