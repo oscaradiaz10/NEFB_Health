@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NEFB Health Plans - Why Us?</title>
 
+    <meta property="og:title" content="NEFB Health Plans | Health Coverage is Complicated - Let Us Help You!">
+    <meta property="og:image" content="media/Logos/NEFBHP_Horizontal_Color.png">
+    <meta property="og:description" content="Since 1917, Nebraska Farm Bureau has been trusted for its dedication to enhancing the quality of life throughout the state. Nebraska Farm Bureau Health Plans are an extension of that trust, service and membership value.">
+
     <?php include 'sub/links.php'; ?>
  
 </head>

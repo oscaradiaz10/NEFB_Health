@@ -3,6 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta property="og:title" content="NEFB Health Plans | Health Coverage is Complicated - Let Us Help You!">
+    <meta property="og:image" content="media/Logos/NEFBHP_Horizontal_Color.png">
+    <meta property="og:description" content="Since 1917, Nebraska Farm Bureau has been trusted for its dedication to enhancing the quality of life throughout the state. Nebraska Farm Bureau Health Plans are an extension of that trust, service and membership value.">
+
     <title>Nebraska Farm Bureau Health Plans</title>
 
     <?php include 'sub/links.php'; ?>
@@ -33,7 +38,7 @@
 <div class="jumbotron">
     <div class="container">
         <div class="row featurette align-items-center">
-            <div class="col-md-5 order-md-2">
+            <div class="col-md-5 col-sm-12 order-md-2">
                 <p class="lead">Why Us?</p>
                 <h1 class="home-carousel"></h1>
                 <h4>We Have the Experience</h4>
@@ -42,9 +47,8 @@
                     <a href="why-us.php">Learn More</a>
                 </button>
             </div>
-            <div class="col-md-7 order-md-1">
-                <div style="background-image: url('media/bike_riders.jpg'); background-size: cover; background-repeat: no-repeat; height: 520px;" class="align-self-center">
-                </div>
+            <div class="col-md-7 col-sm-12 order-md-1">
+                <div class="index-cto"></div>
             </div>
         </div>
     </div>

@@ -64,13 +64,6 @@
                                         <a href="media/forms/NEFBHP_40-older_with-Auth-Form.pdf" target="_blank">Download</a>
                                     </button>
                                 </div>
-                                <div class="col-lg-6 col-sm-12">
-                                    <h4>General Medical Request Form <i class="bi bi-asterisk"></i></h4>
-                                    <p>This is a request form for any type of medical records that need to be requested.</p>
-                                    <button type="button" class="btn btn-primary">
-                                        <a href="#" target="_blank">Download</a>
-                                    </button>
-                                </div>
                             </div>
                         </div>
                     </div>
@@ -88,14 +81,14 @@
                                     <h4>Under 65 Health Coverage Claim Form</h4>
                                     <p>Most providers will file health care claims for you. However, should you need to file a claim, please complete this form.</p>
                                     <button type="button" class="btn btn-primary">
-                                        <a href="media/NEFBHP-Member-Medical-Claim-Submission-Form.pdf" target="_blank">Download</a>
+                                        <a href="media/forms/NEFBHP_Member-Medical-Claim-Submission-Form.pdf" target="_blank">Download</a>
                                     </button>
                                 </div>
                                 <div class="col-lg-6 col-sm-12">
-                                    <h4>Precription Drug Claim Form <i class="bi bi-asterisk"></i></h4>
+                                    <h4>Precription Drug Claim Form</h4>
                                     <p>To file prescription drug claims for out of network pharmacies, complete this form and attach your prescription receipt or a print-out of your prescriptions signed by your pharmacist. All in-network claims will be filed electronically.</p>
                                     <button type="button" class="btn btn-primary">
-                                        <a href="#" target="_blank">Download</a>
+                                        <a href="media/forms/NFBHP_Member-Reimbursement-Form.pdf" target="_blank">Download</a>
                                     </button>
                                 </div>
                             </div>
@@ -112,38 +105,24 @@
                         <div class="container">
                             <div class="row gx-5">
                                 <div class="col-lg-6 col-sm-12">
-                                    <h4>Questions or Complaints <i class="bi bi-asterisk"></i></h4>
-                                    <p>This resource includes instructions on how to submit questions and complaints regarding your policy or coverage.</p>
+                                    <h4>Grievance Procedure</h4>
+                                    <p>This resource explains the grievance procedure used by Nebraska Farm Bureau Health Plans. If you would like to file a grievance, please use <a href="media/forms/NEFBHP_Grievance-Form.pdf" target="_blank">this form</a>.</p>
                                     <button type="button" class="btn btn-primary">
-                                        <a href="#" target="_blank">Download</a>
+                                        <a href="media/forms/NEFBHP_Grievance-Procedure-Form.pdf" target="_blank">Download</a>
                                     </button>
                                 </div>
                                 <div class="col-lg-6 col-sm-12">
-                                    <h4>Grievance Procedure <i class="bi bi-asterisk"></i></h4>
-                                    <p>This resource explains the grievance procedure used by Nebraska Farm Bureau Health Plans. If you would like to file a grievance, please use <a href="#" target="_blank">this form</a>.</p>
-                                    <button type="button" class="btn btn-primary">
-                                        <a href="#" target="_blank">Download</a>
-                                    </button>
-                                </div>
-                                <div class="col-lg-6 col-sm-12">
-                                    <h4>Personal Representative Designation <i class="bi bi-asterisk"></i></h4>
+                                    <h4>Personal Representative Designation</h4>
                                     <p>Your completion of this form allows you to designate someone as your personal representative on your Farm Bureau Health Plans coverage.</p>
                                     <button type="button" class="btn btn-primary">
-                                        <a href="#" target="_blank">Download</a>
+                                        <a href="media/forms/NEFBHP_Personal-Representative-Designation.pdf" target="_blank">Download</a>
                                     </button>
                                 </div>
                                 <div class="col-lg-6 col-sm-12">
                                     <h4>Bank Draft Authorization Form (Under 65)</h4>
                                     <p>If you need to change your bank information for your monthly premium payment and you are under the age of 65, complete this form, attach a voided check and mail both to Farm Bureau Health Plans.</p>
                                     <button type="button" class="btn btn-primary">
-                                        <a href="media/forms/MH-NE-BL-FM24-199_NEFBHP-Bank-Draft-Authorization-Form.pdf" target="_blank">Download</a>
-                                    </button>
-                                </div>
-                                <div class="col-lg-6 col-sm-12">
-                                    <h4>Other Insurance Form <i class="bi bi-asterisk"></i></h4>
-                                    <p>You should always keep Farm Bureau Health Plans informed of other insurance that you and your dependents may have as Farm Bureau Health Plans coverage contains a coordination of benefits provision. Complete this form and mail it to Farm Bureau Health Plans when you obtain other insurance.</p>
-                                    <button type="button" class="btn btn-primary">
-                                        <a href="#" target="_blank">Download</a>
+                                        <a href="media/forms/NEFBHP_Bank-Draft-Authorization-Form.pdf" target="_blank">Download</a>
                                     </button>
                                 </div>
                                 <div class="col-lg-6 col-sm-12">
@@ -157,16 +136,17 @@
                                     <h4>Cancellation Form for Members Under 65</h4>
                                     <p>Please complete this form if cancelling your coverage with Farm Bureau Health Plans and you are under 65.</p>
                                     <button type="button" class="btn btn-primary">
-                                        <a href="/media/forms/MH-NE-BL-FM24-198 - NEFBHP-Cancellation-Form.pdf" target="_blank">Download</a>
+                                        <a href="/media/forms/NEFBHP_Cancellation-Form.pdf" target="_blank">Download</a>
                                     </button>
                                 </div>
                                 <div class="col-lg-6 col-sm-12">
                                     <h4>Payor Revoking Authorization Form</h4>
                                     <p>This form allows an employer to let KFB Health Plans know an employee/client of KFB Health Plans no longer works for them and the client will take over the health plan payment.</p>
                                     <button type="button" class="btn btn-primary">
-                                        <a href="media/forms/MH-NE-BL-FM24-200_NEFBHP-Authorization-Revoked.pdf" target="_blank">Download</a>
+                                        <a href="media/forms/NEFBHP_Authorization-Revoked.pdf" target="_blank">Download</a>
                                     </button>
                                 </div>
+                                <HR>
                                 <h2>Forms for Underwriting Reconsideration</h2>
                                 <div class="col-lg-6 col-sm-12">
                                     <h4>Request for Reconsideration of Benefit Exclusion Rider</h4>
@@ -193,7 +173,7 @@
                                     <h4>Request for Reconsideration of Tobacco Rate</h4>
                                     <p>This form is for you to complete when submitting a request for reconsideration of tobacco rate for coverage.</p>
                                     <button type="button" class="btn btn-primary">
-                                        <a href="media/forms/MH-NE-BL-FM24-201_NEFBHP-Reconsideration-of-Tobacco-Rate.pdf" target="_blank">Download</a>
+                                        <a href="media/forms/NEFBHP_Reconsideration-of-Tobacco-Rate.pdf" target="_blank">Download</a>
                                     </button>
                                 </div>
                             </div>

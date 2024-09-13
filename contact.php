@@ -89,11 +89,11 @@
                 <label for="client" class="form-label">Are you a new client?</label>
                 <div class="mb-4">
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" id="clientYes" value="Yes" name="Are you a new client?">
+                        <input class="form-check-input" type="radio" id="clientYes" value="Yes" name="Are&nbsp;you&nbsp;a&nbsp;new&nbsp;client?">
                         <label class="form-check-label" for="clientYes" style="color: black;">Yes</label>
                     </div>
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" id="clientNo" value="No" name="Are you a new client?">
+                        <input class="form-check-input" type="radio" id="clientNo" value="No" name="Are&nbsp;you&nbsp;a&nbsp;new&nbsp;client?">
                         <label class="form-check-label" for="clientNo" style="color: black;">No</label>
                     </div>
                 </div>
@@ -101,7 +101,7 @@
                 
             <div class="col-lg-12">
                 <div class="form-floating">
-                    <textarea class="form-control" placeholder="Please answer the question" id="whatIsYourQuestion" name="What IsYour Question?" required style="height: 140px"></textarea>
+                    <textarea class="form-control" placeholder="Please answer the question" id="whatIsYourQuestion" name="What&nbsp;is&nbsp;your&nbsp;question?" required style="height: 140px"></textarea>
                     <label for="whatIsYourQuestion">How can we help you?</label>
                 </div>
             </div>
@@ -119,19 +119,5 @@
 
 <?php include 'sub/footer.php'; ?>
 
-<!-- <script>
-$.ajax({
-    method: 'POST',
-    url: 'https://formsubmit.co/ajax/8372cfadbfb9604f54c7bfb407ba1c5d',
-    dataType: 'json',
-    accepts: 'application/json',
-    data: {
-        name: "FormSubmit",
-        message: "This is a test"
-    },
-    success: (data) => console.log(data),
-    error: (err) => console.log(err)
-});
-</script> -->
 </body>
 </html>

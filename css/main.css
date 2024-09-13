@@ -12,10 +12,6 @@
 }
 
 /* -------- TEMP ---------- */
-#accordionFlushForms i {color: red;
-    font-size: 16px;
-    margin-top:5px
-}
 
 /* -------- BASIC -------- */
 body {background-image: url("../media/texture.webp");
@@ -270,6 +266,16 @@ form .form-control:focus {border-color: var(--color-4)!important;
     background-repeat: no-repeat;
 }
 
+/* -------- Index CTO Image -------- */
+.index-cto {max-width: 100%;
+    height: 480px !important;
+    background-image: url('../media/bike_riders.jpg');
+    opacity: 1;
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 /* -------- CONTACT FORM -------- */
 #contactForm label {font-weight: 600;
     color: var(--color-1);
@@ -366,6 +372,8 @@ form .form-control:focus {border-color: var(--color-4)!important;
     .hero .lead {font-size: 1.55rem !important;
         margin-bottom: 10px;
     }
+
+    .index-cto {height: 390px}
 }
 
 @media (max-width: 576px) {
@@ -402,4 +410,6 @@ form .form-control:focus {border-color: var(--color-4)!important;
     }
     
     .footer-nav li{display: block;}
+
+    .index-cto {height: 320px !important;}
 }

@@ -27,3 +27,4 @@
   gtag('js', new Date());
 
   gtag('config', 'G-3TTWEPMEWD');
+  </script>
