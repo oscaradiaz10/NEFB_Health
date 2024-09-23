@@ -35,22 +35,18 @@ var popover = new bootstrap.Popover(document.querySelector('.popover-dismiss'), 
             <p>We have a plan you need at a cost you can afford.</p>
             <h2>Individual and Family Plans</h2>
             <p>Our plans have a broad range of coverage plans to suit just about everyone's particular health care needs for level of coverage, deductibles, co-pays, out-of-pocket payments, preventative health benefits and more.</p>
-            <div class="alert alert-info" role="alert">
-                <strong>NOTICE:</strong> Online form will be available October 1, 2024
-            </div>
-            <button type="button" class="btn btn-primary" disabled>
-                <a href="#" target="_blank">Get a Quote/Apply Now</a>
+            <button type="button" class="btn btn-primary popup" onclick="myFunction()">Get a Quote/Apply Now
+                <span class="popuptext" id="myPopup">Online form will be available October 1, 2024</span>    
+                <!-- <a href="#" target="_blank">Get a Quote/Apply Now</a> -->
             </button>
             
             <hr>
 
             <h2>Dental Vision</h2>
             <p>Nebraska Farm Bureau Health Plans has bundled dental and vision coverage, exclusively for Farm Bureau members, in one affordable, convenient plan for individuals or families.</p>
-            <div class="alert alert-info" role="alert">
-                <strong>NOTICE:</strong> Online form will be available October 1, 2024
-            </div>
-            <button type="button" class="btn btn-primary" disabled>
-                <a href="#" target="_blank">Get a Quote/Apply Now</a>
+            <button type="button" class="btn btn-primary popup" onclick="myFunction2()">Get a Quote/Apply Now
+                <span class="popuptext" id="myPopup2">Online form will be available October 1, 2024</span>    
+                <!-- <a href="#" target="_blank">Get a Quote/Apply Now</a> -->
             </button>
             <hr/>
             <h3>Questions?</h3>
@@ -63,6 +59,21 @@ var popover = new bootstrap.Popover(document.querySelector('.popover-dismiss'), 
 </main>
 
 <?php include 'sub/footer.php'; ?>
+
+<script>
+// When the user clicks on div, open the popup
+function myFunction() {
+  var popup = document.getElementById("myPopup");
+  popup.classList.toggle("show");
+}
+</script>
+<script>
+// When the user clicks on div, open the popup
+function myFunction2() {
+  var popup = document.getElementById("myPopup2");
+  popup.classList.toggle("show");
+}
+</script>
 
 </body>
 </html>

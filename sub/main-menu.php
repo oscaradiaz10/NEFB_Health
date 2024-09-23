@@ -50,12 +50,12 @@
                 <li class="nav-item">
                     <a class="nav-link" href="../wellness-programs.php">Wellness</a>
                 </li>
-                <!--<li class="nav-item">
-                    <form class="d-flex ms-auto">
-                        <input type="text" class="form-control me-2" id="search" placeholder="Search" aria-label="Search" style="width: 140px;">
-                        <button class="btn btn-success" type="submit">Search</button>
+                <li class="nav-item">
+                    <form class="d-flex ms-auto" id="searchForm">
+                        <input type="text" class="form-control me-2" id="searchInput" placeholder="Search" aria-label="Search" style="width: 100px;" required>
+                        <button class="btn btn-success" type="submit"><i class="bi bi-search"></i></button>
                     </form>
-                </li>-->
+                </li>
             </ul>
         </div>
     </div>

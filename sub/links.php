@@ -27,4 +27,33 @@
   gtag('js', new Date());
 
   gtag('config', 'G-3TTWEPMEWD');
-  </script>
+</script>
+
+<!-- Search Field -->
+<script>
+        document.getElementById('searchInput').addEventListener('input', function () {
+            const searchTerm = this.value.toLowerCase();
+            const paragraphs = document.querySelectorAll('#content p');
+            const searchResults = document.getElementById('searchResults');
+            
+            // Clear previous results
+            searchResults.innerHTML = '';
+
+            paragraphs.forEach(paragraph => {
+                if (paragraph.textContent.toLowerCase().includes(searchTerm)) {
+                    // Create a new result element
+                    const resultItem = document.createElement('div');
+                    resultItem.classList.add('alert', 'alert-info'); // Bootstrap styling
+                    resultItem.textContent = paragraph.textContent;
+
+                    // Append the result to the results div
+                    searchResults.appendChild(resultItem);
+                }
+            });
+
+            // If no results are found, show a message
+            if (searchResults.innerHTML === '') {
+                searchResults.innerHTML = '<p class="alert alert-warning">No results found.</p>';
+            }
+        });
+    </script>

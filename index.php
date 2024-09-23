@@ -56,23 +56,29 @@
 
 <div class="container overflow-hidden">
     <div class="row gy-5">
-        <div class="col-lg-4 col-sm-12">
+        <div class="col-lg-4 col-sm-12">   
             <div class="p-5 plans">
-                <h4 class="h-link">Find an Agent</h4>
+                <a href="https://www.fbfs.com/find-an-agent" target="_blank">
+                    <h4 class="h-link">Find an Agent</h4>
+                </a>
                 <p>Farm Bureau Financial Services agents are equipped and ready to provide you a variety of health care coverage options. Backed by experience, expertise and a passion for helping people with financial protection, they will make sure you have the protection you need.</p>
                 <p><a href="https://www.fbfs.com/find-an-agent" target="_blank">Find an Agent <i class="bi bi-arrow-right"></i></a></p>
             </div>
         </div>
         <div class="col-lg-4 col-sm-12">
             <div class="p-5 plans">
-                <h4 class="h-link">Ready to Enroll?</h4>
+                <a href="/quote-apply.php">
+                    <h4 class="h-link">Ready to Enroll?</h4>
+                </a>
                 <p>If you already know what coverage you need, and you're ready to sign-up for affordable and quality coverage, we're ready to help.</p>
                 <p><a href="quote-apply.php">Get Started <i class="bi bi-arrow-right"></i></a></p>
             </div>
         </div>
         <div class="col-lg-4 col-sm-12">
             <div class="p-5 plans">
-                <h4 class="h-link">Farm Bureau Insurance</h4>
+                <a href="https://www.fbfs.com/" target="_blank">    
+                    <h4 class="h-link">Farm Bureau Insurance</h4>
+                </a>
                 <p>At Farm Bureau Financial Services, we're about more than insurance, more than products, more than the bricks and mortar that make up our buildings. We're about you - your family, your home, your future.</p>
                 <p><a href="https://www.fbfs.com/" target="_blank">Learn More <i class="bi bi-arrow-right"></i></a></p>
             </div>
