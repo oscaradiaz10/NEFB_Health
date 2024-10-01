@@ -106,7 +106,6 @@
                 </div>
             </div>
             <div class="col-lg-3">
-
                 <!-- <input type="hidden" name="_cc" value="health@nefb.org"> -->
                 <input type="hidden" name="_template" value="table">
                 <button type="submit" value="Send" name="send" class="btn btn-primary">Submit</button>

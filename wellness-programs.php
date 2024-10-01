@@ -33,11 +33,11 @@
             <hr>
             <img src="../media/talkspace-logo.png" alt="Talkspace Logo" width="190" style="margin-top:5%; margin-bottom: 2%;">
             <p>Talkspace's therapist-led virtual care services and same-day start times can provide responsive and reliable mental health support to those experiencing a wide range of challenges—including stress, anxiety, depression and more. Seventy percent of Talkspace members reach clinically significant improvement in a matter of weeks.</p>
-            <p><a href="#">Learn More <i class="bi bi-arrow-right"></i></a></p>
+            <p><a href="wellness/talkspace.php">Learn More <i class="bi bi-arrow-right"></i></a></p>
             <hr>
             <img src="../media/optum-rx.png" alt="Optum Rx Logo" width="190" style="margin-top:5%; margin-bottom: 2%;">
             <p>OptumRx HOME DELIVERY is an option for all members and is safe and reliable.</p>
-            <p><a href="#">Learn More <i class="bi bi-arrow-right"></i></a></p>
+            <p><a href="wellness/optumrx.php">Learn More <i class="bi bi-arrow-right"></i></a></p>
         </div>
         <div class="col-lg-4 col-sm-12">
             <?php include 'sub/wellness-side-column.php'; ?>

@@ -17,7 +17,7 @@
                     <a class="sec-nav-link" href="../find-a-provider.php">Find a Provider</a>
                 </li>
                 <li class="nav-item">
-                    <a class="sec-nav-link" href="#">Pay Your Premium</a> <!--  Link will be provided  -->
+                    <a class="sec-nav-link" href="../pay-premium.php">Pay Your Premium</a> <!--  Link will be provided  -->
                 </li>
                 <li class="nav-item">
                     <a class="sec-nav-link" href="../online-portals.php">Online Portals</a>
@@ -50,12 +50,12 @@
                 <li class="nav-item">
                     <a class="nav-link" href="../wellness-programs.php">Wellness</a>
                 </li>
-                <li class="nav-item">
+                <!-- <li class="nav-item">
                     <form class="d-flex ms-auto" id="searchForm">
                         <input type="text" class="form-control me-2" id="searchInput" placeholder="Search" aria-label="Search" style="width: 100px;" required>
                         <button class="btn btn-success" type="submit"><i class="bi bi-search"></i></button>
                     </form>
-                </li>
+                </li> -->
             </ul>
         </div>
     </div>
