@@ -399,11 +399,9 @@ form .form-control:focus {border-color: var(--color-4)!important;
     }
 
     .secondary-nav {
-        margin-top: 25px;
+        margin-top: 45px;
         flex-direction: column;
     }
-
-    .secondary-nav li {margin: 0 0 10px -22px;}
 }
 
 @media (max-width: 992px) {
@@ -412,6 +410,10 @@ form .form-control:focus {border-color: var(--color-4)!important;
     .scrollspy-menu li::before {transform: rotate(90deg);
         margin-top: -2px;
     }
+
+    .secondary-nav {
+        margin-top: 45px;
+r    }
 }
 
 @media (max-width: 768px) {
