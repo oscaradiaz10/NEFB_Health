@@ -29,7 +29,7 @@
                     <a class="sec-nav-link" href="https://www.facebook.com/NEFarmBureau"><i class="bi bi-facebook" style="font-size: 1.25rem;"></i></a>
                 </li>
                 <li class="nav-item">
-                    <a class="sec-nav-link" href="mailto:health@nefb.org"><i class="bi bi-envelope-fill" style="font-size: 1.25rem;"></i></i></a>
+                    <a class="sec-nav-link" href="mailto:health@nefb.org"><i class="bi bi-envelope-fill" style="font-size: 1.25rem;"></i></a>
                 </li>
             </ul>
           
