@@ -6,10 +6,8 @@
     <title>NEFB Health Plans - Agents</title>
 
     <?php include 'sub/links.php'; ?>
-    
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+<script type="text/javascript" src="config.js"></script>
 
 </head>
 
@@ -19,7 +17,7 @@
 
 <div class="container my-4">
     <h2>Find an Agent</h2>
-    <form id="agentSearchForm">
+    <!-- <form id="agentSearchForm">
         <div class="mb-3">
             <label for="state" class="form-label">State Abbreviation</label>
             <input type="text" class="form-control" id="state" required>
@@ -33,12 +31,21 @@
             <input type="text" class="form-control" id="longitude" required>
         </div>
         <button type="submit" class="btn btn-primary">Search</button>
-    </form>
+    </form> 
 
-    <div id="results" class="mt-4"></div>
+    <div id="results" class="mt-4">
+    </div>-->
+
+    <div class="row">
+        <div class="col-lg-12">
+            
+        </div>
+    </div>
+    
 </div>
 
-<script>
+
+<!-- <script>
     $(document).ready(function() {
         $('#agentSearchForm').on('submit', function(event) {
             event.preventDefault();
@@ -49,9 +56,9 @@
             const longitude = $('#longitude').val();
 
             // Select the endpoint and API key
-            const endpoint = 'https://t-ebexternal.fbfs.com/fbfsservices/api/agents/search/ByLocation'; // QA endpoint
-            const apiKey = '4a0c931f-2ed6-4ae1-b1ee-955c2f5e4c3c'; // QA API key
-
+            var token = config.endpoint;
+            var key = config.apiKey;
+            
             // Make the API call
             $.ajax({
                 url: endpoint,
@@ -99,7 +106,7 @@
             }
         }
     });
-</script>
+</script> -->
 
 <?php include 'sub/components/call-to-action-jumbotron.php'; ?>
 
