@@ -338,7 +338,9 @@ form .form-control:focus {border-color: var(--color-4)!important;
 }
 
 /* -------- FOOTER -------- */
-.footer {padding-top: 40px;}
+.footer {padding-top: 40px;
+    margin-top: 40px;
+}
 
 .footer-nav {list-style-type: none;
     padding: 20px 0 !important;

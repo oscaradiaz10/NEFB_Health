@@ -17,7 +17,7 @@
                     <a class="sec-nav-link" href="../find-a-provider.php">Find a Provider</a>
                 </li>
                 <li class="nav-item">
-                    <a class="sec-nav-link" href="../pay-premium.php">Pay Your Premium</a> <!--  Link will be provided  -->
+                    <a class="sec-nav-link" href="../pay-premium.php">Pay Your Premium</a>
                 </li>
                 <li class="nav-item">
                     <a class="sec-nav-link" href="../online-portals.php">Online Portals</a>
