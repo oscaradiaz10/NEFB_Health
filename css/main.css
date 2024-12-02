@@ -1,5 +1,5 @@
 :root {
-    --color-1: rgba(4, 53, 101, 1); /*primary*/
+    --color-1: rgb(4, 53, 101); /*primary*/
     --color-2: rgb(228, 237, 238);
     --color-3: rgb(255, 255, 255);
     --color-4: rgb(175, 60, 7);
@@ -198,6 +198,8 @@ form .form-control:focus {border-color: var(--color-4)!important;
     box-shadow: 0px 4px 8px var(--color-2);
 }
 
+.navbar-brand {width: 290px !important;}
+
 .navbar-nav li a {color: var(--color-7);
     font-family: 'Roboto Slab', serif;
     font-weight: 600;
@@ -337,6 +339,8 @@ form .form-control:focus {border-color: var(--color-4)!important;
     color: var(--color-1);
 }
 
+.alert-success {background-color: var(--color-2);}
+
 /* -------- FOOTER -------- */
 .footer {padding-top: 40px;
     margin-top: 40px;
@@ -387,6 +391,12 @@ form .form-control:focus {border-color: var(--color-4)!important;
 
 .float-end {margin: 0 0 30px 30px;}
 
+/* -------- AGENT SEARCH -------- */
+#api-data {}
+
+.agent-search {margin-top: 4px}
+
+
 /* -------- RESPONSIVE -------- */
 @media (max-width: 992px) { /* Bootstrap's breakpoint for large screens is 992px */
     .navbar-collapse {
@@ -413,9 +423,7 @@ form .form-control:focus {border-color: var(--color-4)!important;
         margin-top: -2px;
     }
 
-    .secondary-nav {
-        margin-top: 45px;
-r    }
+    .secondary-nav {margin-top: 45px;}
 }
 
 @media (max-width: 768px) {
@@ -437,6 +445,10 @@ r    }
 }
 
 @media (max-width: 576px) {
+    .navbar {padding: 12px 0 !important;}
+
+    .navbar-brand {width: 250px !important;}
+
     main {margin: 20px 0;}
 
     .btn-primary {font-size: 16px !important;

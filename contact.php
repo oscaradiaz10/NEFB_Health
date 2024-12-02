@@ -39,84 +39,98 @@
     </div>
 </main>
 
-<div class="container">
-    <div class="row">
-        <form class="row gy-5" id="contactForm" action="https://formsubmit.co/8372cfadbfb9604f54c7bfb407ba1c5d" method="POST" role="form">
-            <!-- Honeypot -->
-            <input type="text" name="_honey" style="display: none;">
-
-            <!-- Disable Captcha -->
-            <input type="hidden" name="_captcha" value="true">
-
-            <!-- Subject Line -->
-            <input type="hidden" name="_subject" value="New Message from NEFB Health Website!">
-
-            <!-- Auto response -->
-            <input type="hidden" name="_autoresponse" value="Thank you for sending your message. We will reply to your message as soon as we can.">
-
-            <div class="col-lg-5 col-sm-12">
-                <div class="form-floating mb-3">
-                    <input type="text" class="form-control" id="firstName" placeholder="First Name" required data-error="First name is required" name="First&nbsp;Name">
+<div class="container mt-5">
+    <form id="contactForm" class="needs-validation" novalidate>
+        <!-- First Row -->
+        <div class="row mb-5">
+            <div class="col-md-4">
+                <div class="form-floating">
+                    <input type="text" class="form-control" id="firstName" name="firstName" placeholder="First Name" required>
                     <label for="firstName">First Name</label>
                 </div>
             </div>
-            <div class="col-lg-5 col-sm-12">
-                <div class="form-floating mb-3">
-                    <input type="text" class="form-control" id="lastName" placeholder="Last Name" required data-error="Last name is required" name="Last&nbsp;Name">
-                    <label for="lastName">Last Name</label>
-                </div>
-            </div>
-            <div class="col-lg-2 col-sm-12">
-                <div class="form-floating mb-3">
-                    <input type="text" class="form-control" id="zipCode" placeholder="Zip Code" required data-error="Zip code is required" name="Zip&nbsp;Code">
-                    <label for="zipCode">Zip Code</label>
-                </div>
-            </div>
-            <div class="col-lg-6 col-sm-12">
-                <div class="form-floating mb-3">
-                    <input type="text" class="form-control" id="phoneNumber" placeholder="Phone Number" required data-error="Phone number is required" name="Phone&nbsp;Number">
-                    <label for="phoneNumber">Phone Number</label>
-                </div>
-            </div>
-            <div class="col-lg-6 col-sm-12">
-                <div class="form-floating mb-3">
-                    <input type="email" class="form-control" id="emailAddress" placeholder="Email Address" required data-error="Email address is required" name="Email&nbsp;Address">
-                    <label for="emailAddress">Email Address</label>
-                </div>
-            </div>
-
-            <div class="col-lg-12">
-                <label for="client" class="form-label">Are you a new client?</label>
-                <div class="mb-4">
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" id="clientYes" value="Yes" name="Are&nbsp;you&nbsp;a&nbsp;new&nbsp;client?">
-                        <label class="form-check-label" for="clientYes" style="color: black;">Yes</label>
-                    </div>
-                    <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" id="clientNo" value="No" name="Are&nbsp;you&nbsp;a&nbsp;new&nbsp;client?">
-                        <label class="form-check-label" for="clientNo" style="color: black;">No</label>
-                    </div>
-                </div>
-            </div>
-                
-            <div class="col-lg-12">
+            <div class="col-md-4">
                 <div class="form-floating">
-                    <textarea class="form-control" placeholder="Please answer the question" id="whatIsYourQuestion" name="What&nbsp;is&nbsp;your&nbsp;question?" required style="height: 140px"></textarea>
-                    <label for="whatIsYourQuestion">How can we help you?</label>
+                    <input type="text" class="form-control" id="lastName" name="lastName" placeholder="Last Name" required>
+                    <label for="lastName" class="form-label">Last Name</label>
                 </div>
             </div>
-            <div class="col-lg-3">
-                <!-- <input type="hidden" name="_cc" value="health@nefb.org"> -->
-                <input type="hidden" name="_template" value="table">
-                <button type="submit" value="Send" name="send" class="btn btn-primary">Submit</button>
+            <div class="col-md-4">
+                <div class="form-floating">
+                <input type="text" class="form-control" id="zipCode" name="zipCode" placeholder="Zip Code" required>
+                <label for="zipCode" class="form-label">Zip Code</label>
+                </div>
             </div>
-        </form>
-    </div>
+        </div>
+        <!-- Second Row -->
+        <div class="row mb-5">
+            <div class="col-md-6">
+                <div class="form-floating">
+                    <input type="tel" class="form-control" id="phoneNumber" name="phoneNumber" placeholder="Phone Number">
+                    <label for="phoneNumber" class="form-label">Phone Number</label>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-floating">
+                    <input type="email" class="form-control" id="email" name="email" placeholder="Email Address" required>
+                    <label for="email" class="form-label">Email Address</label>
+                </div>
+            </div>
+        </div>
+        <!-- Third Row -->
+        <div class="row mb-5">
+            <label class="form-label">Are you a new client?</label>
+            <div>
+                <div class="form-check form-check-inline">
+                    <input type="radio" class="form-check-input" id="newClientYes" name="newClient" value="Yes" required>
+                    <label for="newClientYes" class="form-check-label">Yes</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input type="radio" class="form-check-input" id="newClientNo" name="newClient" value="No" required>
+                    <label for="newClientNo" class="form-check-label">No</label>
+                </div>
+            </div>
+        </div>
+        <!-- Fourth Row -->
+        <div class="mb-5">
+            <div class="form-floating">
+                <textarea class="form-control" id="helpText" name="helpText" rows="4" placeholder="How can we help you?" style="height: 100px;"></textarea>
+                <label for="helpText" class="form-label">How can we help you?</label>
+            </div>
+        </div>
+        <button type="submit" class="btn btn-primary">Send Message</button>
+    </form>
+    <div id="formResponse" class="mt-3"></div>
 </div>
 
 <?php include 'sub/components/call-to-action-jumbotron.php'; ?>
 
 <?php include 'sub/footer.php'; ?>
+
+<script>
+    // Client-side validation and AJAX submission
+    $(document).ready(function () {
+        $('#contactForm').on('submit', function (e) {
+            e.preventDefault();
+            if (!this.checkValidity()) {
+                this.classList.add('was-validated');
+                return;
+            }
+            $.ajax({
+                url: 'process_form',
+                type: 'POST',
+                data: $(this).serialize(),
+                success: function (response) {
+                    $('#formResponse').html('<div class="alert alert-success">Your message was submitted successfully! We will get back to you as soon as possible.</div>');
+                    $('#contactForm')[0].reset();
+                },
+                error: function () {
+                    $('#formResponse').html('<div class="alert alert-danger">An error occurred. Please try again later.</div>');
+                }
+            });
+        });
+    });
+</script>
 
 </body>
 </html>

@@ -1,7 +1,7 @@
 <nav class="navbar navbar-light bg-light navbar-expand-xl static-top">
     <div class="container">
         <a class="navbar-brand" href="../index.php">
-            <img src="../media/Logos/NEFBHP_Horizontal_Color.svg" width="290" alt="Logo">
+            <img src="../media/Logos/NEFBHP_Horizontal_Color.svg" width="auto" alt="Logo">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
