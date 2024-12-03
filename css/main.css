@@ -417,7 +417,7 @@ form .form-control:focus {border-color: var(--color-4)!important;
 }
 
 @media (max-width: 992px) {
-    .hero {height: 36vh !important;}
+    .hero, .hero-overlay  {height: 48vh !important;}
 
     .scrollspy-menu li::before {transform: rotate(90deg);
         margin-top: -2px;

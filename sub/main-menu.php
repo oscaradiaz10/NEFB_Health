@@ -1,7 +1,7 @@
 <nav class="navbar navbar-light bg-light navbar-expand-xl static-top">
     <div class="container">
         <a class="navbar-brand" href="../index.php">
-            <img src="../media/Logos/NEFBHP_Horizontal_Color.svg" width="auto" alt="Logo">
+            <img src="../media/Logos/NEFBHP_Horizontal_Color.svg" alt="Logo">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -26,7 +26,7 @@
                     <a class="sec-nav-link" href="../contact.php">Contact</a>
                 </li>
                 <li class="nav-item">
-                    <a class="sec-nav-link" href="https://www.facebook.com/NEFarmBureau"><i class="bi bi-facebook" style="font-size: 1.25rem;"></i></a>
+                    <a class="sec-nav-link" href="https://www.facebook.com/NEFarmBureau" target="_blank"><i class="bi bi-facebook" style="font-size: 1.25rem;"></i></a>
                 </li>
                 <li class="nav-item">
                     <a class="sec-nav-link" href="mailto:health@nefb.org"><i class="bi bi-envelope-fill" style="font-size: 1.25rem;"></i></a>
@@ -36,7 +36,7 @@
             <!-- Second list of links and search form -->
             <ul class="navbar-nav d-flex ms-auto">
                 <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="../quote-apply.php">Quote/Apply</a>
+                    <a class="nav-link" href="../quote-apply.php">Quote/Apply</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="../individual-family-plans.php">Individual & Family</a>
@@ -44,19 +44,28 @@
                 <li class="nav-item">
                     <a class="nav-link" href="../why-us.php">Why Us?</a>
                 </li>
-                <!--<li class="nav-item">
-                    <a class="nav-link" href="/education.php">Education</a>
-                </li>-->
                 <li class="nav-item">
                     <a class="nav-link" href="../wellness-programs.php">Wellness</a>
                 </li>
-                <!-- <li class="nav-item">
-                    <form class="d-flex ms-auto" id="searchForm">
-                        <input type="text" class="form-control me-2" id="searchInput" placeholder="Search" aria-label="Search" style="width: 100px;" required>
-                        <button class="btn btn-success" type="submit"><i class="bi bi-search"></i></button>
-                    </form>
-                </li> -->
+                <li class="nav-item">
+                    <div class="input-group">
+                        <div class="form-outline" data-mdb-input-init>
+                            <input type="search" id="form1" class="form-control" />
+                            <label class="form-label" for="form1">Search</label>
+                        </div>
+                        <button type="button" class="btn btn-primary" data-mdb-ripple-init>
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </div>
+                </li>
             </ul>
         </div>
     </div>
 </nav>
+
+<script>
+// Initialization for ES Users
+import { Input, Ripple, initMDB } from "mdb-ui-kit";
+
+initMDB({ Input, Ripple });
+</script>
