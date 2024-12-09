@@ -47,7 +47,7 @@
                 <li class="nav-item">
                     <a class="nav-link" href="../wellness-programs.php">Wellness</a>
                 </li>
-                <li class="nav-item">
+                <!--<li class="nav-item">
                     <div class="input-group">
                         <div class="form-outline" data-mdb-input-init>
                             <input type="search" id="form1" class="form-control" />
@@ -57,15 +57,8 @@
                             <i class="fas fa-search"></i>
                         </button>
                     </div>
-                </li>
+                </li>-->
             </ul>
         </div>
     </div>
 </nav>
-
-<script>
-// Initialization for ES Users
-import { Input, Ripple, initMDB } from "mdb-ui-kit";
-
-initMDB({ Input, Ripple });
-</script>
