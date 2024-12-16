@@ -18,13 +18,12 @@
         <div class="col-lg-8">
             <h1>Pay Your Premium</h1>
             <p>Nebraska Farm Bureau Health Plans allows policy holders to pay their premiums online via the payment portal.</p>
-            <button type="button" class="btn btn-primary" disabled>
+            <button type="button" class="btn btn-primary">
                 <a href="https://www.invoicecloud.com/NebraskaFarmBureauMembersHealth" target="_blank">Pay Premium</a>
             </button>
             <button type="button" class="btn btn-primary">
                 <a href="media/Payment-Instructions.pdf" target="_blank">Payment Instructions</a>
             </button>
-            <p><i>Payment link will be available soon.</i></p>
         </div>
         <div class="col-lg-4 col-sm-12">
             <?php include 'sub/components/call-to-action-agent.php'; ?>
