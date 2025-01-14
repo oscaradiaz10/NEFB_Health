@@ -23,7 +23,7 @@
                     <a class="sec-nav-link" href="../online-portals.php">Online Portals</a>
                 </li>
                 <li class="nav-item">
-                    <a class="sec-nav-link" href="../contact.php">Contact</a>
+                    <a class="sec-nav-link" href="../contact.php">Contact Us</a>
                 </li>
                 <li class="nav-item">
                     <a class="sec-nav-link" href="https://www.facebook.com/NEFarmBureau" target="_blank"><i class="bi bi-facebook" style="font-size: 1.25rem;"></i></a>
